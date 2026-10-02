@@ -71,7 +71,7 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
           <ArrowUpRight className="size-3.5 shrink-0 sm:size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
         </Link>
         {slides.length > 1 && (
-          <div className="flex gap-1.5 pb-2 sm:gap-2 sm:pb-3" role="tablist" aria-label="Featured projects">
+          <div className="flex pb-0.5 sm:pb-1.5" role="tablist" aria-label="Featured projects">
             {slides.map((s, i) => (
               <button
                 key={s.href}
@@ -80,8 +80,16 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
                 aria-selected={i === active}
                 aria-label={`Show ${s.title}`}
                 onClick={() => setActive(i)}
-                className={cn("h-1 rounded-full bg-ivory transition-all duration-500 sm:h-1.5", i === active ? "w-5 sm:w-7" : "w-1 opacity-60 hover:opacity-100 sm:w-1.5")}
-              />
+                // The visible dot stays small; the button itself is a 24px tap target.
+                className="group/dot flex h-6 min-w-6 items-center justify-center"
+              >
+                <span
+                  className={cn(
+                    "h-1 rounded-full bg-ivory transition-all duration-500 sm:h-1.5",
+                    i === active ? "w-5 sm:w-7" : "w-1 opacity-60 group-hover/dot:opacity-100 sm:w-1.5",
+                  )}
+                />
+              </button>
             ))}
           </div>
         )}
