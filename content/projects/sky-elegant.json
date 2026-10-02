@@ -62,7 +62,7 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/sky-elegant/photos/00-front-artist-impression.jpg",
+      "src": "projects/ready-to-move/sky-elegant/photos/00-front-artist-impression.jpg",
       "alt": "Sky Elegant, Chordia City, Ajmer Road: artist's impression of the building",
       "width": 2752,
       "height": 1536,
@@ -71,119 +71,119 @@
     },
     "gallery": [
       {
-        "src": "projects/sky-elegant/photos/01-exterior.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/01-exterior.jpg",
         "width": 1280,
         "height": 960,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAwAA4BaJZwAAucA334iSAD+661yhtHRDcG6kw9XMe5iYStFlh9qrZsFsIGD9zX0zA9nPMtsMDzVU5P7d/O9LL3aQAuAAAA=",
         "alt": "Sky Elegant apartment building, Chordia City"
       },
       {
-        "src": "projects/sky-elegant/photos/02-exterior-2.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/02-exterior-2.jpg",
         "width": 1280,
         "height": 960,
         "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAwAA4BaJZwAAueF4DnA2QAA/uiSPuvWfYBUW2WLma3rPPJLutbTYAP9zDoUTKF77saPcxlnz81drh6VNJmnSBzkgAAA",
         "alt": "Sky Elegant entrance and landscaping"
       },
       {
-        "src": "projects/sky-elegant/photos/03-elevation-render.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/03-elevation-render.jpg",
         "width": 1179,
         "height": 923,
         "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQAgCdASoQAA0AA4BaJZAAD43xearKucVHVfgA/u5bqhaRIlpyOU5HDiQIFVMuYe2fTJYXtrJn1F4gpj7H5eKWg2UX34QGv8Fujn1Yt5bP8SplDVjEmyaeWeAAAA==",
         "alt": "Sky Elegant elevation"
       },
       {
-        "src": "projects/sky-elegant/photos/04-living-room.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/04-living-room.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoMABAAA4BaJQBOgBu0mXHt0AD+6D7EtASD+yKPiRNx+RpqKQlD3kj1Oft44rLgNVv243/P+p4QXvs7z28WXF5imf4H0xZLF0O+GlqGBC1gmQAAAAA=",
         "alt": "Living room with designer feature wall"
       },
       {
-        "src": "projects/sky-elegant/photos/05-living-room-2.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/05-living-room-2.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAQCdASoMABAAA4BaJQBOgBsnPTIAAP7I5SHZYgnvkhq1jBJzAyt4QL93dPXCKWcvaa/NUdIiTid6DbhnSQxB5F5R1/Ohu4hzi/mJb1UK6kdIPkJXl+ERxuwAAA==",
         "alt": "Living room with sectional sofa"
       },
       {
-        "src": "projects/sky-elegant/photos/06-living-partition.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/06-living-partition.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoMABAAA4BaJQBOgB7FSLe3CAD+51LiUROcU/4Jg+7kOKcbRj7Xdu0oewlkEYzSZLS8h9bIbwf+bo28HbdJWWASPIbPctFLlOfdpjNXJHAAAA==",
         "alt": "Living area with wooden partition"
       },
       {
-        "src": "projects/sky-elegant/photos/07-living-wide.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/07-living-wide.jpg",
         "width": 1280,
         "height": 960,
         "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAwAA4BaJYwCdAEN2V+tWT8AAP6RK1n8BsrUrHEpy9TGvdChx2rj2taH8L8AcOp8Vyy5IseOtIVxPiV81LbdkwsfTxpr9NcAAA==",
         "alt": "Open living space"
       },
       {
-        "src": "projects/sky-elegant/photos/08-lounge.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/08-lounge.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoMABAAA4BaJZgCdADbpU8WcAD+mCU1YuSoRHpkMgDrL/yOHq8UY31hwhMasQ/efUtXfCdaeU0K74WX9oCQNrmg/PCIPYJiYOAAAA==",
         "alt": "Lounge with backlit panels"
       },
       {
-        "src": "projects/sky-elegant/photos/09-lounge-2.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/09-lounge-2.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoMABAAA4BaJZACdADhTAhBqAD91Zsy3R3RWG/aW0/6vddt+n8/xZGlepsW5Pw9AcIuPeU8+ttjHGT0mPuB0RX31ucnu6+EKyrmDDQA",
         "alt": "Lounge with L-shaped sofa"
       },
       {
-        "src": "projects/sky-elegant/photos/10-dining.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/10-dining.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoMABAAA4BaJQBOgBs1XD8IAAD+33BkcCkGJceRD2ot7BJKze3kB4Zv7V1i4wUDZqLw+Qq15zEoumgug3CObwweoyobxlqAAAA=",
         "alt": "Dining area with crockery unit"
       },
       {
-        "src": "projects/sky-elegant/photos/11-dining-2.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/11-dining-2.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoMABAAA4BaJYgCdAELMZ9NERogAAD+r9Mgnnf7S7o6eYILHMWIt1oyaBfEww+Gg+cXr0pzXgS4FO3lRiXk4fXbVH1rbv4vDYXgUAAA",
         "alt": "Dining table and display unit"
       },
       {
-        "src": "projects/sky-elegant/photos/12-bedroom.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/12-bedroom.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoMABAAA4BaJbACdADcIQEsMgUoAAD+5+xIx3lB1LuU2GTiO36PgsrMzN4jWgKAarCyNll1cekcz72jjzYS8j2ygG34R6g7dAOmytG6RSFmwcyWPn4AAA==",
         "alt": "Bedroom with upholstered headboard"
       },
       {
-        "src": "projects/sky-elegant/photos/13-kitchen.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/13-kitchen.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoMABAAA4BaJYgCdADXDiiVYAD+yGsxH9gh7isnovjvRLT6ITxvkVgoUo4JQ2JTx/by4zI5ZvZAhuiQt9EOo25gAAA=",
         "alt": "Modular kitchen"
       },
       {
-        "src": "projects/sky-elegant/photos/14-kitchen-2.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/14-kitchen-2.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoMABAAA4BaJQBOgBrXcijAAP6N2X3G6uN5BbMmtxSftrx1dgVeXJBYN/h+qhPWeVOJACPz8CO5eGwoGLNAAA==",
         "alt": "Kitchen with chimney"
       },
       {
-        "src": "projects/sky-elegant/photos/15-bathroom.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/15-bathroom.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAgCdASoMABAAA4BaJYwCw7EesR2quE643gAA/uGfhMdDTDK2Q7cad+70Z1Mq9ky4oOY/D4Yivy/ZqhPGN/ZfLvXaWQaQ+AA=",
         "alt": "Bathroom with anti-skid tiles"
       },
       {
-        "src": "projects/sky-elegant/photos/16-balcony.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/16-balcony.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMABAAA4BaJYwCw7DcHhhq8ggA/uwLZFvuSC58D/iRS/RkTLX6bbPZrfncmxGpaCfqz/EfX9hNmW2S202g2SHSsgUTcMADAAA=",
         "alt": "Balcony with glass railing"
       },
       {
-        "src": "projects/sky-elegant/photos/17-balcony-view.jpg",
+        "src": "projects/ready-to-move/sky-elegant/photos/17-balcony-view.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoMABAAA4BaJZQCw7EQCRF2kAAAzj8wGlsaHtrY+YPskeGaMLvKx2JpJBZAjLc41/e/dNVbLZPXUMl0X3MS506BuTP2UERIMwAAAA==",
@@ -196,7 +196,7 @@
         "configuration": "3 BHK (flats 101 to 107)",
         "area": "1,341 to 1,484 sq ft super built-up",
         "image": {
-          "src": "projects/sky-elegant/floor-plans/unit-plans.jpg",
+          "src": "projects/ready-to-move/sky-elegant/floor-plans/unit-plans.jpg",
           "alt": "Sky Elegant 3 BHK unit plans, flats 101 to 107",
           "width": 2572,
           "height": 909
@@ -207,16 +207,16 @@
         "configuration": "7 homes per floor; terrace amenities",
         "area": "Typical floor and terrace plan",
         "image": {
-          "src": "projects/sky-elegant/floor-plans/typical-and-top-floor-plan.jpg",
+          "src": "projects/ready-to-move/sky-elegant/floor-plans/typical-and-top-floor-plan.jpg",
           "alt": "Sky Elegant typical floor plan and top floor terrace plan",
           "width": 2572,
           "height": 909
         }
       }
     ],
-    "brochure": "projects/sky-elegant/brochure.pdf",
+    "brochure": "projects/ready-to-move/sky-elegant/brochure.pdf",
     "heroSquare": {
-      "src": "projects/sky-elegant/photos/00-front-square-artist-impression.jpg",
+      "src": "projects/ready-to-move/sky-elegant/photos/00-front-square-artist-impression.jpg",
       "alt": "Sky Elegant, Chordia City, Ajmer Road: artist's impression of the building",
       "width": 2048,
       "height": 2048,

@@ -17,14 +17,14 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/krishnam-residency/photos/01-elevation-1.jpg",
+      "src": "projects/completed/krishnam-residency/photos/01-elevation-1.jpg",
       "width": 2560,
       "height": 1920,
       "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAwAA4BaJbACdADpFFzbXDvAAM44szD5S+zWvlwUgKM8JPcOV2PEkIc5sde9amw16NXkOF6J476xoh9UyA5EHHPbrOcxHp2EvIrEAAA="
     },
     "gallery": [
       {
-        "src": "projects/krishnam-residency/photos/02-elevation-2.jpg",
+        "src": "projects/completed/krishnam-residency/photos/02-elevation-2.jpg",
         "width": 2560,
         "height": 1920,
         "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwAA4BaJbACdADGYedjxcAA+Rtbt43yHsVtkTcDhQUbemEUllhJlJyXU09YBlAc32+Fbv5VIfYgLjYDE957DqjmhY5pHaIDvKyTAAA="

@@ -17,14 +17,14 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/krishnam-kothi-jagadamba-nagar/photos/01-elevation-1.jpg",
+      "src": "projects/completed/krishnam-kothi-jagadamba-nagar/photos/01-elevation-1.jpg",
       "width": 1600,
       "height": 1200,
       "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAwAA4BaJZgCdAD7UkMFamHgAP4JKZ/NsPJJW1bTnb9hVXpXyqccz7LjKmsdELlqPVkXSO33cW/LTXOEhFr2pP25Zd9+t3Tny7xLNu/kGEUkHshD16ywyZhUHAAA"
     },
     "gallery": [
       {
-        "src": "projects/krishnam-kothi-jagadamba-nagar/photos/02-elevation-2.jpg",
+        "src": "projects/completed/krishnam-kothi-jagadamba-nagar/photos/02-elevation-2.jpg",
         "width": 1600,
         "height": 1200,
         "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABwAgCdASoQAAwAA4BaJQBOgMW+50a7yUskswRgAP7x3ZzkbFeXgXdia7XXmucc1gLmmlCsR5HIyB7fUrYVG+mZGz8Z5syPQoqLD1sx1RspbngoG299SmMeaIdlJWRFmUAAAA=="

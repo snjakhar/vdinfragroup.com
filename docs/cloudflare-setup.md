@@ -42,12 +42,12 @@ Add `vdinfragroup.com` to Cloudflare and point the registrar's nameservers to Cl
 3. Folder layout:
 
    ```
-   projects/<project-slug>/photos/01-facade.jpg
-   projects/<project-slug>/floor-plans/3-bhk.jpg
-   projects/<project-slug>/brochure.pdf
-   blog/<image>.jpg
-   site/<image>.jpg
+   projects/<status>/<project-slug>/photos/01-facade.jpg      (status: completed | upcoming | ready-to-move)
+   projects/<status>/<project-slug>/floor-plans/3-bhk.jpg
+   projects/<status>/<project-slug>/brochure.pdf
    ```
+
+   Upload with `npm run media:upload` (only new or changed files are sent). When a project's status changes, run `npm run project:status -- <slug> <new-status>`: it moves the files in R2 and updates the project file.
 
 4. Bucket → Settings → CORS policy → add (needed by the gallery's Share and Download buttons, which fetch the full-size photo):
 

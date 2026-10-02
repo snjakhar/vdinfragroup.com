@@ -1,6 +1,6 @@
 {
   "homeHero": {
-    "src": "projects/sky-elegant/photos/00-front-artist-impression.jpg",
+    "src": "projects/ready-to-move/sky-elegant/photos/00-front-artist-impression.jpg",
     "alt": "Sky Elegant apartments by VD Infra Group, Chordia City, Jaipur: artist's impression",
     "width": 2752,
     "height": 1536,
@@ -8,35 +8,35 @@
     "impression": true
   },
   "about": {
-    "src": "projects/krishnam-kothi-27/photos/01-exterior.jpg",
+    "src": "projects/completed/krishnam-kothi-27/photos/01-exterior.jpg",
     "alt": "Krishnam Kothi 27 front elevation",
     "width": 960,
     "height": 1280,
     "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMABAAA4BaJQBOgCFgNBA1QxIAAPlSC29Ha5KkncmXy1sIwwGb1fk5xLY6wJ29OjRxQmr6hmapH+islloYeMSAyt3nkSD/jYeG/vGFdl2+TjIlVbPnCnBKxIAAAA=="
   },
   "construction": {
-    "src": "projects/krishnam-kothi-94/photos/01-exterior-dusk.jpg",
+    "src": "projects/completed/krishnam-kothi-94/photos/01-exterior-dusk.jpg",
     "alt": "Krishnam Kothi 94 facade at dusk",
     "width": 2250,
     "height": 3000,
     "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoMABAAA4BaJYgCdADdQXZalYAA/o3PoZCs34rfiV3YvaiOEKntNZ+gkiyHknIQWc85GuX5hGv0FOERYyS3Gcetrn050QQU5cTkyufQJsO7I34puW+1QtHgeAAAAA=="
   },
   "team": {
-    "src": "projects/krishnam-kothi-41/photos/12-terrace-garden.jpg",
+    "src": "projects/completed/krishnam-kothi-41/photos/12-terrace-garden.jpg",
     "alt": "Covered terrace garden at Krishnam Kothi 41",
     "width": 3000,
     "height": 2250,
     "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwAA4BaJaACdAYt9vRl4+P1wADOOydO4tTHsI+9QUQyF1n2eem8/HlCSuALqtLF4KJnru0zFKlz4ZoBP8iexNe/vbNkzXWw8rFvzkv41GvdT2AAAA=="
   },
   "interior": {
-    "src": "projects/krishnam-kothi-41/photos/07-double-height-living.jpg",
+    "src": "projects/completed/krishnam-kothi-41/photos/07-double-height-living.jpg",
     "alt": "Double-height living room at Krishnam Kothi 41",
     "width": 2250,
     "height": 3000,
     "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMABAAA4BaJYwCdACR/olCwADt81nIZJ8rR+mfb1tC6GTSS9Rx0zKkhw/+8D3hF0AWGyHj4fAqsWvv0rOgHNkNUPI79xn/xcLctHMroAA="
   },
   "aboutHero": {
-    "src": "projects/krishnam-kothi-jagatpura/photos/00-front-artist-impression.jpg",
+    "src": "projects/upcoming/krishnam-kothi-jagatpura/photos/00-front-artist-impression.jpg",
     "alt": "Krishnam Kothi villas by VD Infra Group, Jagatpura, Jaipur: artist's impression",
     "width": 2752,
     "height": 1536,

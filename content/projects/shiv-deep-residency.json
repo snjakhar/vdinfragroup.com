@@ -17,20 +17,20 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/shiv-deep-residency/photos/01-elevation-1.jpg",
+      "src": "projects/completed/shiv-deep-residency/photos/01-elevation-1.jpg",
       "width": 1273,
       "height": 1024,
       "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAA0AA4BaJQBOgO4A8NGUBaAAAP7W/qWq0q0zFYYB78GGJmdIbtp1ajj6mKrBZEPc+d63X3wOzfuiXECaEgkqD4yHPJAAAAA="
     },
     "gallery": [
       {
-        "src": "projects/shiv-deep-residency/photos/02-elevation-2.jpg",
+        "src": "projects/completed/shiv-deep-residency/photos/02-elevation-2.jpg",
         "width": 1536,
         "height": 1024,
         "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJYgCdAEQ9sz8B0ScAP7Im/GqbBaMtXN+2q2TD1SUQsSVpPd0NSmjYjjeyXMT3zjeyWiF+Az5dmZJ80BeRcmQAPnZFS/qX/EOI6wXIAA="
       },
       {
-        "src": "projects/shiv-deep-residency/photos/03-elevation-3.jpg",
+        "src": "projects/completed/shiv-deep-residency/photos/03-elevation-3.jpg",
         "width": 2560,
         "height": 1920,
         "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAwAA4BaJbACdAYvDVnu8stkAAD2vtDdmRBbWKPOK9B+VaCLd45VbaNTXG3pwDgBTeMwC8O7dSrwOR0oGq+hot5T4FRsQiyYmHvrzTwFrafeahWyAAAA"

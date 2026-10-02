@@ -64,8 +64,11 @@ const PHOTOS = new Set(["sky-elegant", "sky-crown", "krishnam-kothi-41", "krishn
 const SQUARE_PROMPT = `${KEEP}
 Recompose this exact image into a square 1:1 composition. The ENTIRE building must be visible, centred, with comfortable empty margin of sky above and ground below and space on both sides. Extend only the sky, ground, landscaping and surroundings. Keep the same lighting, colours and finish. No people, no text, no watermark.`;
 
+const statusOf = (slug) => JSON.parse(fs.readFileSync(path.join("content/projects", `${slug}.json`), "utf8")).status;
+
 async function enhance(slug) {
-  const dir = path.join(MEDIA, "projects", slug, "photos");
+  // Media layout: projects/<status>/<slug>/photos
+  const dir = path.join(MEDIA, "projects", statusOf(slug), slug, "photos");
   const src = SQUARE
     ? fs.readdirSync(dir).find((f) => f.startsWith("00-front-artist-impression"))
     : fs.readdirSync(dir).filter((f) => f.startsWith("01-")).sort()[0];
@@ -104,7 +107,7 @@ async function enhance(slug) {
 }
 
 const slugs = args.filter((a) => !a.startsWith("--"));
-const all = fs.readdirSync(path.join(MEDIA, "projects")).filter((d) => fs.existsSync(path.join(MEDIA, "projects", d, "photos")));
+const all = fs.readdirSync("content/projects").filter((f) => f.endsWith(".json")).map((f) => f.replace(/\.json$/, ""));
 const todo = slugs.length ? slugs : all;
 console.log(`Model ${MODEL} (${SIZE}), ${VARIANTS} variant(s) each, ${todo.length} project(s)`);
 for (const slug of todo) await enhance(slug);

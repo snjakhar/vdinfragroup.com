@@ -35,7 +35,7 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/sky-crown/photos/01-exterior.jpg",
+      "src": "projects/completed/sky-crown/photos/01-exterior.jpg",
       "width": 1286,
       "height": 965,
       "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwAA4BaJQBOgCHwj2muhn4AAP6Y9M8A5MBKd+J84KaoqqVP2+uao2/KQZIeZyFZweZz3iVlz4+4ldLnwXSl/Fb8dpszzQyXFGA2ig0+RhNNqgAAAA==",
@@ -43,98 +43,98 @@
     },
     "gallery": [
       {
-        "src": "projects/sky-crown/photos/02-exterior-side.jpg",
+        "src": "projects/completed/sky-crown/photos/02-exterior-side.jpg",
         "width": 960,
         "height": 1280,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMABAAA4BaJZACdAD7Fqf6LkQAAP7UsQjDSm8zeMRbuzdSXInFM5e6Sp+O01zFtehgdb8OHA7EB0aXBUhO9w3tMVR0gVEwAAA=",
         "alt": "Sky Crown side elevation"
       },
       {
-        "src": "projects/sky-crown/photos/03-living-room.jpg",
+        "src": "projects/completed/sky-crown/photos/03-living-room.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoMABAAA4BaJYwCdADgpWM0gAD8jIohm3TfHdTNjk8MzTRXw37ZBywh4jJP4W5MwqhZaWjWOJcfvnRDi+pzmp+nRu6egAAA",
         "alt": "Living room with feature wall"
       },
       {
-        "src": "projects/sky-crown/photos/04-living-dining.jpg",
+        "src": "projects/completed/sky-crown/photos/04-living-dining.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoMABAAA4BaJQBOgCabjqNEXlH4APyFrTz6uBvaP9P9gLgcJxqhVVBtOm2hQmHsnk+WAKUC7jSkNv07OoYD6XGMVlbq7Pd5TR10X65ODde0ncAA",
         "alt": "Open living and dining area"
       },
       {
-        "src": "projects/sky-crown/photos/05-living-tv.jpg",
+        "src": "projects/completed/sky-crown/photos/05-living-tv.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoMABAAA4BaJQBOgCPqVAdlJA1AAAD8s25RDVbBp8WNJRZRs9GduN2AAXvX4wUMlSOCCX7OkZBOMOCu5VLvLda3C+58F1KID78VAAAA",
         "alt": "Living room with TV unit"
       },
       {
-        "src": "projects/sky-crown/photos/06-dining.jpg",
+        "src": "projects/completed/sky-crown/photos/06-dining.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMABAAA4BaJYwCdAD0MK71AAAA/sQhZB6lwIqXnIZIaGVh28aF0pakXFcc7PVjysPJsRWfhvEZtPQRMNcuWef9HRMI4GpMAAA=",
         "alt": "Dining area"
       },
       {
-        "src": "projects/sky-crown/photos/07-kitchen.jpg",
+        "src": "projects/completed/sky-crown/photos/07-kitchen.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMABAAA4BaJagCdADy8uyVSAD+mD/Vs8yWxdO0hx2P6Flz2Ap037ftnE2maQcmqyM3UCnKXHs6fqdbgaxu777ZzY1AelbR6ym0mkCYAAA=",
         "alt": "Kitchen with wooden partition"
       },
       {
-        "src": "projects/sky-crown/photos/08-bedroom.jpg",
+        "src": "projects/completed/sky-crown/photos/08-bedroom.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMABAAA4BaJbACdAD7FY/NFWMAAP7E/nXrPhWpdVlilJT6esNt+Os4/t+Jf+YqV4rFZj54wWrRgEzM28T+dB34kj/PO0cLOn5/6+MBRjB7xabdS+B1jW8qn0AAAA==",
         "alt": "Bedroom with arched headboard"
       },
       {
-        "src": "projects/sky-crown/photos/09-bedroom-2.jpg",
+        "src": "projects/completed/sky-crown/photos/09-bedroom-2.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoMABAAA4BaJbACdAEDcv70FxAAAP6aEXo3yGeNQeBujzM4/KN4U9DKuzr+rq50DlAZe6RNqRG5y1MU2V2v9faK0WHMvamSNE/D60N+RFRYBPVVOxDAVeECYAA=",
         "alt": "Bedroom with wardrobe"
       },
       {
-        "src": "projects/sky-crown/photos/10-bedroom-3.jpg",
+        "src": "projects/completed/sky-crown/photos/10-bedroom-3.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoMABAAA4BaJbACdADhk2nG/VO/AAD+YToWRI4rS0BiGIL/MlbuNWYqqosRecPAfZqQ69cm34HPHbz4Ch7PkjIt6TuIc7rf160trBwQ7B3RTg7aUAAAAA==",
         "alt": "Bedroom with wall mural"
       },
       {
-        "src": "projects/sky-crown/photos/11-bedroom-4.jpg",
+        "src": "projects/completed/sky-crown/photos/11-bedroom-4.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMABAAA4BaJZACdADco08FIAD98GcVAg0NKe2WPTS/BfLh7CdyoH2jkuQVD9tTXt0xqOiJeSFzgkTWFc4nwf7huvYmeivVJkvdQwS10AA=",
         "alt": "Bedroom with backlit panel"
       },
       {
-        "src": "projects/sky-crown/photos/12-bedroom-5.jpg",
+        "src": "projects/completed/sky-crown/photos/12-bedroom-5.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoMABAAA4BaJbACdADcqd3Q9gAA/fh4SjFVQLVIsO3BIwcFpuvQZV98mEYeqt7xzsYiZ8UGblIsJxzN0lmScy2MsNKwPMcAa32ucfe+RSlZBTYAAAA=",
         "alt": "Bedroom with wardrobes"
       },
       {
-        "src": "projects/sky-crown/photos/13-balcony.jpg",
+        "src": "projects/completed/sky-crown/photos/13-balcony.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoMABAAA4BaJZACdAEfp09Wc0yzaAAA/sFnAZ0Ji5Yzgqd8KuoQODyaAZQeO6lhCuNb5VtVnwbqQnRsIyYYIOnmNZZRcgRnHoUazk9M7WCsSAAA",
         "alt": "Balcony with wooden ceiling"
       },
       {
-        "src": "projects/sky-crown/photos/14-bathroom.jpg",
+        "src": "projects/completed/sky-crown/photos/14-bathroom.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMABAAA4BaJZgCdADznucVXoOgAP20iakmB2vKptMUbpFpVo/SqAQ+9aOpvYJFCEcjVXbHYPKSxvN49y0de+Dq2vLP1wFeIAA=",
         "alt": "Bathroom with patterned floor tiles"
       },
       {
-        "src": "projects/sky-crown/photos/15-bathroom-2.jpg",
+        "src": "projects/completed/sky-crown/photos/15-bathroom-2.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoMABAAA4BaJYgCdADdQkRAO3AAAP5OctB4lg/aagOH9YfQF7U4kGqQPHpahQLqkWwKXyrwTaA3IZldFMOOFlAA",
@@ -147,7 +147,7 @@
         "configuration": "2 and 3 BHK (flats 101 to 108)",
         "area": "848 to 1,479 sq ft super built-up",
         "image": {
-          "src": "projects/sky-crown/floor-plans/typical-floor-plan.jpg",
+          "src": "projects/completed/sky-crown/floor-plans/typical-floor-plan.jpg",
           "alt": "Sky Crown typical floor plan with flats 101 to 108",
           "width": 1754,
           "height": 1240
@@ -158,14 +158,14 @@
         "configuration": "Gym, gazebo, seating and kids' play area",
         "area": "Top floor plan",
         "image": {
-          "src": "projects/sky-crown/floor-plans/top-floor-plan.jpg",
+          "src": "projects/completed/sky-crown/floor-plans/top-floor-plan.jpg",
           "alt": "Sky Crown top floor terrace plan",
           "width": 1754,
           "height": 1240
         }
       }
     ],
-    "brochure": "projects/sky-crown/brochure.pdf"
+    "brochure": "projects/completed/sky-crown/brochure.pdf"
   },
   "featured": true,
   "highlights": [

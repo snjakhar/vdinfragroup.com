@@ -22,6 +22,13 @@ export const site = {
 
   founder: { name: "Vikash Dukiya", role: "CEO & Founder" },
 
+  /**
+   * Launch countdown shown full-screen on the home page until `at`, then it
+   * disappears by itself. Set `enabled: false` to remove it immediately.
+   * Owners can preview the real site meanwhile with  /?preview=1
+   */
+  launch: { enabled: true, at: "2026-10-03T19:00:00+05:30", label: "3 October 2026, 7:00 PM" },
+
   /** Home page highlights (company-wide figures from the previous website). */
   highlights: [
     { value: "50+", label: "Projects delivered" },

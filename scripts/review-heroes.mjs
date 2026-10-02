@@ -49,7 +49,8 @@ code{display:inline-block;margin-top:8px;background:#14171a;color:#f7f4ee;paddin
   if (!slug || !variant) throw new Error("Usage: npm run heroes:approve -- <slug> <variant, e.g. v1>");
   const from = path.join(AI, slug, `${variant}.jpg`);
   if (!fs.existsSync(from)) throw new Error(`Not found: ${from}`);
-  const key = `projects/${slug}/photos/00-front-artist-impression.jpg`;
+  const status = JSON.parse(fs.readFileSync(path.join("content/projects", `${slug}.json`), "utf8")).status;
+  const key = `projects/${status}/${slug}/photos/00-front-artist-impression.jpg`;
   const dest = path.join(MEDIA, key);
   await sharp(from).jpeg({ quality: 86, progressive: true }).toFile(dest);
   const { width, height } = await sharp(dest).metadata();

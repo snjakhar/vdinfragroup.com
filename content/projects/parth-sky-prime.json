@@ -17,20 +17,20 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/parth-sky-prime/photos/01-elevation-1.jpg",
+      "src": "projects/completed/parth-sky-prime/photos/01-elevation-1.jpg",
       "width": 1600,
       "height": 800,
       "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABQAgCdASoQAAgAA4BaJYgC7AEfmrCAwInHogAA/vKNLOxkB3mGC/P2wiLSBoJ3KxYaLy7OJibfTfd/p0+hciQaaCGpoOcwjnquAAAA"
     },
     "gallery": [
       {
-        "src": "projects/parth-sky-prime/photos/02-elevation-2.jpg",
+        "src": "projects/completed/parth-sky-prime/photos/02-elevation-2.jpg",
         "width": 3000,
         "height": 1500,
         "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAgAA4BaJYgCdADRgYz+AAD+6KI7MvU1j5UU6A4EA0bjqewnO5je1OyeK5PM258aLJd59HeBw/ugBBG8X1KfoAA="
       },
       {
-        "src": "projects/parth-sky-prime/photos/03-elevation-3.jpg",
+        "src": "projects/completed/parth-sky-prime/photos/03-elevation-3.jpg",
         "width": 3000,
         "height": 1500,
         "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAgAA4BaJQBOgB52dPSYAAD+YV2nr+bckZn+CQHEO+3771EXIkJi6mRd4qmVbYWgO3JnvVswiII2LH+s+Og4AAA="

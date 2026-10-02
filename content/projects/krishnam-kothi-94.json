@@ -36,7 +36,7 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/krishnam-kothi-94/photos/01-exterior-dusk.jpg",
+      "src": "projects/completed/krishnam-kothi-94/photos/01-exterior-dusk.jpg",
       "width": 2250,
       "height": 3000,
       "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoMABAAA4BaJYgCdADdQXZalYAA/o3PoZCs34rfiV3YvaiOEKntNZ+gkiyHknIQWc85GuX5hGv0FOERYyS3Gcetrn050QQU5cTkyufQJsO7I34puW+1QtHgeAAAAA==",
@@ -44,14 +44,14 @@
     },
     "gallery": [
       {
-        "src": "projects/krishnam-kothi-94/photos/02-exterior.jpg",
+        "src": "projects/completed/krishnam-kothi-94/photos/02-exterior.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMABAAA4BaJYgCdADc+DMQEHtAAP6RN3fFPiryzl+afUO1aj85Ytozuf4zRQDTnb0C5n1DzGlv6q1olCQJpV0iuX+dPsXaqOfpXVA02PqgI4XETDTFCthFfoEAAA==",
         "alt": "Front elevation with curved balconies"
       },
       {
-        "src": "projects/krishnam-kothi-94/photos/03-exterior-angle.jpg",
+        "src": "projects/completed/krishnam-kothi-94/photos/03-exterior-angle.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoMABAAA4BaJQBOgBufDWCuRLwA/mfaNJhdi0aLMQlUDJNRu+MpvHnM6r7E74rp9T/cuIQ479U09KwdSE+dcfBcd9K1yk8YU+j8R5fooB/Wkn4XLOAAAA==",

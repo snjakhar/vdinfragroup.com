@@ -18,7 +18,7 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/krishnam-kothi-176/photos/00-front-artist-impression.jpg",
+      "src": "projects/upcoming/krishnam-kothi-176/photos/00-front-artist-impression.jpg",
       "alt": "Krishnam Kothi 176, Vardhman Sarovar, Mansarovar Extension: artist's impression of the building",
       "width": 2752,
       "height": 1536,
@@ -27,14 +27,14 @@
     },
     "gallery": [
       {
-        "src": "projects/krishnam-kothi-176/photos/01-elevation.jpg",
+        "src": "projects/upcoming/krishnam-kothi-176/photos/01-elevation.jpg",
         "width": 1007,
         "height": 1561,
         "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoKABAAA4BaJZgCdAEQyX5lkdAAAPkIFUua9VWDtuU6SHJKtWB0xV+7Mjs/wXo54kbms1nFjP8s/NyyxvSUsbeoU1bJJj9pHVmvR8Teu3YiZEBe2T1XL2Ka36gAAA=="
       }
     ],
     "heroSquare": {
-      "src": "projects/krishnam-kothi-176/photos/00-front-square-artist-impression.jpg",
+      "src": "projects/upcoming/krishnam-kothi-176/photos/00-front-square-artist-impression.jpg",
       "alt": "Krishnam Kothi 176, Vardhman Sarovar, Mansarovar Extension: artist's impression of the building",
       "width": 2048,
       "height": 2048,

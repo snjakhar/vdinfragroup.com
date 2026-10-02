@@ -11,7 +11,9 @@
     "media:sync": "tsx scripts/media-sync.ts",
     "heroes:enhance": "node scripts/enhance-heroes.mjs",
     "heroes:review": "node scripts/review-heroes.mjs review",
-    "heroes:approve": "node scripts/review-heroes.mjs approve"
+    "heroes:approve": "node scripts/review-heroes.mjs approve",
+    "media:upload": "node scripts/upload-media.mjs",
+    "project:status": "node scripts/project-status.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",

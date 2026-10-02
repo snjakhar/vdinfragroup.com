@@ -17,7 +17,7 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/sky-villa/photos/01-entrance.jpg",
+      "src": "projects/completed/sky-villa/photos/01-entrance.jpg",
       "width": 3000,
       "height": 1926,
       "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAoAA4BaJQBOgCKqzJl3tgEAAMtG4vtkerHCF3SbLr0ySrsxPEGelHmDg2AZNLCJOIRFlhr1kOWVLa9CcDDCkqSrqr8wJICrsAAA",
@@ -25,49 +25,49 @@
     },
     "gallery": [
       {
-        "src": "projects/sky-villa/photos/02-entrance-2.jpg",
+        "src": "projects/completed/sky-villa/photos/02-entrance-2.jpg",
         "width": 3000,
         "height": 2250,
         "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAwAA4BaJQBOgCIiJ0CpG4AA/pFxvHiMs8vhJGJq+ebYHH6QtWyzxwrFsJKP2oz2ashCGe6/XbJBNPfnyx0cI/rCP6Q/LIA7e2GjG05Z/eqZNIzPiwAA",
         "alt": "Sky Villa main gate"
       },
       {
-        "src": "projects/sky-villa/photos/03-render-street.jpg",
+        "src": "projects/completed/sky-villa/photos/03-render-street.jpg",
         "width": 3000,
         "height": 1688,
         "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAkAA4BaJQBOgBKfPUAAAP7t6czLZGC0tv7VAvlpLh6vL31UISPc3ARJIMAhck6dSCUylt6+RUplsMTVIwGQAAA=",
         "alt": "Sky Villa internal street (render)"
       },
       {
-        "src": "projects/sky-villa/photos/04-render-villas.jpg",
+        "src": "projects/completed/sky-villa/photos/04-render-villas.jpg",
         "width": 3000,
         "height": 1688,
         "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAQCdASoQAAkAA4BaJQBOgBSyU2EAAOAUA05KduM0JtdhkK/qrR4wQBk5QL55D2tuMnYDpQJQ9zzMCMOtEQhcfAc+9pyqAbcaFPNQhGAAAA==",
         "alt": "Row of villas (render)"
       },
       {
-        "src": "projects/sky-villa/photos/05-render-facades.jpg",
+        "src": "projects/completed/sky-villa/photos/05-render-facades.jpg",
         "width": 3000,
         "height": 1688,
         "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAkAA4BaJQBOgB08PwQMAAD+tCTUrKwd7fVeaN6qWKGbVRdK/6ghVWO4AkKtqnEu2sKFurjUnSqI+zAAAA==",
         "alt": "Villa facades (render)"
       },
       {
-        "src": "projects/sky-villa/photos/06-render-aerial.jpg",
+        "src": "projects/completed/sky-villa/photos/06-render-aerial.jpg",
         "width": 3000,
         "height": 1688,
         "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJYwCdACZTzTQAADiIBeLRm6HV8krH7Qi+ojOz4jYnQwZjL3UPlZSE/m6EubkDgW3lhoK87lj9XTC07NQYAAA",
         "alt": "Aerial view of villas (render)"
       },
       {
-        "src": "projects/sky-villa/photos/07-render-clubhouse.jpg",
+        "src": "projects/completed/sky-villa/photos/07-render-clubhouse.jpg",
         "width": 3000,
         "height": 1688,
         "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAkAA4BaJQBOgB9vybN4MAAA/t/if5inlJY1ZoEePogSpoSTKKUvAcpedkfXarMR0itkHI72RgAA",
         "alt": "Entrance block (render)"
       },
       {
-        "src": "projects/sky-villa/photos/08-render-lobby.jpg",
+        "src": "projects/completed/sky-villa/photos/08-render-lobby.jpg",
         "width": 3000,
         "height": 1688,
         "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkAA4BaJZwCw7ENo1w/NgAA/NWP3bfwsRkvDQGTwbEiCQf9QxxL+orz8Mh421Xq5sUehT4DXzQdfejL5AIkjbEAAA==",

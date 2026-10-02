@@ -56,7 +56,8 @@ async function main() {
     credentials: { accessKeyId: need("R2_ACCESS_KEY_ID"), secretAccessKey: need("R2_SECRET_ACCESS_KEY") },
   });
 
-  const prefix = `projects/${slug}/`;
+  // R2 layout: projects/<status>/<slug>/...
+  const prefix = `projects/${raw.status}/${slug}/`;
   const keys: string[] = [];
   let token: string | undefined;
   do {

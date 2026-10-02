@@ -34,7 +34,7 @@
   ],
   "media": {
     "hero": {
-      "src": "projects/krishnam-kothi-41/photos/01-exterior-dusk.jpg",
+      "src": "projects/completed/krishnam-kothi-41/photos/01-exterior-dusk.jpg",
       "width": 2250,
       "height": 3000,
       "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoMABAAA4BaJQBOgCLn7Lc4AAD+s3ZaxPuyozsuDEQheOSzzqebn2AbAoib0VibbqYCiQawDuV94E7MuKXRiaVQM09OL1G5qfoAAA==",
@@ -42,147 +42,147 @@
     },
     "gallery": [
       {
-        "src": "projects/krishnam-kothi-41/photos/02-exterior.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/02-exterior.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAgCdASoMABAAA4BaJQBdkCYjL5+DqpTcdRRIAPhS75EJietT9sJp7fywtTyDweoUKwrO7v2WN4lMUtMveMWxrRIyEt2w2V9Je/dOifCjGYAA",
         "alt": "Three-storey facade with planters and warm lighting"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/03-exterior-angle.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/03-exterior-angle.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoMABAAA4BaJYwCdAEO5vWZ7WbIAPemKmQuOaNWA0uTQAkY5n0IeBNTp2CmfOS5lNy3PnJYqijnycxs9iYyMfCeN0TQAA==",
         "alt": "Street view of the kothi on a 40 ft road"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/04-entrance.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/04-entrance.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoMABAAA4BaJZgCdADcWXeSkoy/6aAA/nk06u8LLWV7SmMGIDEHOnwytikCg60wzkAjxRZ7JK0cbAESZdHFG5gbz4PHzmxAdkYNHhaUbpOKNia4+GUXefogAAA=",
         "alt": "Entrance porch with wooden ceiling and granite floor"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/05-living-room.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/05-living-room.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoMABAAA4BaJZQCdADhTmiUg9YAAP4HKgXrlILARyWMCIclO1wJB3Z/pUyKuFREtIxKEmcy9nHquG1z2xAK/0eMmNnit8zeBPRaFcu2b6QKnFAA",
         "alt": "Living room with arched windows and curved sofa"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/06-living-skylight.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/06-living-skylight.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoMABAAA4BaJYgCdAEYE+itJyAgAP6mW7kF2nYj69BGqp0YwKiWoLQHGxjJOeN3J0xp5VI8ZgYajIz6aSOm4KxZvG8iduOwQcRmoImP7ynNoAAA",
         "alt": "Lounge with a sky-painted ceiling feature"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/07-double-height-living.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/07-double-height-living.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMABAAA4BaJYwCdACR/olCwADt81nIZJ8rR+mfb1tC6GTSS9Rx0zKkhw/+8D3hF0AWGyHj4fAqsWvv0rOgHNkNUPI79xn/xcLctHMroAA=",
         "alt": "Double-height living room with staircase"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/08-dining.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/08-dining.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMABAAA4BaJZQCw7DdiM6QpLAAAPaAp32nWBzEJin5S0kcG22pERa8OtKRQhtgaR/H1pcMGC0l4uMk8S2Hvh39kuI8UdwwAAA=",
         "alt": "Dining area beneath a chandelier and staircase"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/09-kitchen.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/09-kitchen.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoMABAAA4BaJZwAAheJ3QcTwAD+CV3D6TsnvSXQ3j3m+mlBJz+8KdGrCcHz6T853wc51SpJf83Wqy5GQg9CKJjSzdLMAA==",
         "alt": "Modular kitchen with built-in appliances"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/10-kitchen-2.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/10-kitchen-2.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoMABAAA4BaJZQCdADbgcM6AAD+5vACUfPegK42h1dlazc/jcD0NyCjF3IIV4hIIUuYmguGL6uwkqDlEOb78qCd196dOAFJwJSngAAA",
         "alt": "Kitchen counter with hob and chimney"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/11-home-theater.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/11-home-theater.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoMABAAA4BaJZwCdAD8ZPXMSTq9QAD0avRdseyL44aMkDW66hQeGgYdQM+fYOU2xXvEOe6At6SkyXKgCQBpITq+2D5G+yRAAAA=",
         "alt": "Private home theater with recliners"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/12-terrace-garden.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/12-terrace-garden.jpg",
         "width": 3000,
         "height": 2250,
         "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwAA4BaJaACdAYt9vRl4+P1wADOOydO4tTHsI+9QUQyF1n2eem8/HlCSuALqtLF4KJnru0zFKlz4ZoBP8iexNe/vbNkzXWw8rFvzkv41GvdT2AAAA==",
         "alt": "Covered terrace garden with lawn and seating"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/13-terrace-seating.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/13-terrace-seating.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoMABAAA4BaJbACdADdJi+/fwAA/uXvvGbieU4SgqU4uR6ANh6T8em577UxcZuOMq8xjZVjuULoEnMtK/MG6rFDNaJNNpDnh5JutFihQAA=",
         "alt": "Open-to-sky party area with lawn"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/14-bedroom.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/14-bedroom.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoMABAAA4BaJZQC7ADRgdPfQAD+P7YYiYFSAVUE4ywGhacuaAuPOy0uvrkQCA1r4Up+o0TP6Ly9Awr5+2k5jxawWK7gAA==",
         "alt": "Bedroom with cove lighting and wardrobe"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/15-bedroom-arch.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/15-bedroom-arch.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoMABAAA4BaJZQCdAD6/XOthQFvpAAA7+pdADKMd5YTSNYxcTzg5uGhNsr4Bb0ZqTA1/RWVKOOgcDgH2wDcZh4ujCBEE7/IAAA=",
         "alt": "Bedroom with arched headboard wall"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/16-bedroom-sofa.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/16-bedroom-sofa.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMABAAA4BaJZACdADHRjWKp5AA/ZkYV+w+0kq0hMIWP5PNbU3vjIbdMTvZ7qO0BmcIpe1WkAWir01fKtRYrisWCl46nzCAAAA=",
         "alt": "Bedroom with sofa and statement light"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/17-bedroom-wardrobe.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/17-bedroom-wardrobe.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoMABAAA4BaJZQCsADp5dQ/8EYYAADMBTGZoAVKw8oHM/831VUUZFQ7J9LKjwwN20eJPMeNNeT79lGl2SPYLt3jbJ1AAA==",
         "alt": "Bedroom with full-height wardrobes"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/18-bathroom.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/18-bathroom.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoMABAAA4BaJYwCdADdlpNqO1QAAP7SVXd3U8l6pKHqAbTGNe9i/IWhG3PhY5TbvH2jXxLHQQl/sT+95oAIAA==",
         "alt": "Bathroom with glass partition and premium fittings"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/19-balcony-swing.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/19-balcony-swing.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoMABAAA4BaJYgCdADAQ2AAyuews4DcV/RJxjZQM/oRml6RHoDDoey29utwy8w+OT8SUq/TZZJPDxzlaejkvDUr1mKDsAAA",
         "alt": "Balcony with hanging swing chair"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/20-balcony.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/20-balcony.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoMABAAA4BaJagCdAEedSH4LYkAAP6/vRiX8HJCBiHlpZL65ik/u+7+DikI8XsRlf2UOpOimSxyIr5my3ux6Jy2G41iyKUTOp25NqnNlwYb2w0AAAA=",
         "alt": "Balcony with wooden ceiling and swing"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/21-pooja-unit.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/21-pooja-unit.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoMABAAA4BaJQBWAB9ZM0AAAN/7DPI6YI37P32aPyLnwEl98Ud5CDo8flSZLqTGMEWBMTdi71AAAA==",
         "alt": "Pooja alcove with backlit design"
       },
       {
-        "src": "projects/krishnam-kothi-41/photos/22-staircase.jpg",
+        "src": "projects/completed/krishnam-kothi-41/photos/22-staircase.jpg",
         "width": 2250,
         "height": 3000,
         "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoMABAAA4BaJZwC7AEfpzI7NLfegADv9uHVChrS4n99K8NUE6PEUv1YmBES7q6J4NO8noaM8OowGvAK/BdvrQ6QwAA=",
