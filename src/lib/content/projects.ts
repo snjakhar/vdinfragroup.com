@@ -105,6 +105,14 @@ export function placeName(p: Pick<Project, "location">) {
   return locality === city ? city : `${locality}, ${city}`;
 }
 
+/**
+ * Front image for portrait or square frames (cards, tiles): the square version when
+ * one exists, so wide 16:9 images are not cropped down to the middle of the building.
+ */
+export function cardImage(p: Pick<Project, "media">) {
+  return p.media.heroSquare ?? p.media.hero;
+}
+
 /** Alt text with the fallback described in the plan: "<project>, <locality>, Jaipur". */
 export function altFor(project: Pick<ProjectView, "title" | "location">, image: MediaImage) {
   return image.alt ?? `${project.title}, ${placeName(project)}`;

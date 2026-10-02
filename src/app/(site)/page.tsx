@@ -10,7 +10,7 @@ import { HeroSlider, type HeroSlide } from "@/features/home/hero-slider";
 import { ProjectCard } from "@/features/projects/project-card";
 import { LocationMap } from "@/features/projects/location-map";
 import { getAllPosts } from "@/lib/content/blog";
-import { STATUS_META, STATUS_ORDER, altFor, getAllProjects, getFeaturedProjects, getProject, getProjectsByStatus } from "@/lib/content/projects";
+import { STATUS_META, STATUS_ORDER, altFor, cardImage, getAllProjects, getFeaturedProjects, getProject, getProjectsByStatus } from "@/lib/content/projects";
 import { siteImages } from "@/lib/content/site-images";
 import { buildMetadata } from "@/lib/seo/metadata";
 
@@ -157,7 +157,7 @@ export default async function HomePage() {
                   <Link href={`/projects/${s}`} className="group relative block aspect-[3/4] overflow-hidden bg-night text-ivory md:aspect-[3/4.4]">
                     {cover && (
                       <MediaImg
-                        image={cover.media.hero}
+                        image={cardImage(cover)}
                         alt={altFor(cover, cover.media.hero)}
                         sizes="(min-width: 768px) 33vw, 100vw"
                         className="opacity-90 transition-transform duration-[1.4s] ease-premium group-hover:scale-105"

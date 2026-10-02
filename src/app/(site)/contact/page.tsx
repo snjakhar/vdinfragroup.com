@@ -4,7 +4,7 @@ import { site, whatsappLink } from "@content/site";
 import { SectionHeading } from "@/components/ui/heading";
 import { InstagramIcon, WhatsAppIcon } from "@/components/ui/icons";
 import { MediaImg } from "@/components/ui/media-image";
-import { altFor, getProject } from "@/lib/content/projects";
+import { altFor, cardImage, getProject } from "@/lib/content/projects";
 import { JsonLd, breadcrumbLd } from "@/lib/seo/json-ld";
 import { buildMetadata } from "@/lib/seo/metadata";
 
@@ -53,7 +53,7 @@ export default function ContactPage() {
             {visit && (
               <Link href={`/projects/${visit.slug}`} className="group block">
                 <div className="relative aspect-[4/3] overflow-hidden bg-sand">
-                  <MediaImg image={visit.media.hero} alt={altFor(visit, visit.media.hero)} sizes="(min-width: 1024px) 58vw, 100vw" className="transition-transform duration-[1.2s] ease-premium group-hover:scale-105" />
+                  <MediaImg image={cardImage(visit)} alt={altFor(visit, visit.media.hero)} sizes="(min-width: 1024px) 58vw, 100vw" className="transition-transform duration-[1.2s] ease-premium group-hover:scale-105" />
                 </div>
                 <div className="mt-5 flex items-start justify-between gap-6">
                   <div>

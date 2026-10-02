@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight, MapPin } from "lucide-react";
 import { MediaImg } from "@/components/ui/media-image";
 import { Tag } from "@/components/ui/tag";
-import { altFor, placeName, startingPrice, type ProjectView } from "@/lib/content/projects";
+import { altFor, cardImage, placeName, startingPrice, type ProjectView } from "@/lib/content/projects";
 import { cn } from "@/lib/cn";
 
 /** Configurations as a short line, e.g. "3 & 4 BHK Apartments". */
@@ -28,7 +28,7 @@ export function ProjectCard({
     <Link href={`/projects/${project.slug}`} className={cn("group block", className)}>
       <div className="relative aspect-[4/5] overflow-hidden bg-sand">
         <MediaImg
-          image={project.media.hero}
+          image={cardImage(project)}
           alt={altFor(project, project.media.hero)}
           sizes={sizes}
           priority={priority}
@@ -36,7 +36,7 @@ export function ProjectCard({
         />
         <div className="absolute inset-0 bg-gradient-to-t from-night/45 via-transparent to-transparent opacity-80 transition-opacity duration-700 group-hover:opacity-100" />
         <Tag className="absolute left-4 top-4">{project.statusLabel}</Tag>
-        {project.media.hero.impression && (
+        {cardImage(project).impression && (
           <span className="absolute bottom-3 left-4 text-[0.58rem] font-semibold uppercase tracking-[0.16em] text-ivory/90 [text-shadow:0_1px_4px_rgba(0,0,0,.6)]">
             Artist&rsquo;s impression
           </span>
