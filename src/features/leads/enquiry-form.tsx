@@ -34,6 +34,7 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
   const [started, setStarted] = useState(false);
   const [token, setToken] = useState<string>();
   const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
+  const [errorCode, setErrorCode] = useState("");
   const [company, setCompany] = useState("");
 
   const currentProject = pathname.match(/^\/projects\/([^/]+)$/)?.[1];
@@ -60,10 +61,14 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ ...data, sourcePage: pathname, utm: readUtm(), turnstileToken: token, company }),
       });
-      if (!res.ok) throw new Error(await res.text());
+      if (!res.ok) {
+        const body = (await res.json().catch(() => ({}))) as { error?: string; reason?: string; codes?: string[] };
+        throw new Error([body.error, body.reason, ...(body.codes ?? [])].filter(Boolean).join(" ") || `http_${res.status}`);
+      }
       track("generate_lead", { project: data.project || "general", page: pathname });
       router.push("/thank-you");
-    } catch {
+    } catch (err) {
+      setErrorCode(err instanceof Error ? err.message : "");
       setStatus("error");
     }
   };
@@ -143,6 +148,7 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
         </Button>
         <p role="status" aria-live="polite" className="text-sm text-[#a3412b]">
           {status === "error" && "Something went wrong. Please call or WhatsApp us instead."}
+          {status === "error" && errorCode && <span className="mt-1 block text-xs text-muted">Error: {errorCode}</span>}
         </p>
       </div>
     </form>

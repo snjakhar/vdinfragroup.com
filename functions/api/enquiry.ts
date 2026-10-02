@@ -54,8 +54,12 @@ export async function onRequestPost({ request, env }: Ctx): Promise<Response> {
     form.append("response", meta.data.turnstileToken ?? "");
     form.append("remoteip", request.headers.get("cf-connecting-ip") ?? "");
     const verify = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", { method: "POST", body: form });
-    const result = (await verify.json()) as { success: boolean };
-    if (!result.success) return json(400, { error: "turnstile_failed" });
+    const result = (await verify.json()) as { success: boolean; "error-codes"?: string[] };
+    if (!result.success) {
+      // Turnstile's codes are safe to return and tell a bad token apart from a wrong secret.
+      console.error("turnstile_failed", result["error-codes"]);
+      return json(400, { error: "turnstile_failed", codes: result["error-codes"] ?? [] });
+    }
   }
 
   const { name, phone, email, project, message } = lead.data;
@@ -85,7 +89,12 @@ export async function onRequestPost({ request, env }: Ctx): Promise<Response> {
       html,
     }),
   });
-  if (!send.ok) return json(502, { error: "email_failed" });
+  if (!send.ok) {
+    const detail = (await send.json().catch(() => ({}))) as { name?: string; message?: string };
+    console.error("email_failed", send.status, detail);
+    // Only Resend's error type (e.g. "invalid_api_key"), never the message or our config.
+    return json(502, { error: "email_failed", reason: detail.name ?? `status_${send.status}` });
+  }
 
   return json(200, { ok: true });
 }
