@@ -216,12 +216,18 @@
       "type": "3 BHK",
       "superArea": "1,279 to 1,479 sq ft",
       "price": "Sold out"
+    },
+    {
+      "type": "Exclusive penthouse",
+      "price": "Sold out",
+      "availability": "Limited inventory"
     }
   ],
   "specifications": [
     {
       "group": "General",
       "items": [
+        "Exclusive penthouses (limited inventory)",
         "Earthquake-resistant RCC framed structure",
         "Contemporary facade and elevation",
         "Dedicated stilt parking",

@@ -14,6 +14,9 @@ export const seo = {
     "ready to move flats Jaipur",
     "new projects Jaipur",
     "RERA approved projects Jaipur",
+    "VD Infra Group",
+    "Vikash Dukiya",
+    "Vikas Dukiya",
   ],
   locale: "en_IN",
 };

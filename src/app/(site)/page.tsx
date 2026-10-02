@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { ArrowUpRight, MapPin, Phone } from "lucide-react";
-import { officeAddress, site } from "@content/site";
+import { ArrowUpRight, Phone } from "lucide-react";
+import { site } from "@content/site";
 import { ButtonLink } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/heading";
 import { MediaImg } from "@/components/ui/media-image";
@@ -10,7 +10,7 @@ import { HeroSlider, type HeroSlide } from "@/features/home/hero-slider";
 import { ProjectCard } from "@/features/projects/project-card";
 import { LocationMap } from "@/features/projects/location-map";
 import { getAllPosts } from "@/lib/content/blog";
-import { STATUS_META, STATUS_ORDER, altFor, getAllProjects, getFeaturedProjects, getProjectsByStatus } from "@/lib/content/projects";
+import { STATUS_META, STATUS_ORDER, altFor, getAllProjects, getFeaturedProjects, getProject, getProjectsByStatus } from "@/lib/content/projects";
 import { siteImages } from "@/lib/content/site-images";
 import { buildMetadata } from "@/lib/seo/metadata";
 
@@ -39,18 +39,13 @@ export default async function HomePage() {
   const projects = getAllProjects();
   const featured = getFeaturedProjects().slice(0, 3);
   const posts = (await getAllPosts()).slice(0, 3);
+  const visit = getProject("sky-elegant");
   // Hero: current projects with an AI front image, upcoming first (KK 176 leads).
   const heroOrder = ["krishnam-kothi-176", "sky-elegant", "krishnam-kothi-jagatpura"];
   const heroSlides: HeroSlide[] = projects
     .filter((p) => p.status !== "completed" && p.media.hero.impression)
     .sort((a, b) => (heroOrder.indexOf(a.slug) + 99) % 99 - ((heroOrder.indexOf(b.slug) + 99) % 99))
     .map((p) => ({ image: p.media.heroSquare ?? p.media.hero, alt: altFor(p, p.media.hero), title: p.title, status: p.statusLabel, href: `/projects/${p.slug}` }));
-  const completedCount = getProjectsByStatus("completed").length;
-  const stats = [
-    { value: String(completedCount), label: "Projects delivered" },
-    { value: String(projects.length - completedCount), label: "Ready-to-move and upcoming projects" },
-    { value: String(new Set(projects.map((p) => p.location.locality.split(",")[0])).size), label: "Jaipur neighbourhoods" },
-  ];
   const galleryStrip = projects.flatMap((p) => p.media.gallery.slice(0, 1).map((img) => ({ img, project: p }))).slice(0, 8);
 
   return (
@@ -106,16 +101,15 @@ export default async function HomePage() {
             </Reveal>
             <Reveal delay={0.1} className="lg:col-span-5 lg:col-start-8">
               <p className="t-lead">
-                From the Krishnam Kothi luxury homes in Narayan Vihar to the Sky Crown and Sky Elegant apartments in Chordia City, we have delivered {completedCount}{" "}
-                projects across Jaipur. We plan every home around how families actually live: light, air, privacy and quality that lasts.
+                From the Krishnam Kothi luxury homes in Narayan Vihar to the Sky Crown and Sky Elegant apartments in Chordia City, we have delivered more than 50 projects across Jaipur. We plan every home around how families actually live: light, air, privacy and quality that lasts.
               </p>
               <ButtonLink href="/about" variant="text" arrow className="mt-6">
                 Our story
               </ButtonLink>
             </Reveal>
           </div>
-          <dl className="mt-16 grid grid-cols-2 border-t border-sand lg:mt-24 lg:grid-cols-3">
-            {stats.map((s, i) => (
+          <dl className="mt-16 grid grid-cols-2 border-t border-sand lg:mt-24 lg:grid-cols-4">
+            {site.highlights.map((s, i) => (
               <Reveal
                 key={s.label}
                 delay={i * 0.08}
@@ -279,32 +273,35 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Location */}
-      <section className="section bg-paper">
-        <div className="container-site grid items-center gap-12 lg:grid-cols-12">
-          <div className="lg:col-span-5">
-            <SectionHeading eyebrow="Visit us" title="See a finished home at Sky Elegant" lead="Walk through a ready-to-move apartment in Chordia City and meet the team behind your home." />
-            <ul className="mt-10 space-y-5 text-sm">
-              <li className="flex gap-4">
-                <MapPin aria-hidden className="size-5 shrink-0 text-brass" strokeWidth={1.5} />
-                <span>{officeAddress}</span>
-              </li>
-              <li className="flex gap-4">
-                <Phone aria-hidden className="size-5 shrink-0 text-brass" strokeWidth={1.5} />
-                <a href={site.phoneHref} className="hover:text-brass-deep">
-                  {site.phone}
-                </a>
-              </li>
-            </ul>
-            <ButtonLink href="#enquire" arrow className="mt-10">
-              Book a site visit
-            </ButtonLink>
+      {/* Site visit (current project, not an office address) */}
+      {visit && (
+        <section className="section bg-paper">
+          <div className="container-site grid items-center gap-12 lg:grid-cols-12">
+            <div className="lg:col-span-5">
+              <SectionHeading eyebrow="Visit us" title={`See a finished home at ${visit.title}`} lead={`Walk through a ready-to-move apartment in ${visit.location.locality} and meet the team behind your home.`} />
+              <ul className="mt-10 space-y-5 text-sm">
+                <li className="flex gap-4">
+                  <Phone aria-hidden className="size-5 shrink-0 text-brass" strokeWidth={1.5} />
+                  <a href={site.phoneHref} className="hover:text-brass-deep">
+                    {site.phone}
+                  </a>
+                </li>
+              </ul>
+              <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+                <ButtonLink href="#enquire" arrow>
+                  Book a site visit
+                </ButtonLink>
+                <ButtonLink href={`/projects/${visit.slug}`} variant="outline">
+                  View {visit.title}
+                </ButtonLink>
+              </div>
+            </div>
+            <div className="lg:col-span-7">
+              <LocationMap lat={visit.location.lat} lng={visit.location.lng} query={`${visit.location.address}, ${visit.location.city}`} label={visit.title} />
+            </div>
           </div>
-          <div className="lg:col-span-7">
-            <LocationMap query={officeAddress} label={`${site.name} office`} />
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
     </>
   );
 }

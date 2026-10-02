@@ -54,24 +54,24 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
       )}
 
       {slide.image.impression && (
-        <p className="absolute left-4 top-4 bg-night/55 sm:left-auto sm:right-4 px-2.5 py-1 text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-ivory/85 backdrop-blur-sm">
+        <p className="absolute left-3 top-3 bg-night/55 px-2 py-0.5 text-[0.5rem] font-semibold uppercase tracking-[0.14em] text-ivory/85 backdrop-blur-sm sm:left-auto sm:right-4 sm:top-4 sm:px-2.5 sm:py-1 sm:text-[0.6rem] sm:tracking-[0.16em]">
           Artist&rsquo;s impression
         </p>
       )}
 
-      <div className="absolute inset-x-4 bottom-4 flex items-end justify-between gap-4 sm:inset-x-6 sm:bottom-6">
+      <div className="absolute inset-x-3 bottom-3 flex items-end justify-between gap-3 sm:inset-x-6 sm:bottom-6 sm:gap-4">
         <Link
           href={slide.href}
-          className="group flex items-center gap-3 bg-ivory/95 px-4 py-2.5 text-ink sm:gap-4 sm:px-5 sm:py-3.5 shadow-[0_10px_30px_-12px_rgba(20,23,26,0.45)] backdrop-blur-sm transition-colors hover:bg-ivory"
+          className="group flex items-center gap-2 bg-ivory/90 px-2.5 py-1.5 text-ink sm:gap-4 sm:bg-ivory/95 sm:px-5 sm:py-3.5 shadow-[0_10px_30px_-12px_rgba(20,23,26,0.45)] backdrop-blur-sm transition-colors hover:bg-ivory"
         >
           <span>
-            <span className="block text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-brass-deep">{slide.status}</span>
-            <span className="mt-0.5 block font-[family-name:var(--font-display)] text-lg leading-tight sm:text-xl">{slide.title}</span>
+            <span className="block text-[0.5rem] font-semibold uppercase tracking-[0.14em] text-brass-deep sm:text-[0.62rem] sm:tracking-[0.18em]">{slide.status}</span>
+            <span className="block font-[family-name:var(--font-display)] text-[0.95rem] leading-tight sm:mt-0.5 sm:text-xl">{slide.title}</span>
           </span>
-          <ArrowUpRight className="size-5 shrink-0 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
+          <ArrowUpRight className="size-3.5 shrink-0 sm:size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
         </Link>
         {slides.length > 1 && (
-          <div className="flex gap-2 pb-3" role="tablist" aria-label="Featured projects">
+          <div className="flex gap-1.5 pb-2 sm:gap-2 sm:pb-3" role="tablist" aria-label="Featured projects">
             {slides.map((s, i) => (
               <button
                 key={s.href}
@@ -80,7 +80,7 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
                 aria-selected={i === active}
                 aria-label={`Show ${s.title}`}
                 onClick={() => setActive(i)}
-                className={cn("h-1.5 rounded-full bg-ivory transition-all duration-500", i === active ? "w-7" : "w-1.5 opacity-60 hover:opacity-100")}
+                className={cn("h-1 rounded-full bg-ivory transition-all duration-500 sm:h-1.5", i === active ? "w-5 sm:w-7" : "w-1 opacity-60 hover:opacity-100 sm:w-1.5")}
               />
             ))}
           </div>

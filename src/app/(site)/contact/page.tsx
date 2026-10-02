@@ -1,8 +1,10 @@
-import { Mail, MapPin, Phone } from "lucide-react";
-import { officeAddress, site, whatsappLink } from "@content/site";
+import Link from "next/link";
+import { ArrowUpRight, Mail, Phone } from "lucide-react";
+import { site, whatsappLink } from "@content/site";
 import { SectionHeading } from "@/components/ui/heading";
 import { InstagramIcon, WhatsAppIcon } from "@/components/ui/icons";
-import { LocationMap } from "@/features/projects/location-map";
+import { MediaImg } from "@/components/ui/media-image";
+import { altFor, getProject } from "@/lib/content/projects";
 import { JsonLd, breadcrumbLd } from "@/lib/seo/json-ld";
 import { buildMetadata } from "@/lib/seo/metadata";
 
@@ -13,6 +15,7 @@ export const metadata = buildMetadata({
 });
 
 export default function ContactPage() {
+  const visit = getProject("sky-elegant");
   const rows = [
     { icon: Phone, label: "Call", value: site.phone, href: site.phoneHref },
     { icon: WhatsAppIcon, label: "WhatsApp", value: "Chat with sales", href: whatsappLink() },
@@ -33,7 +36,7 @@ export default function ContactPage() {
       <section className="pb-20 pt-36 lg:pb-28 lg:pt-48">
         <div className="container-site grid gap-14 lg:grid-cols-12">
           <div className="lg:col-span-5">
-            <SectionHeading level="h1" eyebrow="Contact" title="We would love to hear from you" lead="Call or WhatsApp us, send an enquiry below, or visit our ready-to-move Sky Elegant apartments in Chordia City." />
+            <SectionHeading level="h1" eyebrow="Contact" title="We would love to hear from you" lead="Call or WhatsApp us, or send an enquiry below. We are happy to arrange a site visit to any of our current projects." />
             <ul className="mt-12 border-t border-sand">
               {rows.map((r) => (
                 <li key={r.label} className="border-b border-sand">
@@ -45,19 +48,23 @@ export default function ContactPage() {
                 </li>
               ))}
             </ul>
-            <div className="mt-10 space-y-4 text-sm">
-              <p className="flex gap-4">
-                <MapPin aria-hidden className="size-5 shrink-0 text-brass" strokeWidth={1.5} />
-                <span>
-                  {site.office.line1}, {site.office.line2}
-                  <br />
-                  {site.office.city}, {site.office.state} {site.office.postalCode}
-                </span>
-              </p>
-            </div>
           </div>
           <div className="lg:col-span-7">
-            <LocationMap query={officeAddress} label={`${site.name} office`} />
+            {visit && (
+              <Link href={`/projects/${visit.slug}`} className="group block">
+                <div className="relative aspect-[4/3] overflow-hidden bg-sand">
+                  <MediaImg image={visit.media.hero} alt={altFor(visit, visit.media.hero)} sizes="(min-width: 1024px) 58vw, 100vw" className="transition-transform duration-[1.2s] ease-premium group-hover:scale-105" />
+                </div>
+                <div className="mt-5 flex items-start justify-between gap-6">
+                  <div>
+                    <p className="eyebrow">Site visits</p>
+                    <p className="mt-2 font-[family-name:var(--font-display)] text-3xl">See a finished home at {visit.title}</p>
+                    <p className="mt-2 text-sm text-muted">Ready-to-move apartments in {visit.location.locality}. Call or WhatsApp to book a visit.</p>
+                  </div>
+                  <ArrowUpRight className="mt-2 size-6 shrink-0 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
+                </div>
+              </Link>
+            )}
           </div>
         </div>
       </section>

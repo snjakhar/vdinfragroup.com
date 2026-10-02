@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { site, whatsappLink } from "@content/site";
 import { InstagramIcon, Logo, WhatsAppIcon } from "@/components/ui/icons";
 import { STATUS_META, STATUS_ORDER, getAllProjects } from "@/lib/content/projects";
@@ -13,14 +13,6 @@ export function Footer() {
         <div className="lg:col-span-4">
           <Logo tone="light" className="h-11" />
           <p className="mt-6 max-w-sm text-sm leading-relaxed">{site.description}</p>
-          <address className="mt-8 flex gap-3 text-sm not-italic leading-relaxed">
-            <MapPin aria-hidden className="mt-0.5 size-4 shrink-0 text-brass" strokeWidth={1.5} />
-            <span>
-              {site.office.line1}, {site.office.line2}
-              <br />
-              {site.office.city}, {site.office.state} {site.office.postalCode}
-            </span>
-          </address>
         </div>
 
         <nav aria-label="Projects" className="lg:col-span-2">

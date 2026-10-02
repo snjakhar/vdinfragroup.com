@@ -36,10 +36,11 @@
     "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMABAAA4BaJYwCdACR/olCwADt81nIZJ8rR+mfb1tC6GTSS9Rx0zKkhw/+8D3hF0AWGyHj4fAqsWvv0rOgHNkNUPI79xn/xcLctHMroAA="
   },
   "aboutHero": {
-    "src": "projects/sky-crown/photos/01-exterior.jpg",
-    "alt": "Sky Crown apartments by VD Infra Group, Chordia City, Jaipur",
-    "width": 1286,
-    "height": 965,
-    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwAA4BaJQBOgCHwj2muhn4AAP6Y9M8A5MBKd+J84KaoqqVP2+uao2/KQZIeZyFZweZz3iVlz4+4ldLnwXSl/Fb8dpszzQyXFGA2ig0+RhNNqgAAAA=="
+    "src": "projects/krishnam-kothi-jagatpura/photos/00-front-artist-impression.jpg",
+    "alt": "Krishnam Kothi villas by VD Infra Group, Jagatpura, Jaipur: artist's impression",
+    "width": 2752,
+    "height": 1536,
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJQBOgBM/OZf+AADLQvViKRgFDPH6zeLOdSrA74U9VWwC9T7lW8QbefTqd1jzsxn17wYu8q95buMRMJSSFcIfENeRgIhL0CogAA==",
+    "impression": true
   }
 }

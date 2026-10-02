@@ -49,7 +49,13 @@ Add `vdinfragroup.com` to Cloudflare and point the registrar's nameservers to Cl
    site/<image>.jpg
    ```
 
-4. R2 → Manage R2 API tokens → create a token with **Object Read** on this bucket only. Put the values in `.env.local` as `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` (used only by `npm run media:sync`, never by the website).
+4. Bucket → Settings → CORS policy → add (needed by the gallery's Share and Download buttons, which fetch the full-size photo):
+
+   ```json
+   [{ "AllowedOrigins": ["https://www.vdinfragroup.com", "https://vdinfragroup.com"], "AllowedMethods": ["GET"], "AllowedHeaders": ["*"], "MaxAgeSeconds": 86400 }]
+   ```
+
+5. R2 → Manage R2 API tokens → create a token with **Object Read** on this bucket only. Put the values in `.env.local` as `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` (used only by `npm run media:sync`, never by the website).
 
 Upload photos at full resolution (JPEG, long edge about 2,500 to 3,000 px). Use the dashboard for a few files, or a desktop tool such as Cyberduck or rclone for whole folders.
 

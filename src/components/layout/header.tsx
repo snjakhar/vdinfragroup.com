@@ -22,7 +22,6 @@ export type MenuData = {
 /** Pages that open with a full-bleed photo: the header starts transparent over it. */
 function hasPhotoHero(pathname: string) {
   return (
-    pathname === "/about" ||
     /^\/projects\/(?!completed$|upcoming$|ready-to-move$)[^/]+$/.test(pathname)
   );
 }

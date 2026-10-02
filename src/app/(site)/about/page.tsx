@@ -1,3 +1,4 @@
+import { site } from "@content/site";
 import { ButtonLink } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/heading";
 import { MediaImg } from "@/components/ui/media-image";
@@ -30,7 +31,6 @@ const PROCESS = [
 
 export default function AboutPage() {
   const projects = getAllProjects();
-  const completed = projects.filter((p) => p.status === "completed").length;
   // Neighbourhoods we have built in, with project counts (from the project files).
   const areas = Object.entries(
     projects.reduce<Record<string, number>>((acc, p) => {
@@ -42,27 +42,39 @@ export default function AboutPage() {
   return (
     <>
       <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: "About", path: "/about" }])} />
-      <section className="relative flex min-h-[78svh] items-end overflow-hidden bg-night text-ivory">
-        <div className="hero-zoom absolute inset-0">
-          <MediaImg image={siteImages.aboutHero} alt={siteImages.aboutHero.alt ?? ""} sizes="100vw" priority />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-night/90 via-night/40 to-night/30" />
-        <div className="container-site relative pb-16 pt-40 lg:pb-24">
-          <p className="eyebrow hero-rise !text-ivory/80">About us</p>
-          <h1 className="t-display hero-slide mt-6 max-w-4xl text-balance" style={{ animationDelay: "0.1s" }}>
+      {/* Hero: headline on ivory, the whole image below it (no text over the building) */}
+      <section className="bg-ivory pt-32 lg:pt-40">
+        <div className="container-site">
+          <p className="eyebrow hero-rise">About us</p>
+          <h1 className="t-h1 hero-slide mt-6 max-w-4xl text-balance" style={{ animationDelay: "0.1s" }}>
             Building Jaipur&rsquo;s homes, one promise at a time
           </h1>
+          <div className="relative mt-12 aspect-[16/9] overflow-hidden bg-night lg:mt-16">
+            <MediaImg image={siteImages.aboutHero} alt={siteImages.aboutHero.alt ?? ""} sizes="(min-width: 1280px) 1200px, 100vw" priority />
+            {siteImages.aboutHero.impression && (
+              <p className="absolute right-3 top-3 bg-night/60 px-2.5 py-1 text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-ivory/85 backdrop-blur-sm">
+                Artist&rsquo;s impression
+              </p>
+            )}
+          </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container-site grid gap-14 lg:grid-cols-12">
           <Reveal className="lg:col-span-5">
-            <SectionHeading eyebrow="Our story" title={`${completed} projects delivered across Jaipur`} />
+            <SectionHeading eyebrow="Our story" title="Built on a founder's promise" />
+            <div className="mt-10 border-l-2 border-brass pl-6">
+              <p className="eyebrow">Founded by</p>
+              <p className="mt-3 font-[family-name:var(--font-display)] text-3xl text-ink">{site.founder.name}</p>
+              <p className="mt-1 text-sm text-muted">
+                {site.founder.role}, {site.name}
+              </p>
+            </div>
           </Reveal>
           <Reveal delay={0.1} className="space-y-6 text-[1.0625rem] leading-relaxed text-muted lg:col-span-6 lg:col-start-7">
             <p>
-              VD Infra Group is a Jaipur developer of luxury independent homes, villas and apartments. Our Krishnam Kothi homes in Narayan Vihar are known for their
+              VD Infra Group was founded by {site.founder.name} and has grown into a Jaipur developer of luxury independent homes, villas and apartments. Our Krishnam Kothi homes in Narayan Vihar are known for their
               complete, fully furnished interiors, with home theaters, private lifts and open-to-sky terraces.
             </p>
             <p>

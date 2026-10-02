@@ -16,15 +16,6 @@ export function JsonLd({ data }: { data: Json | Json[] }) {
   );
 }
 
-const postalAddress = {
-  "@type": "PostalAddress",
-  streetAddress: `${site.office.line1}, ${site.office.line2}`,
-  addressLocality: site.office.city,
-  addressRegion: site.office.state,
-  postalCode: site.office.postalCode,
-  addressCountry: site.office.country,
-};
-
 export function organizationLd(): Json {
   return {
     "@context": "https://schema.org",
@@ -36,7 +27,7 @@ export function organizationLd(): Json {
     description: site.description,
     telephone: site.phone,
     email: site.email,
-    address: postalAddress,
+    founder: { "@type": "Person", name: site.founder.name, jobTitle: site.founder.role },
     areaServed: { "@type": "City", name: "Jaipur" },
     sameAs: [site.instagram],
   };
