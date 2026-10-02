@@ -11,7 +11,8 @@ export function PageTransition({ children }: { children: React.ReactNode }) {
   const ref = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
     if (hydrated) ref.current?.classList.add("page-enter");
-    hydrated = true;
+    // Deferred so React's dev double-run of effects doesn't count as a navigation.
+    setTimeout(() => (hydrated = true), 0);
   }, []);
   return <div ref={ref}>{children}</div>;
 }
