@@ -1,0 +1,27 @@
+{
+  "slug": "krishnam-villa-narayan-vatika",
+  "title": "Krishnam Villa, Narayan Vatika",
+  "status": "completed",
+  "order": 56,
+  "tagline": "Completed villas in Narayan Vatika, Vidhansabha Nagar, Jaipur",
+  "location": {
+    "locality": "Narayan Vatika, Vidhansabha Nagar",
+    "address": "Narayan Vatika, Vidhansabha Nagar, Jaipur"
+  },
+  "propertyTypes": [
+    "villa"
+  ],
+  "summary": "Krishnam Villa, Narayan Vatika is a completed villa project by VD Infra Group in Narayan Vatika, Vidhansabha Nagar, Jaipur.",
+  "description": [
+    "Krishnam Villa, Narayan Vatika has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-villa-narayan-vatika/photos/01-elevation.jpg",
+      "width": 2560,
+      "height": 1920,
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAwAA4BaJbACdAEVNf9u6wAA/PttEj0cV1MIWXVYO1e5/r2Dq82fEwKO/BQajnEnL/sgdm0iMZMcF8qkHCy4iBiAAA=="
+    },
+    "gallery": []
+  }
+}

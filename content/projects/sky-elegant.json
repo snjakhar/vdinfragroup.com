@@ -1,0 +1,341 @@
+{
+  "slug": "sky-elegant",
+  "title": "Sky Elegant",
+  "status": "ready-to-move",
+  "featured": true,
+  "order": 1,
+  "tagline": "RERA-registered 3 BHK apartments in Chordia City, Ajmer Road",
+  "location": {
+    "locality": "Chordia City, Ajmer Road",
+    "address": "Plot No. R-10/65, R-10/66, R-10/67, Chordia City, Indraprasth Colony, Ajmer Road, Jaipur 302006",
+    "nearby": [
+      {
+        "name": "Poddar World School"
+      },
+      {
+        "name": "DPS, D-Mart and Decathlon on Ajmer Road"
+      },
+      {
+        "name": "Geetanjali Medical College and Hospital"
+      },
+      {
+        "name": "Heerapura flyover"
+      },
+      {
+        "name": "200 ft bypass"
+      }
+    ]
+  },
+  "propertyTypes": [
+    "apartment"
+  ],
+  "summary": "A RERA-registered, JDA-approved G+5 residential building of 3 BHK apartments by VD Infra Group in Chordia City, Ajmer Road.",
+  "description": [
+    "Sky Elegant is a thoughtfully designed residential project in Chordia City, Jaipur, bringing together modern architecture, comfortable living spaces and lifestyle amenities in a well-connected location.",
+    "Every home is a 3 BHK with a separate drawing and dining area and three spacious balconies. Apartments are offered semi-furnished, with a fully furnished option."
+  ],
+  "highlights": [
+    "RERA registered and JDA approved",
+    "Up to 90% bank loan available",
+    "3 spacious balconies with open views",
+    "Separate drawing room and dining area",
+    "Semi-furnished and fully furnished options",
+    "EV charging point and covered car parking"
+  ],
+  "stats": [
+    {
+      "label": "Building",
+      "value": "G+5"
+    },
+    {
+      "label": "Homes",
+      "value": "3 BHK"
+    },
+    {
+      "label": "Super built-up",
+      "value": "1,341 to 1,484 sq ft"
+    },
+    {
+      "label": "Status",
+      "value": "Ready to move"
+    }
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/sky-elegant/photos/00-front-artist-impression.jpg",
+      "alt": "Sky Elegant, Chordia City, Ajmer Road: artist's impression of the building",
+      "width": 2752,
+      "height": 1536,
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAQCdASoQAAkAA4BaJQBOgB9+FdAA4m7B5i3q5B4W2WVLZgNIpYXQn9FwHoIzqnZ1WDwBX3FmNcnm0B/RDAAA",
+      "impression": true
+    },
+    "gallery": [
+      {
+        "src": "projects/sky-elegant/photos/01-exterior.jpg",
+        "width": 1280,
+        "height": 960,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAwAA4BaJZwAAucA334iSAD+661yhtHRDcG6kw9XMe5iYStFlh9qrZsFsIGD9zX0zA9nPMtsMDzVU5P7d/O9LL3aQAuAAAA=",
+        "alt": "Sky Elegant apartment building, Chordia City"
+      },
+      {
+        "src": "projects/sky-elegant/photos/02-exterior-2.jpg",
+        "width": 1280,
+        "height": 960,
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAwAA4BaJZwAAueF4DnA2QAA/uiSPuvWfYBUW2WLma3rPPJLutbTYAP9zDoUTKF77saPcxlnz81drh6VNJmnSBzkgAAA",
+        "alt": "Sky Elegant entrance and landscaping"
+      },
+      {
+        "src": "projects/sky-elegant/photos/03-elevation-render.jpg",
+        "width": 1179,
+        "height": 923,
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQAgCdASoQAA0AA4BaJZAAD43xearKucVHVfgA/u5bqhaRIlpyOU5HDiQIFVMuYe2fTJYXtrJn1F4gpj7H5eKWg2UX34QGv8Fujn1Yt5bP8SplDVjEmyaeWeAAAA==",
+        "alt": "Sky Elegant elevation"
+      },
+      {
+        "src": "projects/sky-elegant/photos/04-living-room.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoMABAAA4BaJQBOgBu0mXHt0AD+6D7EtASD+yKPiRNx+RpqKQlD3kj1Oft44rLgNVv243/P+p4QXvs7z28WXF5imf4H0xZLF0O+GlqGBC1gmQAAAAA=",
+        "alt": "Living room with designer feature wall"
+      },
+      {
+        "src": "projects/sky-elegant/photos/05-living-room-2.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAQCdASoMABAAA4BaJQBOgBsnPTIAAP7I5SHZYgnvkhq1jBJzAyt4QL93dPXCKWcvaa/NUdIiTid6DbhnSQxB5F5R1/Ohu4hzi/mJb1UK6kdIPkJXl+ERxuwAAA==",
+        "alt": "Living room with sectional sofa"
+      },
+      {
+        "src": "projects/sky-elegant/photos/06-living-partition.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoMABAAA4BaJQBOgB7FSLe3CAD+51LiUROcU/4Jg+7kOKcbRj7Xdu0oewlkEYzSZLS8h9bIbwf+bo28HbdJWWASPIbPctFLlOfdpjNXJHAAAA==",
+        "alt": "Living area with wooden partition"
+      },
+      {
+        "src": "projects/sky-elegant/photos/07-living-wide.jpg",
+        "width": 1280,
+        "height": 960,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAwAA4BaJYwCdAEN2V+tWT8AAP6RK1n8BsrUrHEpy9TGvdChx2rj2taH8L8AcOp8Vyy5IseOtIVxPiV81LbdkwsfTxpr9NcAAA==",
+        "alt": "Open living space"
+      },
+      {
+        "src": "projects/sky-elegant/photos/08-lounge.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoMABAAA4BaJZgCdADbpU8WcAD+mCU1YuSoRHpkMgDrL/yOHq8UY31hwhMasQ/efUtXfCdaeU0K74WX9oCQNrmg/PCIPYJiYOAAAA==",
+        "alt": "Lounge with backlit panels"
+      },
+      {
+        "src": "projects/sky-elegant/photos/09-lounge-2.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoMABAAA4BaJZACdADhTAhBqAD91Zsy3R3RWG/aW0/6vddt+n8/xZGlepsW5Pw9AcIuPeU8+ttjHGT0mPuB0RX31ucnu6+EKyrmDDQA",
+        "alt": "Lounge with L-shaped sofa"
+      },
+      {
+        "src": "projects/sky-elegant/photos/10-dining.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoMABAAA4BaJQBOgBs1XD8IAAD+33BkcCkGJceRD2ot7BJKze3kB4Zv7V1i4wUDZqLw+Qq15zEoumgug3CObwweoyobxlqAAAA=",
+        "alt": "Dining area with crockery unit"
+      },
+      {
+        "src": "projects/sky-elegant/photos/11-dining-2.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoMABAAA4BaJYgCdAELMZ9NERogAAD+r9Mgnnf7S7o6eYILHMWIt1oyaBfEww+Gg+cXr0pzXgS4FO3lRiXk4fXbVH1rbv4vDYXgUAAA",
+        "alt": "Dining table and display unit"
+      },
+      {
+        "src": "projects/sky-elegant/photos/12-bedroom.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoMABAAA4BaJbACdADcIQEsMgUoAAD+5+xIx3lB1LuU2GTiO36PgsrMzN4jWgKAarCyNll1cekcz72jjzYS8j2ygG34R6g7dAOmytG6RSFmwcyWPn4AAA==",
+        "alt": "Bedroom with upholstered headboard"
+      },
+      {
+        "src": "projects/sky-elegant/photos/13-kitchen.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoMABAAA4BaJYgCdADXDiiVYAD+yGsxH9gh7isnovjvRLT6ITxvkVgoUo4JQ2JTx/by4zI5ZvZAhuiQt9EOo25gAAA=",
+        "alt": "Modular kitchen"
+      },
+      {
+        "src": "projects/sky-elegant/photos/14-kitchen-2.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoMABAAA4BaJQBOgBrXcijAAP6N2X3G6uN5BbMmtxSftrx1dgVeXJBYN/h+qhPWeVOJACPz8CO5eGwoGLNAAA==",
+        "alt": "Kitchen with chimney"
+      },
+      {
+        "src": "projects/sky-elegant/photos/15-bathroom.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAgCdASoMABAAA4BaJYwCw7EesR2quE643gAA/uGfhMdDTDK2Q7cad+70Z1Mq9ky4oOY/D4Yivy/ZqhPGN/ZfLvXaWQaQ+AA=",
+        "alt": "Bathroom with anti-skid tiles"
+      },
+      {
+        "src": "projects/sky-elegant/photos/16-balcony.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMABAAA4BaJYwCw7DcHhhq8ggA/uwLZFvuSC58D/iRS/RkTLX6bbPZrfncmxGpaCfqz/EfX9hNmW2S202g2SHSsgUTcMADAAA=",
+        "alt": "Balcony with glass railing"
+      },
+      {
+        "src": "projects/sky-elegant/photos/17-balcony-view.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoMABAAA4BaJZQCw7EQCRF2kAAAzj8wGlsaHtrY+YPskeGaMLvKx2JpJBZAjLc41/e/dNVbLZPXUMl0X3MS506BuTP2UERIMwAAAA==",
+        "alt": "View from the balcony"
+      }
+    ],
+    "floorPlans": [
+      {
+        "title": "Unit plans",
+        "configuration": "3 BHK (flats 101 to 107)",
+        "area": "1,341 to 1,484 sq ft super built-up",
+        "image": {
+          "src": "projects/sky-elegant/floor-plans/unit-plans.jpg",
+          "alt": "Sky Elegant 3 BHK unit plans, flats 101 to 107",
+          "width": 2572,
+          "height": 909
+        }
+      },
+      {
+        "title": "Typical and top floor",
+        "configuration": "7 homes per floor; terrace amenities",
+        "area": "Typical floor and terrace plan",
+        "image": {
+          "src": "projects/sky-elegant/floor-plans/typical-and-top-floor-plan.jpg",
+          "alt": "Sky Elegant typical floor plan and top floor terrace plan",
+          "width": 2572,
+          "height": 909
+        }
+      }
+    ],
+    "brochure": "projects/sky-elegant/brochure.pdf",
+    "heroSquare": {
+      "src": "projects/sky-elegant/photos/00-front-square-artist-impression.jpg",
+      "alt": "Sky Elegant, Chordia City, Ajmer Road: artist's impression of the building",
+      "width": 2048,
+      "height": 2048,
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAgCdASoQABAAA4BaJbACdH8AGBxgG4z03zAAAP7q1gP7xEYn5Fpiuty5YFBrPwOZ/U6CXelL/G/bR/QWqozQEWkqPxbvrt7Zgy1XqEAAAA==",
+      "impression": true
+    }
+  },
+  "amenities": [
+    "kids-play",
+    "gym",
+    "gazebo",
+    "yoga",
+    "rooftop-garden",
+    "lifts",
+    "security",
+    "cctv",
+    "intercom",
+    "power-backup",
+    "parking",
+    "fire-safety",
+    "ev-charging"
+  ],
+  "configurations": [
+    {
+      "type": "3 BHK (flats 101, 105)",
+      "superArea": "1,483 to 1,484 sq ft",
+      "price": "₹75 L (semi-furnished)",
+      "availability": "Fully furnished: +₹8 L"
+    },
+    {
+      "type": "3 BHK (flat 102)",
+      "superArea": "1,403 sq ft",
+      "price": "₹72 L (semi-furnished)",
+      "availability": "Fully furnished: +₹8 L"
+    },
+    {
+      "type": "3 BHK (flats 106, 107)",
+      "superArea": "1,355 to 1,358 sq ft",
+      "price": "₹68 L (semi-furnished)",
+      "availability": "Fully furnished: +₹8 L"
+    },
+    {
+      "type": "3 BHK (flats 103, 104)",
+      "superArea": "1,341 sq ft",
+      "price": "₹65 L (semi-furnished)",
+      "availability": "Fully furnished: +₹8 L"
+    }
+  ],
+  "specifications": [
+    {
+      "group": "General",
+      "items": [
+        "Earthquake-resistant RCC framed structure",
+        "Contemporary facade and elevation",
+        "Dedicated stilt parking",
+        "Naturally lit, well-ventilated homes",
+        "Granite / vitrified flooring in corridors and staircases",
+        "Elegant main entrance lobby",
+        "Vastu-friendly layout"
+      ]
+    },
+    {
+      "group": "Security",
+      "items": [
+        "4-tier round-the-clock security",
+        "Guard at main entrance gate",
+        "RFID boom barrier at main gate",
+        "24x7 CCTV surveillance",
+        "Access control at main entrance lobby",
+        "Card-reader security locks",
+        "Intercom for guard and intra-building connectivity"
+      ]
+    },
+    {
+      "group": "Residences",
+      "items": [
+        "Designer tile flooring in drawing, dining, kitchen and bedrooms",
+        "POP-finished walls and ceilings",
+        "Asian Paints Royale finish",
+        "Aluminium / UPVC sliding doors and windows",
+        "Designer main gate and premium laminated doors"
+      ]
+    },
+    {
+      "group": "Washrooms",
+      "items": [
+        "Designer wall tiles and anti-skid floor tiles",
+        "Premium sanitaryware; CP fittings by Jaquar and Essco",
+        "WC with concealed cistern",
+        "Grid false ceiling in all washrooms"
+      ]
+    },
+    {
+      "group": "Kitchen",
+      "items": [
+        "Stainless-steel sink",
+        "2 ft dado tiles above the counter",
+        "Provision for geyser and RO"
+      ]
+    },
+    {
+      "group": "Electrical",
+      "items": [
+        "1 KVA power backup in common areas",
+        "Premium wires, cables and modular switches",
+        "Concealed AC piping in drawing, dining and all bedrooms",
+        "DTH and Wi-Fi wiring"
+      ]
+    },
+    {
+      "group": "Common services",
+      "items": [
+        "2 high-speed automatic elevators with auto-rescue device",
+        "Firefighting system",
+        "24x7 water supply with overhead and underground tanks",
+        "Silent DG backup for essential common facilities"
+      ]
+    }
+  ],
+  "rera": "RAJ/P/2026/4949",
+  "possession": "Ready to move"
+}

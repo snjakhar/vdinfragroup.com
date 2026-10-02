@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects: old or renamed URLs -> new URLs (301 = permanent).
+# Format: /old-path  /new-path  301
+# Example after renaming a project:
+# /projects/vd-greens-old  /projects/vd-greens  301
+/home  /  301
+/projects/ready  /projects/ready-to-move  301

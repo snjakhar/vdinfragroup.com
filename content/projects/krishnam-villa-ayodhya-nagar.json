@@ -1,0 +1,27 @@
+{
+  "slug": "krishnam-villa-ayodhya-nagar",
+  "title": "Krishnam Villa, Ayodhya Nagar",
+  "status": "completed",
+  "order": 55,
+  "tagline": "Completed villas in Ayodhya Nagar, Jaipur",
+  "location": {
+    "locality": "Ayodhya Nagar",
+    "address": "Ayodhya Nagar, Jaipur"
+  },
+  "propertyTypes": [
+    "villa"
+  ],
+  "summary": "Krishnam Villa, Ayodhya Nagar is a completed villa project by VD Infra Group in Ayodhya Nagar, Jaipur.",
+  "description": [
+    "Krishnam Villa, Ayodhya Nagar has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-villa-ayodhya-nagar/photos/01-elevation.jpg",
+      "width": 2619,
+      "height": 1875,
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAsAA4BaJYwCdACyiFZkgADJ73tVh8srX9XDSz/kJ3rrW6iJtiw/tCT2PDqk0HQKQBdYLv5Vpjs8CW5Wb7Ho9+ZCz2Sq8bGAAA=="
+    },
+    "gallery": []
+  }
+}

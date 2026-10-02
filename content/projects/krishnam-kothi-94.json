@@ -1,0 +1,150 @@
+{
+  "slug": "krishnam-kothi-94",
+  "title": "Krishnam Kothi 94",
+  "status": "completed",
+  "order": 13,
+  "tagline": "200 sq yd, 5 BHK luxury kothi with gym and rooftop garden",
+  "location": {
+    "locality": "Narayan Vihar, Mansarovar",
+    "address": "Narayan Vihar, Mansarovar, Jaipur",
+    "lat": 26.862755,
+    "lng": 75.718163,
+    "nearby": [
+      {
+        "name": "Geetanjali Hospital",
+        "distance": "1 km"
+      },
+      {
+        "name": "Heerapura Bus Stand",
+        "distance": "1 km"
+      },
+      {
+        "name": "100 ft Sector Road"
+      },
+      {
+        "name": "School and temple nearby"
+      }
+    ]
+  },
+  "propertyTypes": [
+    "kothi"
+  ],
+  "summary": "A 5 BHK super-luxury kothi on a 200 sq yd (30 x 60) plot in Narayan Vihar, with a gym, rooftop garden and private lift.",
+  "description": [
+    "Krishnam Kothi 94 is a west-facing independent home on a 40 ft road, 50 m from a fully developed JDA park. It has five bedrooms, six bathrooms, a gym, gazebo seating, a private lift, a double entry and an open-to-sky party area.",
+    "It was handed over fully furnished. The home has been sold."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-kothi-94/photos/01-exterior-dusk.jpg",
+      "width": 2250,
+      "height": 3000,
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoMABAAA4BaJYgCdADdQXZalYAA/o3PoZCs34rfiV3YvaiOEKntNZ+gkiyHknIQWc85GuX5hGv0FOERYyS3Gcetrn050QQU5cTkyufQJsO7I34puW+1QtHgeAAAAA==",
+      "alt": "Krishnam Kothi 94 sculpted facade at dusk"
+    },
+    "gallery": [
+      {
+        "src": "projects/krishnam-kothi-94/photos/02-exterior.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMABAAA4BaJYgCdADc+DMQEHtAAP6RN3fFPiryzl+afUO1aj85Ytozuf4zRQDTnb0C5n1DzGlv6q1olCQJpV0iuX+dPsXaqOfpXVA02PqgI4XETDTFCthFfoEAAA==",
+        "alt": "Front elevation with curved balconies"
+      },
+      {
+        "src": "projects/krishnam-kothi-94/photos/03-exterior-angle.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoMABAAA4BaJQBOgBufDWCuRLwA/mfaNJhdi0aLMQlUDJNRu+MpvHnM6r7E74rp9T/cuIQ479U09KwdSE+dcfBcd9K1yk8YU+j8R5fooB/Wkn4XLOAAAA==",
+        "alt": "Facade lighting and landscaped entrance"
+      }
+    ]
+  },
+  "highlights": [
+    "200 sq yd (30 x 60) plot on a 40 ft road",
+    "West facing; 50 m from a JDA park",
+    "Gym, gazebo and rooftop garden",
+    "Private lift and double entry",
+    "Fully furnished"
+  ],
+  "stats": [
+    {
+      "label": "Plot",
+      "value": "200 sq yd"
+    },
+    {
+      "label": "Bedrooms",
+      "value": "5"
+    },
+    {
+      "label": "Bathrooms",
+      "value": "6"
+    },
+    {
+      "label": "Facing",
+      "value": "West"
+    }
+  ],
+  "amenities": [
+    "gym",
+    "gazebo",
+    "party-terrace",
+    "rooftop-garden",
+    "lift",
+    "parking",
+    "cctv",
+    "video-door-phone",
+    "furnished"
+  ],
+  "configurations": [
+    {
+      "type": "5 BHK Kothi",
+      "carpetArea": "200 sq yd plot",
+      "price": "Sold out"
+    }
+  ],
+  "specifications": [
+    {
+      "group": "Home",
+      "items": [
+        "5 bedrooms and 6 bathrooms",
+        "Gym and gazebo seating area",
+        "Private lift and double entry",
+        "2-car parking and big balcony",
+        "24x7 water supply"
+      ]
+    },
+    {
+      "group": "Furnishing",
+      "items": [
+        "Three 55-inch Samsung TVs",
+        "Centralised AC (Daikin) and 7 split ACs (Voltas)"
+      ]
+    },
+    {
+      "group": "Modular kitchen",
+      "items": [
+        "Chimney, hob, dishwasher, microwave and OTG (Hindware)",
+        "Side-by-side refrigerator (Godrej)",
+        "RO (Havells) and geyser (Orient)",
+        "Air conditioning"
+      ]
+    },
+    {
+      "group": "Bathrooms",
+      "items": [
+        "Premium Jaguar sanitaryware",
+        "Jaguar wall-mounted WC, bathroom and wash-basin diverters",
+        "Ceiling shower and premium glass partition",
+        "Orient geyser, wooden utility racks and accessories combo"
+      ]
+    },
+    {
+      "group": "Security",
+      "items": [
+        "CCTV cameras on parking and rooftop",
+        "Video door phone with automatic lock",
+        "Premium locks on all gates"
+      ]
+    }
+  ]
+}

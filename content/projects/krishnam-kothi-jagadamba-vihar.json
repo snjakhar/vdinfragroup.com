@@ -1,0 +1,27 @@
+{
+  "slug": "krishnam-kothi-jagadamba-vihar",
+  "title": "Krishnam Kothi, Jagadamba Vihar",
+  "status": "completed",
+  "order": 52,
+  "tagline": "Completed luxury kothi in Jagadamba Vihar, Jaipur",
+  "location": {
+    "locality": "Jagadamba Vihar",
+    "address": "Jagadamba Vihar, near Manas Hospital, Jaipur"
+  },
+  "propertyTypes": [
+    "kothi"
+  ],
+  "summary": "Krishnam Kothi, Jagadamba Vihar is a completed luxury kothi project by VD Infra Group in Jagadamba Vihar, Jaipur.",
+  "description": [
+    "Krishnam Kothi, Jagadamba Vihar has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-kothi-jagadamba-vihar/photos/01-elevation.jpg",
+      "width": 1280,
+      "height": 960,
+      "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAQCdASoQAAwAA4BaJZACdADiJtToybgA/pG5YNaneJsIpF9Jbu6WQA8io2CgeMPMpmIoYrrESu/V/YLQKeKneWqLGyaEc11ipoKSTdM8qQ4lgkxwtvAQeHqArRYxGHsOTBfT1TxnT68XzLgAAA=="
+    },
+    "gallery": []
+  }
+}

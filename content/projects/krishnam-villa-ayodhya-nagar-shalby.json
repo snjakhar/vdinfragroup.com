@@ -1,0 +1,27 @@
+{
+  "slug": "krishnam-villa-ayodhya-nagar-shalby",
+  "title": "Krishnam Villa, Ayodhya Nagar (Shalby Hospital)",
+  "status": "completed",
+  "order": 54,
+  "tagline": "Completed villas in Ayodhya Nagar, Vaishali West, Jaipur",
+  "location": {
+    "locality": "Ayodhya Nagar, Vaishali West",
+    "address": "Ayodhya Nagar, near Shalby Hospital, Vaishali West, Jaipur"
+  },
+  "propertyTypes": [
+    "villa"
+  ],
+  "summary": "Krishnam Villa, Ayodhya Nagar (Shalby Hospital) is a completed villa project by VD Infra Group in Ayodhya Nagar, Vaishali West, Jaipur.",
+  "description": [
+    "Krishnam Villa, Ayodhya Nagar (Shalby Hospital) has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-villa-ayodhya-nagar-shalby/photos/01-elevation.jpg",
+      "width": 874,
+      "height": 1024,
+      "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoOABAAA4BaJYwCdAEPNhGKrKAAzemx9AW+OfVlT7ulLedKNMSTf/PAezx+n9gqnrz1BYiG0iwagBQfxBeeDeE6+QdKbUx56LjixkHBaHhcwjrhP40uAAAA"
+    },
+    "gallery": []
+  }
+}

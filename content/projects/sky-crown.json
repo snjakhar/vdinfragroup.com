@@ -1,0 +1,293 @@
+{
+  "slug": "sky-crown",
+  "title": "Sky Crown",
+  "status": "completed",
+  "order": 12,
+  "tagline": "RERA-registered 2 and 3 BHK apartments in Chordia City",
+  "location": {
+    "locality": "Chordia City, Ajmer Road",
+    "address": "Plot No. R-11/97, R-11/98, R-11/99, Chordia City, Indraprasth Colony, Ajmer Road, Jaipur 302006",
+    "nearby": [
+      {
+        "name": "Kamla Nehru Pulia"
+      },
+      {
+        "name": "Poddar World School"
+      },
+      {
+        "name": "Heerapura Bus Stand"
+      },
+      {
+        "name": "Mansarovar Metro"
+      },
+      {
+        "name": "Gandhi Path West"
+      }
+    ]
+  },
+  "propertyTypes": [
+    "apartment"
+  ],
+  "summary": "A RERA-registered, JDA-approved G+5 apartment building of 2 and 3 BHK homes in Chordia City, with a terrace gym, gazebo and kids' play area.",
+  "description": [
+    "Sky Crown is a RERA-registered and JDA-approved housing society in Chordia City, Jaipur. The G+5 building offers 2 and 3 BHK homes with lifestyle amenities on the terrace: a covered gym, gazebo, yoga area, seating and a kids' play area.",
+    "The project has been completed and all homes are sold."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/sky-crown/photos/01-exterior.jpg",
+      "width": 1286,
+      "height": 965,
+      "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwAA4BaJQBOgCHwj2muhn4AAP6Y9M8A5MBKd+J84KaoqqVP2+uao2/KQZIeZyFZweZz3iVlz4+4ldLnwXSl/Fb8dpszzQyXFGA2ig0+RhNNqgAAAA==",
+      "alt": "Sky Crown apartment building, Chordia City"
+    },
+    "gallery": [
+      {
+        "src": "projects/sky-crown/photos/02-exterior-side.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMABAAA4BaJZACdAD7Fqf6LkQAAP7UsQjDSm8zeMRbuzdSXInFM5e6Sp+O01zFtehgdb8OHA7EB0aXBUhO9w3tMVR0gVEwAAA=",
+        "alt": "Sky Crown side elevation"
+      },
+      {
+        "src": "projects/sky-crown/photos/03-living-room.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoMABAAA4BaJYwCdADgpWM0gAD8jIohm3TfHdTNjk8MzTRXw37ZBywh4jJP4W5MwqhZaWjWOJcfvnRDi+pzmp+nRu6egAAA",
+        "alt": "Living room with feature wall"
+      },
+      {
+        "src": "projects/sky-crown/photos/04-living-dining.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoMABAAA4BaJQBOgCabjqNEXlH4APyFrTz6uBvaP9P9gLgcJxqhVVBtOm2hQmHsnk+WAKUC7jSkNv07OoYD6XGMVlbq7Pd5TR10X65ODde0ncAA",
+        "alt": "Open living and dining area"
+      },
+      {
+        "src": "projects/sky-crown/photos/05-living-tv.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoMABAAA4BaJQBOgCPqVAdlJA1AAAD8s25RDVbBp8WNJRZRs9GduN2AAXvX4wUMlSOCCX7OkZBOMOCu5VLvLda3C+58F1KID78VAAAA",
+        "alt": "Living room with TV unit"
+      },
+      {
+        "src": "projects/sky-crown/photos/06-dining.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMABAAA4BaJYwCdAD0MK71AAAA/sQhZB6lwIqXnIZIaGVh28aF0pakXFcc7PVjysPJsRWfhvEZtPQRMNcuWef9HRMI4GpMAAA=",
+        "alt": "Dining area"
+      },
+      {
+        "src": "projects/sky-crown/photos/07-kitchen.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMABAAA4BaJagCdADy8uyVSAD+mD/Vs8yWxdO0hx2P6Flz2Ap037ftnE2maQcmqyM3UCnKXHs6fqdbgaxu777ZzY1AelbR6ym0mkCYAAA=",
+        "alt": "Kitchen with wooden partition"
+      },
+      {
+        "src": "projects/sky-crown/photos/08-bedroom.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMABAAA4BaJbACdAD7FY/NFWMAAP7E/nXrPhWpdVlilJT6esNt+Os4/t+Jf+YqV4rFZj54wWrRgEzM28T+dB34kj/PO0cLOn5/6+MBRjB7xabdS+B1jW8qn0AAAA==",
+        "alt": "Bedroom with arched headboard"
+      },
+      {
+        "src": "projects/sky-crown/photos/09-bedroom-2.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoMABAAA4BaJbACdAEDcv70FxAAAP6aEXo3yGeNQeBujzM4/KN4U9DKuzr+rq50DlAZe6RNqRG5y1MU2V2v9faK0WHMvamSNE/D60N+RFRYBPVVOxDAVeECYAA=",
+        "alt": "Bedroom with wardrobe"
+      },
+      {
+        "src": "projects/sky-crown/photos/10-bedroom-3.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoMABAAA4BaJbACdADhk2nG/VO/AAD+YToWRI4rS0BiGIL/MlbuNWYqqosRecPAfZqQ69cm34HPHbz4Ch7PkjIt6TuIc7rf160trBwQ7B3RTg7aUAAAAA==",
+        "alt": "Bedroom with wall mural"
+      },
+      {
+        "src": "projects/sky-crown/photos/11-bedroom-4.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMABAAA4BaJZACdADco08FIAD98GcVAg0NKe2WPTS/BfLh7CdyoH2jkuQVD9tTXt0xqOiJeSFzgkTWFc4nwf7huvYmeivVJkvdQwS10AA=",
+        "alt": "Bedroom with backlit panel"
+      },
+      {
+        "src": "projects/sky-crown/photos/12-bedroom-5.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoMABAAA4BaJbACdADcqd3Q9gAA/fh4SjFVQLVIsO3BIwcFpuvQZV98mEYeqt7xzsYiZ8UGblIsJxzN0lmScy2MsNKwPMcAa32ucfe+RSlZBTYAAAA=",
+        "alt": "Bedroom with wardrobes"
+      },
+      {
+        "src": "projects/sky-crown/photos/13-balcony.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoMABAAA4BaJZACdAEfp09Wc0yzaAAA/sFnAZ0Ji5Yzgqd8KuoQODyaAZQeO6lhCuNb5VtVnwbqQnRsIyYYIOnmNZZRcgRnHoUazk9M7WCsSAAA",
+        "alt": "Balcony with wooden ceiling"
+      },
+      {
+        "src": "projects/sky-crown/photos/14-bathroom.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMABAAA4BaJZgCdADznucVXoOgAP20iakmB2vKptMUbpFpVo/SqAQ+9aOpvYJFCEcjVXbHYPKSxvN49y0de+Dq2vLP1wFeIAA=",
+        "alt": "Bathroom with patterned floor tiles"
+      },
+      {
+        "src": "projects/sky-crown/photos/15-bathroom-2.jpg",
+        "width": 2250,
+        "height": 3000,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoMABAAA4BaJYgCdADdQkRAO3AAAP5OctB4lg/aagOH9YfQF7U4kGqQPHpahQLqkWwKXyrwTaA3IZldFMOOFlAA",
+        "alt": "Bathroom with wood-finish wall"
+      }
+    ],
+    "floorPlans": [
+      {
+        "title": "Typical floor",
+        "configuration": "2 and 3 BHK (flats 101 to 108)",
+        "area": "848 to 1,479 sq ft super built-up",
+        "image": {
+          "src": "projects/sky-crown/floor-plans/typical-floor-plan.jpg",
+          "alt": "Sky Crown typical floor plan with flats 101 to 108",
+          "width": 1754,
+          "height": 1240
+        }
+      },
+      {
+        "title": "Terrace",
+        "configuration": "Gym, gazebo, seating and kids' play area",
+        "area": "Top floor plan",
+        "image": {
+          "src": "projects/sky-crown/floor-plans/top-floor-plan.jpg",
+          "alt": "Sky Crown top floor terrace plan",
+          "width": 1754,
+          "height": 1240
+        }
+      }
+    ],
+    "brochure": "projects/sky-crown/brochure.pdf"
+  },
+  "featured": true,
+  "highlights": [
+    "RERA registered and JDA approved",
+    "Terrace gym, gazebo, yoga and kids' play area",
+    "2 high-speed elevators with auto-rescue",
+    "Close to Kamla Nehru Pulia and Mansarovar Metro"
+  ],
+  "stats": [
+    {
+      "label": "Building",
+      "value": "G+5"
+    },
+    {
+      "label": "Homes per floor",
+      "value": "8"
+    },
+    {
+      "label": "Homes",
+      "value": "2 & 3 BHK"
+    },
+    {
+      "label": "Status",
+      "value": "Completed"
+    }
+  ],
+  "amenities": [
+    "kids-play",
+    "gym",
+    "gazebo",
+    "yoga",
+    "rooftop-garden",
+    "lifts",
+    "security",
+    "cctv",
+    "intercom",
+    "power-backup",
+    "parking",
+    "fire-safety"
+  ],
+  "configurations": [
+    {
+      "type": "2 BHK",
+      "superArea": "848 to 850 sq ft",
+      "price": "Sold out"
+    },
+    {
+      "type": "3 BHK",
+      "superArea": "1,279 to 1,479 sq ft",
+      "price": "Sold out"
+    }
+  ],
+  "specifications": [
+    {
+      "group": "General",
+      "items": [
+        "Earthquake-resistant RCC framed structure",
+        "Contemporary facade and elevation",
+        "Dedicated stilt parking",
+        "Naturally lit, well-ventilated homes",
+        "Granite / vitrified flooring in corridors and staircases",
+        "Elegant main entrance lobby",
+        "Vastu-friendly layout"
+      ]
+    },
+    {
+      "group": "Security",
+      "items": [
+        "4-tier round-the-clock security",
+        "Guard at main entrance gate",
+        "RFID boom barrier at main gate",
+        "24x7 CCTV surveillance",
+        "Access control at main entrance lobby",
+        "Card-reader security locks",
+        "Intercom for guard and intra-building connectivity"
+      ]
+    },
+    {
+      "group": "Residences",
+      "items": [
+        "Designer tile flooring in drawing, dining, kitchen and bedrooms",
+        "POP-finished walls and ceilings",
+        "Asian Paints Royale finish",
+        "Aluminium / UPVC sliding doors and windows",
+        "Designer main gate and premium laminated doors"
+      ]
+    },
+    {
+      "group": "Washrooms",
+      "items": [
+        "Designer wall tiles and anti-skid floor tiles",
+        "Premium sanitaryware; CP fittings by Jaquar and Essco",
+        "WC with concealed cistern",
+        "Grid false ceiling in all washrooms"
+      ]
+    },
+    {
+      "group": "Kitchen",
+      "items": [
+        "Stainless-steel sink",
+        "2 ft dado tiles above the counter",
+        "Provision for geyser and RO"
+      ]
+    },
+    {
+      "group": "Electrical",
+      "items": [
+        "1 KVA power backup in common areas",
+        "Premium wires, cables and modular switches",
+        "Concealed AC piping in drawing, dining and all bedrooms",
+        "DTH and Wi-Fi wiring"
+      ]
+    },
+    {
+      "group": "Common services",
+      "items": [
+        "2 high-speed automatic elevators with auto-rescue device",
+        "Firefighting system",
+        "24x7 water supply with overhead and underground tanks",
+        "Silent DG backup for essential common facilities"
+      ]
+    }
+  ],
+  "rera": "RAJ/P/2025/4463"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "krishnam-residency",
+  "title": "Krishnam Residency",
+  "status": "completed",
+  "order": 53,
+  "tagline": "Completed apartments in Kamala Nehru Nagar, Ajmer Road, Jaipur",
+  "location": {
+    "locality": "Kamala Nehru Nagar, Ajmer Road",
+    "address": "Kamala Nehru Nagar, near Ajmer Road, Jaipur"
+  },
+  "propertyTypes": [
+    "apartment"
+  ],
+  "summary": "Krishnam Residency is a completed apartment project by VD Infra Group in Kamala Nehru Nagar, Ajmer Road, Jaipur.",
+  "description": [
+    "Krishnam Residency has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-residency/photos/01-elevation-1.jpg",
+      "width": 2560,
+      "height": 1920,
+      "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAwAA4BaJbACdADpFFzbXDvAAM44szD5S+zWvlwUgKM8JPcOV2PEkIc5sde9amw16NXkOF6J476xoh9UyA5EHHPbrOcxHp2EvIrEAAA="
+    },
+    "gallery": [
+      {
+        "src": "projects/krishnam-residency/photos/02-elevation-2.jpg",
+        "width": 2560,
+        "height": 1920,
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwAA4BaJbACdADGYedjxcAA+Rtbt43yHsVtkTcDhQUbemEUllhJlJyXU09YBlAc32+Fbv5VIfYgLjYDE957DqjmhY5pHaIDvKyTAAA="
+      }
+    ]
+  }
+}

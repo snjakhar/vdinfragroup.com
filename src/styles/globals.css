@@ -1,0 +1,307 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    background: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+  ::selection {
+    background: var(--color-brass);
+    color: var(--color-ivory);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brass);
+    outline-offset: 3px;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+@layer components {
+  /* Fluid type scale (1.25 ratio). Headings use the serif display face. */
+  .t-display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(2.6rem, 1.6rem + 4.6vw, 6rem);
+    line-height: 1.02;
+    letter-spacing: -0.015em;
+  }
+  .t-h1 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(2.3rem, 1.6rem + 3vw, 4.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+  .t-h2 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(2rem, 1.5rem + 2vw, 3.5rem);
+    line-height: 1.08;
+    letter-spacing: -0.005em;
+  }
+  .t-h3 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.3rem + 0.8vw, 2rem);
+    line-height: 1.15;
+  }
+  .t-lead {
+    font-size: clamp(1.05rem, 1rem + 0.3vw, 1.25rem);
+    line-height: 1.7;
+    color: var(--color-muted);
+  }
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-brass-deep);
+  }
+  .container-site {
+    width: 100%;
+    max-width: var(--container-site);
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-site {
+      padding-inline: 2.5rem;
+    }
+  }
+  .section {
+    padding-block: 4rem;
+  }
+  @media (min-width: 1024px) {
+    .section {
+      padding-block: 8rem;
+    }
+  }
+  .hairline {
+    border-color: var(--color-sand);
+  }
+
+  /* Long-form text from MDX (blog posts, legal pages) */
+  .prose-vd {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: #34322e;
+  }
+  .prose-vd > * + * {
+    margin-top: 1.25em;
+  }
+  .prose-vd h2 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(1.75rem, 1.4rem + 1vw, 2.25rem);
+    line-height: 1.15;
+    color: var(--color-ink);
+    margin-top: 2.2em;
+  }
+  .prose-vd h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--color-ink);
+    margin-top: 1.8em;
+  }
+  .prose-vd a {
+    color: var(--color-brass-deep);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .prose-vd ul,
+  .prose-vd ol {
+    padding-left: 1.25em;
+  }
+  .prose-vd ul {
+    list-style: disc;
+  }
+  .prose-vd ol {
+    list-style: decimal;
+  }
+  .prose-vd li + li {
+    margin-top: 0.4em;
+  }
+  .prose-vd li::marker {
+    color: var(--color-brass);
+  }
+  .prose-vd strong {
+    color: var(--color-ink);
+    font-weight: 600;
+  }
+  .prose-vd blockquote {
+    border-left: 2px solid var(--color-brass);
+    padding-left: 1.25em;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: var(--color-ink);
+  }
+  .prose-vd table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  .prose-vd th,
+  .prose-vd td {
+    border-bottom: 1px solid var(--color-sand);
+    padding: 0.7em 0.5em;
+    text-align: left;
+  }
+  .prose-vd th {
+    font-weight: 600;
+    color: var(--color-ink);
+  }
+}
+
+@layer utilities {
+  .ease-premium {
+    transition-timing-function: var(--ease-premium);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Hero entrance: pure CSS so it runs before JavaScript loads (no LCP delay). */
+@keyframes heroRise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes heroZoom {
+  from {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.hero-rise {
+  animation: heroRise 1s var(--ease-premium) both;
+}
+/* Headlines only slide: an element that starts at opacity 0 is not counted for LCP. */
+@keyframes heroSlide {
+  from {
+    transform: translateY(28px);
+  }
+  to {
+    transform: none;
+  }
+}
+.hero-slide {
+  animation: heroSlide 1.2s var(--ease-premium) both;
+}
+.hero-zoom {
+  animation: heroZoom 2.4s var(--ease-premium) both;
+}
+
+/* Scroll reveals (classes added by MotionProvider). Hidden only once JS is running. */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s var(--ease-premium),
+    transform 0.7s var(--ease-premium);
+}
+.js [data-reveal="image"] {
+  opacity: 0.4;
+  transform: scale(1.06);
+  clip-path: inset(8% 8% 8% 8%);
+  transition:
+    opacity 1.1s var(--ease-premium),
+    transform 1.1s var(--ease-premium),
+    clip-path 1.1s var(--ease-premium);
+}
+.js [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+  clip-path: inset(0 0 0 0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal] {
+    opacity: 1;
+    transform: none;
+    clip-path: none;
+  }
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.page-enter {
+  animation: pageEnter 0.45s var(--ease-premium) both;
+}
+
+@keyframes megaIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.mega-in {
+  animation: megaIn 0.35s var(--ease-premium) both;
+}

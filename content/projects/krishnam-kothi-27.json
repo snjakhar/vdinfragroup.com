@@ -1,0 +1,155 @@
+{
+  "slug": "krishnam-kothi-27",
+  "title": "Krishnam Kothi 27",
+  "status": "completed",
+  "order": 11,
+  "tagline": "Completed luxury kothi by VD Infra Group",
+  "location": {
+    "locality": "Jaipur",
+    "address": "Jaipur"
+  },
+  "propertyTypes": [
+    "kothi"
+  ],
+  "summary": "A completed luxury independent home by VD Infra Group, with double-height living spaces, a terrace lawn and fully finished interiors.",
+  "description": [
+    "Krishnam Kothi 27 has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-kothi-27/photos/01-exterior.jpg",
+      "width": 960,
+      "height": 1280,
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMABAAA4BaJQBOgCFgNBA1QxIAAPlSC29Ha5KkncmXy1sIwwGb1fk5xLY6wJ29OjRxQmr6hmapH+islloYeMSAyt3nkSD/jYeG/vGFdl2+TjIlVbPnCnBKxIAAAA==",
+      "alt": "Krishnam Kothi 27 front elevation"
+    },
+    "gallery": [
+      {
+        "src": "projects/krishnam-kothi-27/photos/02-living-room.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoMABAAA4BaJYwCw7D1esplgaGKTAD8yXsH9LvPYuxGZDCQEasm1ST8tb5z3FrRhSGvfecGxm8/lp7H88gvk5V3AAA=",
+        "alt": "Living room with L-shaped sofa and jaali partition"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/03-living-room-2.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoMABAAA4BaJQBOgBudXvUjwAAA/Ilc4YE27Pua9EDAHdks5upL3muPZm3r0p8lh5SMfsA0BzJrZUb9wtEgD+49PunEZul6OhfAAA==",
+        "alt": "Living room with large windows"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/04-living-staircase.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoMABAAA4BaJQBOgBwx8S5hwqAAAPhejmme34eTZlfi9Zk6vTvIv5PPjQVpCvB/YqW8x/d0jt2dT9/bEBbXFC49QPopCM2iSdCIsQLK7yAAAA==",
+        "alt": "Living area with TV unit and staircase"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/05-lounge.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoMABAAA4BaJQBOgCL9BECV+XkoAAD5HtUR/LaFi3SsRFj2jvdakJEmhQmVbYpLPO42UTPrzKab3GbuQHELSzQAAAA=",
+        "alt": "Lounge with designer ceiling"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/06-dining.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoMABAAA4BaJQBOgBs3U14+JIAA/eurOo5o1mPfY7WaTI+n3Fo2xd3uiejg6m5A7khZgrkB0UQ+rwy4fHrZCMvUK/rSn8OtgQ5BWU888EB3sAAA",
+        "alt": "Dining area with skylight"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/07-kitchen.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAgCdASoMABAAA4BaJYwCdAEerQMm9gOYzotQAPn+TnohXCIiyEG9cBVeYc9IOYRx8eXDoEEmP5JfyKxt1hWuky+qPXjz2vREEQPtmaoAAA==",
+        "alt": "Modular kitchen"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/08-kitchen-2.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoMABAAA4BaJQBOgBKGI4ksAADJOqzubJfuRbn879gD7BPxid9OVQyI3Gkx3r2OGGyt2v9g8L2iYT/chE3H7Wl3YV2z5HwSLQAAAA==",
+        "alt": "Kitchen with backlit cabinets"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/09-bedroom.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoMABAAA4BaJaACdADds1CA4loAAP6wGq+CTCf07EOrQOQ4/AD6VriG+I5m1A4d5ni8K2gC+MuDzvDVSnjYPnhjGEI5fXC09kE0kAAA",
+        "alt": "Master bedroom with balcony access"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/10-bedroom-2.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoMABAAA4BaJQBOgCPQ7zqNyygAAPyOCwxwuEFuNdIjT3Qal9TmR6yRItWi21HGjB6k5u9jHcbZo4944eNBjUm79a63w1ov6aotBGRCKxIAAA==",
+        "alt": "Bedroom with floating bed and cove lighting"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/11-bedroom-3.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoMABAAA4BaJaACdAYu47nSHYEAAP3RQZHN4nXtlejApq6tKRWNjaJ8Clkw5gM10Ez0G2/OfnpSR5ivIk7zMa2BLpj55Ox8G9KhOzT3B6F1lDoA",
+        "alt": "Bedroom with lounge chair"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/12-bedroom-4.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoMABAAA4BaJaACdAC3k9lniKEAAPzN3NLaH3UHyXc2+XMOTIbkuNG0T2CWYNQeLzc3gojTtNRddcR9tQ3ZMxw7jrMsF5W2KwktssFyAAA=",
+        "alt": "Bedroom with wardrobe and seating"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/13-bedroom-5.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoMABAAA4BaJZQCdAEf3LbHduIAAP6zUoeH6ksDLsL4Oc0ULsFRQF9XsLz9xtgKMnCS0RB0r4Pq5ygngnIQ6NangAA=",
+        "alt": "Bedroom with study corner"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/14-bathroom.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoMABAAA4BaJZACsADc74ACJwAA/gS9fQw0MYEFSCqGcOOzoMRJbonygFClN3T23CbeAn3X3EkDbiyTBFlmJdVb0BatKwAA",
+        "alt": "Bathroom with glass shower and marble walls"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/15-atrium.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoMABAAA4BaJYwCdAEfgqZx4zAA/mRmFzgMq3DJxTm8T163EKFfQeTC0LVxO0g5WyN/eg0y7Btli4mWPrsOecF6yp90ARBxIcAAAA==",
+        "alt": "Double-height atrium with chandelier"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/16-terrace.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoMABAAA4BaJZACdADbFGq3/0AA77v3UvnUCmFa8T4rw+DdHJyrqzMrTMwSc5/Dovw31tQ2p8OWnMItAKrz4M3RyW8rF9DVcEG9kjWhogAAAA==",
+        "alt": "Terrace with lawn and outdoor seating"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/17-balcony.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoMABAAA4BaJZgCdAEW0pW8BlKAAP70Ug5OiSSNFdZq6ki+UCIPt3ZNnJjziKXhTbLpXH3ZGfQ4gjDQ+wmqVZNsBCx8QhPFVOOsH6U2XAXcVcQynNWm80AA",
+        "alt": "Balcony with glass railing"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/18-balcony-swing.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoMABAAA4BaJaACdADCVO211UAA4n5fkcKNjjR3HEBiTHtet7pR8q9qwCvrMH1pqL3B5d1uEKPX7xXKW+97/ifqA5kbEtNGJvqH2HGjc6V9yb9aPiua94AAAAA=",
+        "alt": "Balcony with swing seat"
+      },
+      {
+        "src": "projects/krishnam-kothi-27/photos/19-staircase.jpg",
+        "width": 960,
+        "height": 1280,
+        "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoMABAAA4BaJQBOgBXeU2AAAMkMVczfhE73lo9nKz5j2WezA4snqylk1b90IwTh72oJ5dAA",
+        "alt": "Staircase lit by a skylight"
+      }
+    ]
+  }
+}

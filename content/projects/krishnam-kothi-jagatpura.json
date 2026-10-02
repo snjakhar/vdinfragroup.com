@@ -1,0 +1,46 @@
+{
+  "slug": "krishnam-kothi-jagatpura",
+  "title": "Krishnam Kothi Jagatpura",
+  "status": "upcoming",
+  "featured": false,
+  "order": 3,
+  "tagline": "Luxury kothi under construction in Jagatpura",
+  "location": {
+    "locality": "Jagatpura",
+    "address": "Jagatpura, Jaipur"
+  },
+  "propertyTypes": [
+    "kothi"
+  ],
+  "summary": "Krishnam Kothi Jagatpura is a luxury independent home by VD Infra Group, currently under construction in Jagatpura, Jaipur.",
+  "description": [
+    "Krishnam Kothi Jagatpura continues the Krishnam Kothi series of luxury independent homes by VD Infra Group. Construction is in progress. Register your interest for the floor plan, specifications, price and possession date."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-kothi-jagatpura/photos/00-front-artist-impression.jpg",
+      "alt": "Krishnam Kothi Jagatpura, Jagatpura: artist's impression of the building",
+      "width": 2752,
+      "height": 1536,
+      "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJQBOgBM/OZf+AADLQvViKRgFDPH6zeLOdSrA74U9VWwC9T7lW8QbefTqd1jzsxn17wYu8q95buMRMJSSFcIfENeRgIhL0CogAA==",
+      "impression": true
+    },
+    "gallery": [
+      {
+        "src": "projects/krishnam-kothi-jagatpura/photos/01-elevation.jpg",
+        "width": 1280,
+        "height": 842,
+        "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoQAAsAA4BaJZgCdAYtfyX0UYvJt0wA/sqBMH3zB3K4dNjOPLzSX+ioK2+o2B7dPbNWV4b2bopGkIpzKVrcphLj/7Vp+f3cykJPeNo43fLhnzfJwKjes09rdY73k0t9XnsgAA=="
+      }
+    ],
+    "heroSquare": {
+      "src": "projects/krishnam-kothi-jagatpura/photos/00-front-square-artist-impression.jpg",
+      "alt": "Krishnam Kothi Jagatpura, Jagatpura: artist's impression of the building",
+      "width": 2048,
+      "height": 2048,
+      "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoQABAAA4BaJagCdAYu5v7aIg/EOAAA/lm5T3ovF0dl/H3qOkloVw/j8EgzZv2vZunVnJUEa3X8WFVErvJnlGKPKJj3rP6mDx+zmZ4asyYgAAAA",
+      "impression": true
+    }
+  },
+  "possession": "Under construction"
+}

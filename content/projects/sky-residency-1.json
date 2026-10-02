@@ -1,0 +1,27 @@
+{
+  "slug": "sky-residency-1",
+  "title": "Sky Residency 1",
+  "status": "completed",
+  "order": 62,
+  "tagline": "Completed apartments in Samta Nagar, Vaishali West, Jaipur",
+  "location": {
+    "locality": "Samta Nagar, Vaishali West",
+    "address": "Samta Nagar, near Rangoli Garden Road, Vaishali West, Jaipur"
+  },
+  "propertyTypes": [
+    "apartment"
+  ],
+  "summary": "Sky Residency 1 is a completed apartment project by VD Infra Group in Samta Nagar, Vaishali West, Jaipur.",
+  "description": [
+    "Sky Residency 1 has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/sky-residency-1/photos/01-elevation.jpg",
+      "width": 1280,
+      "height": 960,
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoQAAwAA4BaJQBOgBZfvue68AD+1P7B5IOgkDeI1BZWlyeiVZgP9QY2/r+ZRetbV+S9ba1na/inzmTsYG6nk6ZjRhIBNPQv9okENgBUhD2khF1SzwygfroIAAA="
+    },
+    "gallery": []
+  }
+}

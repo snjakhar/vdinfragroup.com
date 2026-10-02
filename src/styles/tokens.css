@@ -1,0 +1,30 @@
+/*
+ * VD Infra Group design tokens. The palette is fixed (see the architecture plan,
+ * Design system > Tokens). Use these tokens; never hard-code colours in components.
+ */
+@theme {
+  /* Palette */
+  --color-ivory: #f7f4ee; /* page background */
+  --color-paper: #ffffff; /* cards */
+  --color-ink: #1c1b19; /* primary text */
+  --color-muted: #6b665e; /* secondary text */
+  --color-sand: #ddd6c8; /* hairlines, borders */
+  --color-brass: #a8824a; /* the single accent */
+  --color-brass-deep: #8a6a3b; /* accent for small text and buttons on light backgrounds (4.5:1 on ivory) */
+  --color-brass-shade: #6f5530; /* hover/pressed for brass-deep */
+  --color-night: #14171a; /* dark sections, footer */
+  --color-night-soft: #1d2125;
+  --color-mist: #a6a196; /* secondary text on dark */
+
+  /* Typography */
+  --font-display: var(--font-cormorant), "Times New Roman", serif;
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+
+  /* Motion: one easing curve site-wide */
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Layout */
+  --container-site: 80rem; /* 1280px */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+}

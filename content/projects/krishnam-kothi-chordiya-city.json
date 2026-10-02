@@ -1,0 +1,27 @@
+{
+  "slug": "krishnam-kothi-chordiya-city",
+  "title": "Krishnam Kothi, Chordia City",
+  "status": "completed",
+  "order": 50,
+  "tagline": "Completed luxury kothi in Chordia City, Ajmer Road, Jaipur",
+  "location": {
+    "locality": "Chordia City, Ajmer Road",
+    "address": "Chordia City, near Ajmer Road, Vaishali West, Jaipur"
+  },
+  "propertyTypes": [
+    "kothi"
+  ],
+  "summary": "Krishnam Kothi, Chordia City is a completed luxury kothi project by VD Infra Group in Chordia City, Ajmer Road, Jaipur.",
+  "description": [
+    "Krishnam Kothi, Chordia City has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-kothi-chordiya-city/photos/01-elevation.jpg",
+      "width": 1600,
+      "height": 1200,
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQAgCdASoQAAwAA4BaJQBOgP4EX4WT4b9LwAAA/vQLrN4gR4PcPf9Ac58UnfB0VYrGaY1WbtPg/mNMU31XAbrcU8Xf3u8MNxSP1Q0CMO8rHks3BasVXkOS7HtyEyPXXlAAAA=="
+    },
+    "gallery": []
+  }
+}

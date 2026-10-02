@@ -1,0 +1,46 @@
+{
+  "slug": "krishnam-kothi-176",
+  "title": "Krishnam Kothi 176",
+  "status": "upcoming",
+  "featured": false,
+  "order": 2,
+  "tagline": "Luxury kothi under construction in Vardhman Sarovar, Mansarovar Extension",
+  "location": {
+    "locality": "Vardhman Sarovar, Mansarovar Extension",
+    "address": "Vardhman Sarovar, Mansarovar Extension, Jaipur"
+  },
+  "propertyTypes": [
+    "kothi"
+  ],
+  "summary": "Krishnam Kothi 176 is a luxury independent home by VD Infra Group, currently under construction in Vardhman Sarovar, Mansarovar Extension, Jaipur.",
+  "description": [
+    "Krishnam Kothi 176 continues the Krishnam Kothi series of luxury independent homes by VD Infra Group. Construction is in progress. Register your interest for the floor plan, specifications, price and possession date."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-kothi-176/photos/00-front-artist-impression.jpg",
+      "alt": "Krishnam Kothi 176, Vardhman Sarovar, Mansarovar Extension: artist's impression of the building",
+      "width": 2752,
+      "height": 1536,
+      "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAkAA4BaJYgCdAYs3CkJykzAAP3rNXAi6qEuiU7F6UWVJWDDFgBnLRfHTSl230z+E3AzV4R91JfF1dcrqYhhLxElkNvh+ipjR+2wNY0dgKDQAAA=",
+      "impression": true
+    },
+    "gallery": [
+      {
+        "src": "projects/krishnam-kothi-176/photos/01-elevation.jpg",
+        "width": 1007,
+        "height": 1561,
+        "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoKABAAA4BaJZgCdAEQyX5lkdAAAPkIFUua9VWDtuU6SHJKtWB0xV+7Mjs/wXo54kbms1nFjP8s/NyyxvSUsbeoU1bJJj9pHVmvR8Teu3YiZEBe2T1XL2Ka36gAAA=="
+      }
+    ],
+    "heroSquare": {
+      "src": "projects/krishnam-kothi-176/photos/00-front-square-artist-impression.jpg",
+      "alt": "Krishnam Kothi 176, Vardhman Sarovar, Mansarovar Extension: artist's impression of the building",
+      "width": 2048,
+      "height": 2048,
+      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQABAAA4BaJagCdADxEk6oBFkAAP5ZZ4nOHwK2DyZlvFQtiAIsqw5E605cQMnZczC/yLrxjenutgoZlfrugQvsnu6rTVpAz341vO8PJAobveu8/vfd3cCmmmxrjvQAAAA=",
+      "impression": true
+    }
+  },
+  "possession": "Under construction"
+}

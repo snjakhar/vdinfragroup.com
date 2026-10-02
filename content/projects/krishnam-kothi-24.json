@@ -1,0 +1,82 @@
+{
+  "slug": "krishnam-kothi-24",
+  "title": "Krishnam Kothi 24",
+  "status": "completed",
+  "order": 15,
+  "tagline": "227 sq yd, 5 BHK luxury kothi with home theater",
+  "location": {
+    "locality": "Narayan Vihar, Ajmer Road",
+    "address": "Narayan Vihar, Ajmer Road, Jaipur 302020",
+    "nearby": [
+      {
+        "name": "Geetanjali Hospital",
+        "distance": "1 km"
+      },
+      {
+        "name": "Heerapura Bus Stand",
+        "distance": "1 km"
+      },
+      {
+        "name": "100 ft Sector Road"
+      },
+      {
+        "name": "School and temple nearby"
+      }
+    ]
+  },
+  "propertyTypes": [
+    "kothi"
+  ],
+  "summary": "A 5 BHK luxury kothi on a 227 sq yd plot in Narayan Vihar, with a home theater, private lift and open-to-sky party area.",
+  "description": [
+    "Krishnam Kothi 24 is an east-facing independent home on a 40 ft wide road in Narayan Vihar, Ajmer Road, with five bedrooms, five bathrooms, a home theater, gazebo seating and an open-to-sky party area. The home has been sold."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/krishnam-kothi-24/photos/01-elevation.jpg",
+      "width": 1600,
+      "height": 1562,
+      "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwAgCdASoQABAAA4BaJYwCdH8AguDAAQt0wAD+66eqaheUcwRTLIyPPcP4GMaB4SYi7ZghOlDJqdwIo2H2plKQMTJHjbpDAvDOlSgzCgMzqDPGUsai3RxkzlZogxPaxCOT28S4rWE+rzoYcJ2HaZ0LQH9RCSAAAAA=",
+      "alt": "Krishnam Kothi 24 elevation"
+    },
+    "gallery": []
+  },
+  "highlights": [
+    "227 sq yd plot on a 40 ft road",
+    "East facing; JDA approved",
+    "Home theater and gazebo seating",
+    "Private lift and 2-car parking",
+    "Fully furnished"
+  ],
+  "stats": [
+    {
+      "label": "Plot",
+      "value": "227 sq yd"
+    },
+    {
+      "label": "Bedrooms",
+      "value": "5"
+    },
+    {
+      "label": "Facing",
+      "value": "East"
+    }
+  ],
+  "amenities": [
+    "home-theater",
+    "gazebo",
+    "party-terrace",
+    "lift",
+    "parking",
+    "cctv",
+    "video-door-phone",
+    "furnished"
+  ],
+  "configurations": [
+    {
+      "type": "5 BHK Kothi",
+      "carpetArea": "227 sq yd plot",
+      "price": "Sold out"
+    }
+  ]
+}

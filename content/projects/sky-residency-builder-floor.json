@@ -1,0 +1,27 @@
+{
+  "slug": "sky-residency-builder-floor",
+  "title": "Sky Residency Builder Floor",
+  "status": "completed",
+  "order": 63,
+  "tagline": "Completed builder floor project by VD Infra Group",
+  "location": {
+    "locality": "Jaipur",
+    "address": "Jaipur"
+  },
+  "propertyTypes": [
+    "builder-floor"
+  ],
+  "summary": "Sky Residency Builder Floor is a completed builder floor project by VD Infra Group in Jaipur.",
+  "description": [
+    "Sky Residency Builder Floor has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/sky-residency-builder-floor/photos/01-elevation.jpg",
+      "width": 2560,
+      "height": 1920,
+      "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwAA4BaJbACdAC1W1EZR+zAAM4+uWDZPWgdBYBiDdjNgzGA1TZNpgNlCzKcI8h2EGifm+80Pxgria5iEWJRee1kCVieIr13O76pcgKj92Hsu/mAAA=="
+    },
+    "gallery": []
+  }
+}

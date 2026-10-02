@@ -1,0 +1,40 @@
+{
+  "slug": "parth-residency",
+  "title": "Parth Residency",
+  "status": "completed",
+  "order": 57,
+  "tagline": "Completed apartments in Goner Road, Jagatpura, Jaipur",
+  "location": {
+    "locality": "Goner Road, Jagatpura",
+    "address": "Near D-Mart, Goner Road, Jagatpura, Jaipur"
+  },
+  "propertyTypes": [
+    "apartment"
+  ],
+  "summary": "Parth Residency is a completed apartment project by VD Infra Group in Goner Road, Jagatpura, Jaipur.",
+  "description": [
+    "Parth Residency has been delivered and all homes are sold. If you are interested in a resale home here, or in a similar home in one of our current projects, please get in touch."
+  ],
+  "media": {
+    "hero": {
+      "src": "projects/parth-residency/photos/01-elevation-1.jpg",
+      "width": 1600,
+      "height": 1200,
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAwAA4BaJYgCdAEU966EO+AAAP7ybRK7kJWApCxu0GdstZQgZuYexj9JzAFQUcT9RUg8up+A+OIWRU9WFyehj9h1i+rgAAA="
+    },
+    "gallery": [
+      {
+        "src": "projects/parth-residency/photos/02-elevation-2.jpg",
+        "width": 1600,
+        "height": 1200,
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAwAA4BaJagCdAEffqznSrIAAP7wG05F5sRwxE7yR/1C1+gC2rjK3z5zEUYblIGjj95QZOTE8u4r+oXJw34ONeOf6f7sCHwVZ8AA"
+      },
+      {
+        "src": "projects/parth-residency/photos/03-elevation-3.jpg",
+        "width": 1600,
+        "height": 1200,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAwAA4BaJaACdAEfkIpuGAAA/ugAD2IhguXoXUJ54YggfWooLRB9DA0bnCe2lfaQw1YdXiIiA0Bwd732N2wqUobVJtacw2UgAA=="
+      }
+    ]
+  }
+}
