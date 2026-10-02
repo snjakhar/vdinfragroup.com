@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { site } from "@content/site";
 
 type TurnstileApi = {
   render: (el: HTMLElement, opts: Record<string, unknown>) => string;
@@ -12,7 +13,9 @@ const SCRIPT_SRC = "https://challenges.cloudflare.com/turnstile/v0/api.js?render
 /** Cloudflare Turnstile widget, loaded only once the visitor starts the form. Off when no site key is set. */
 export function Turnstile({ active, onToken }: { active: boolean; onToken: (token: string) => void }) {
   const ref = useRef<HTMLDivElement>(null);
-  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+  // The env var can override; dev builds skip it (localhost is not an allowed hostname).
+  const siteKey =
+    process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? (process.env.NODE_ENV === "production" ? site.turnstileSiteKey : undefined);
 
   useEffect(() => {
     if (!active || !siteKey || !ref.current) return;

@@ -22,6 +22,9 @@ export const site = {
 
   founder: { name: "Vikash Dukiya", role: "CEO & Founder" },
 
+  /** Cloudflare Turnstile site key (public; the secret lives only in Cloudflare Pages). */
+  turnstileSiteKey: "0x4AAAAAAFMHF3YIhBJXYknM",
+
   /**
    * Launch countdown shown full-screen on the home page until `at`, then it
    * disappears by itself. Set `enabled: false` to remove it immediately.
