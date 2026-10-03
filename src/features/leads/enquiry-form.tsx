@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { track } from "@/lib/analytics/events";
 import { cn } from "@/lib/cn";
 import { enquirySchema, type EnquiryInput } from "./schema";
-import { Turnstile } from "./turnstile";
+import { Turnstile, TURNSTILE_SITE_KEY } from "./turnstile";
 
 const ENDPOINT = process.env.NEXT_PUBLIC_ENQUIRY_ENDPOINT ?? "/api/enquiry";
 
@@ -33,7 +33,8 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
   const router = useRouter();
   const [started, setStarted] = useState(false);
   const [token, setToken] = useState<string>();
-  const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
+  const [resetKey, setResetKey] = useState(0);
+  const [status, setStatus] = useState<"idle" | "sending" | "verifying" | "error">("idle");
   const [errorCode, setErrorCode] = useState("");
   const [company, setCompany] = useState("");
 
@@ -51,9 +52,16 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
   });
 
   useEffect(() => setValue("project", defaultProject), [defaultProject, setValue]);
-  const onToken = useCallback((t: string) => setToken(t), []);
+  const onToken = useCallback((t: string) => {
+    setToken(t || undefined);
+    if (t) setStatus((s) => (s === "verifying" ? "idle" : s));
+  }, []);
 
   const onSubmit = async (data: EnquiryInput) => {
+    if (TURNSTILE_SITE_KEY && !token) {
+      setStatus("verifying");
+      return;
+    }
     setStatus("sending");
     try {
       const res = await fetch(ENDPOINT, {
@@ -70,6 +78,9 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
     } catch (err) {
       setErrorCode(err instanceof Error ? err.message : "");
       setStatus("error");
+      // The token was spent on this attempt; fetch a fresh one so "Send" works again.
+      setToken(undefined);
+      setResetKey((k) => k + 1);
     }
   };
 
@@ -139,7 +150,7 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
       </div>
 
       <div className="sm:col-span-2">
-        <Turnstile active={started} onToken={onToken} />
+        <Turnstile active={started} resetKey={resetKey} onToken={onToken} />
       </div>
 
       <div className="flex flex-col gap-3 sm:col-span-2 sm:flex-row sm:items-center sm:justify-between">
@@ -147,6 +158,7 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
           {status === "sending" ? "Sending" : "Send enquiry"}
         </Button>
         <p role="status" aria-live="polite" className="text-sm text-[#a3412b]">
+          {status === "verifying" && <span className="text-muted">Finishing the security check. Please send again in a moment.</span>}
           {status === "error" && "Something went wrong. Please call or WhatsApp us instead."}
           {status === "error" && errorCode && <span className="mt-1 block text-xs text-muted">Error: {errorCode}</span>}
         </p>
