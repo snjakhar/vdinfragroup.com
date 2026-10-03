@@ -54,7 +54,7 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
       )}
 
       {slide.image.impression && (
-        <p className="absolute left-3 top-3 bg-night/55 px-2 py-0.5 text-[0.5rem] font-semibold uppercase tracking-[0.14em] text-ivory/85 backdrop-blur-sm sm:left-auto sm:right-4 sm:top-4 sm:px-2.5 sm:py-1 sm:text-[0.6rem] sm:tracking-[0.16em]">
+        <p className="absolute left-3 top-3 bg-night/55 px-2 py-0.5 text-label font-semibold uppercase tracking-label text-ivory/85 backdrop-blur-sm sm:left-auto sm:right-4 sm:top-4 sm:px-2.5 sm:py-1">
           Artist&rsquo;s impression
         </p>
       )}
@@ -65,7 +65,7 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
           className="group flex items-center gap-2 bg-ivory/90 px-2.5 py-1.5 text-ink sm:gap-4 sm:bg-ivory/95 sm:px-5 sm:py-3.5 shadow-[0_10px_30px_-12px_rgba(20,23,26,0.45)] backdrop-blur-sm transition-colors hover:bg-ivory"
         >
           <span>
-            <span className="block text-[0.5rem] font-semibold uppercase tracking-[0.14em] text-brass-deep sm:text-[0.62rem] sm:tracking-[0.18em]">{slide.status}</span>
+            <span className="block text-label font-semibold uppercase tracking-label text-brass-deep">{slide.status}</span>
             <span className="block font-[family-name:var(--font-display)] text-[0.95rem] leading-tight sm:mt-0.5 sm:text-xl">{slide.title}</span>
           </span>
           <ArrowUpRight className="size-3.5 shrink-0 sm:size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />

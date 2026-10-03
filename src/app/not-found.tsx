@@ -12,7 +12,7 @@ export default function NotFound() {
       <p className="eyebrow">Error 404</p>
       <h1 className="t-h1 mt-6">This page has moved or no longer exists</h1>
       <p className="t-lead mt-6 max-w-lg">Try our projects, or head back to the home page.</p>
-      <div className="mt-10 flex gap-6 text-[0.78rem] font-semibold uppercase tracking-[0.16em]">
+      <div className="mt-10 flex gap-6 text-label-md font-semibold uppercase tracking-label">
         <Link href="/projects" className="border-b border-ink pb-1 hover:text-brass-deep">
           View projects
         </Link>

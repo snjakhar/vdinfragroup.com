@@ -87,7 +87,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-night/90 via-night/30 to-night/25" />
         {p.media.hero.impression && (
-          <p className="absolute right-4 top-24 z-10 bg-night/60 px-2.5 py-1 text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-ivory/85 backdrop-blur-sm lg:top-28">
+          <p className="absolute right-4 top-24 z-10 bg-night/60 px-2.5 py-1 text-label font-semibold uppercase tracking-label text-ivory/85 backdrop-blur-sm lg:top-28">
             Artist&rsquo;s impression
           </p>
         )}
@@ -119,7 +119,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
           <dl className="hero-rise grid grid-cols-3 border-t border-ivory/25 lg:col-span-5 lg:grid-cols-1 lg:border-l lg:border-t-0 lg:pl-10" style={{ animationDelay: "0.35s" }}>
             {facts.map((f) => (
               <div key={f.label} className="py-4 pr-3 lg:py-3">
-                <dt className="text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-ivory/60">{f.label}</dt>
+                <dt className="text-label font-semibold uppercase tracking-label text-ivory/60">{f.label}</dt>
                 <dd className="mt-1 font-[family-name:var(--font-display)] text-lg leading-snug sm:text-2xl">{f.value}</dd>
               </div>
             ))}
@@ -148,7 +148,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
                   href={`${MEDIA_BASE_URL}/${p.media.brochure}`}
                   event="brochure_download"
                   params={{ project: p.slug }}
-                  className="inline-flex items-center justify-center gap-3 border border-ink/80 px-7 py-[0.95rem] text-[0.78rem] font-semibold uppercase tracking-[0.16em] transition-colors hover:bg-ink hover:text-ivory"
+                  className="inline-flex items-center justify-center gap-3 border border-ink/80 px-7 py-[0.95rem] text-label-md font-semibold uppercase tracking-label transition-colors hover:bg-ink hover:text-ivory"
                 >
                   <Download className="size-4" strokeWidth={1.5} /> Download brochure
                 </TrackedLink>
@@ -187,7 +187,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
             <dl className="grid grid-cols-2 border-y border-sand md:grid-cols-4">
               {p.stats.map((s, i) => (
                 <div key={s.label} className={`py-7 ${i % 2 ? "border-l border-sand pl-6" : "pr-4"} md:border-l md:pl-8 md:first:border-l-0 md:first:pl-0`}>
-                  <dt className="text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-muted">{s.label}</dt>
+                  <dt className="text-label font-semibold uppercase tracking-label text-muted">{s.label}</dt>
                   <dd className="mt-2 font-[family-name:var(--font-display)] text-3xl lg:text-4xl">{s.value}</dd>
                 </div>
               ))}
@@ -218,7 +218,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
             <div className="mt-12 overflow-x-auto">
               <table className="w-full min-w-[36rem] border-collapse text-left">
                 <thead>
-                  <tr className="border-b border-ink text-[0.68rem] uppercase tracking-[0.16em] text-muted">
+                  <tr className="border-b border-ink text-label uppercase tracking-label text-muted">
                     <th scope="col" className="py-4 pr-4 font-semibold">Type</th>
                     {showCarpet && (
                       <th scope="col" className="py-4 pr-4 font-semibold">

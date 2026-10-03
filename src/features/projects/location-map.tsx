@@ -24,7 +24,7 @@ export function LocationMap({ lat, lng, query, label }: { lat?: number; lng?: nu
           <span className="relative flex size-14 items-center justify-center rounded-full bg-ink text-ivory shadow-lg transition-transform duration-500 ease-premium group-hover:-translate-y-1">
             <MapPin className="size-6" strokeWidth={1.5} />
           </span>
-          <span className="relative bg-ivory/90 px-4 py-2 text-[0.72rem] font-semibold uppercase tracking-[0.16em]">Load interactive map</span>
+          <span className="relative bg-ivory/90 px-4 py-2 text-label-md font-semibold uppercase tracking-label">Load interactive map</span>
         </button>
       )}
     </div>

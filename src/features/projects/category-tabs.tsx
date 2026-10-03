@@ -18,7 +18,7 @@ export function CategoryTabs({ active }: { active: ProjectStatus | "all" }) {
               href={t.href}
               aria-current={active === t.key ? "page" : undefined}
               className={cn(
-                "relative block pb-4 text-[0.78rem] font-semibold uppercase tracking-[0.16em] transition-colors after:absolute after:inset-x-0 after:-bottom-px after:h-0.5 after:origin-left after:bg-ink after:transition-transform after:duration-500 after:ease-premium",
+                "relative block pb-4 text-label-md font-semibold uppercase tracking-label transition-colors after:absolute after:inset-x-0 after:-bottom-px after:h-0.5 after:origin-left after:bg-ink after:transition-transform after:duration-500 after:ease-premium",
                 active === t.key ? "text-ink after:scale-x-100" : "text-muted after:scale-x-0 hover:text-ink",
               )}
             >

@@ -26,7 +26,7 @@ function readUtm() {
 const field =
   "peer w-full border-0 border-b border-sand bg-transparent px-0 pb-2.5 pt-6 text-base text-ink placeholder-transparent transition-colors focus:border-ink focus:outline-none focus:ring-0";
 const label =
-  "pointer-events-none absolute left-0 top-1 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-muted";
+  "pointer-events-none absolute left-0 top-1 text-label font-semibold uppercase tracking-label text-muted";
 
 export function EnquiryForm({ projects }: { projects: { slug: string; title: string }[] }) {
   const pathname = usePathname();

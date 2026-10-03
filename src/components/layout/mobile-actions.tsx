@@ -30,7 +30,7 @@ export function MobileActions({ phoneHref, whatsappHref }: { phoneHref: string; 
 
   const message = `Hello VD Infra Group, I am interested in ${projectSlug.replace(/-/g, " ").toUpperCase()}.`;
   const waProject = whatsappHref.replace(/text=[^&]*/, `text=${encodeURIComponent(message)}`);
-  const cell = "flex flex-1 flex-col items-center justify-center gap-1 py-2.5 text-[0.65rem] font-semibold uppercase tracking-[0.14em]";
+  const cell = "flex flex-1 flex-col items-center justify-center gap-1 py-2.5 text-label font-semibold uppercase tracking-label";
   return (
     <nav
       aria-label="Quick actions"

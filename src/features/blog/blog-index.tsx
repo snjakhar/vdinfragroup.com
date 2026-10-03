@@ -45,7 +45,7 @@ export function BlogIndex({
                     href={c.id ? `/blog/category/${c.id}` : "/blog"}
                     aria-current={active ? "page" : undefined}
                     className={cn(
-                      "block border px-4 py-2.5 text-[0.7rem] font-semibold uppercase tracking-[0.14em] transition-colors duration-300",
+                      "block border px-4 py-2.5 text-label font-semibold uppercase tracking-label transition-colors duration-300",
                       active ? "border-ink bg-ink text-ivory" : "border-sand text-muted hover:border-ink hover:text-ink",
                     )}
                   >
@@ -64,7 +64,7 @@ export function BlogIndex({
                 <MediaImg image={lead.image} alt={lead.image.alt ?? lead.title} sizes="(min-width: 1024px) 58vw, 100vw" priority className="transition-transform duration-[1.2s] ease-premium group-hover:scale-105" />
               </div>
               <div className="lg:col-span-5">
-                <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-brass-deep">
+                <p className="text-label font-semibold uppercase tracking-label text-brass-deep">
                   Latest · {categoryTitle(lead.category)}
                 </p>
                 <h2 className="t-h2 mt-4 transition-colors group-hover:text-brass-deep">{lead.title}</h2>

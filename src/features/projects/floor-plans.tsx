@@ -26,7 +26,7 @@ export function FloorPlans({ plans, projectTitle }: { plans: Plan[]; projectTitl
             aria-selected={i === active}
             onClick={() => setActive(i)}
             className={cn(
-              "shrink-0 border px-5 py-3 text-[0.75rem] font-semibold uppercase tracking-[0.14em] transition-colors duration-300",
+              "shrink-0 border px-5 py-3 text-label-md font-semibold uppercase tracking-label transition-colors duration-300",
               i === active ? "border-ink bg-ink text-ivory" : "border-sand text-muted hover:border-ink hover:text-ink",
             )}
           >
@@ -39,7 +39,7 @@ export function FloorPlans({ plans, projectTitle }: { plans: Plan[]; projectTitl
           <button type="button" onClick={() => setZoom(true)} className="group relative block w-full" style={{ aspectRatio: `${plan.image.width} / ${plan.image.height}` }}>
             <span className="sr-only">Open {alt} full screen. </span>
             <MediaImg image={plan.image} alt={alt} sizes="(min-width: 1280px) 1200px, 100vw" className="object-contain" />
-            <span className="absolute bottom-3 right-3 flex items-center gap-2 bg-ink/85 px-3 py-2 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-ivory">
+            <span className="absolute bottom-3 right-3 flex items-center gap-2 bg-ink/85 px-3 py-2 text-label font-semibold uppercase tracking-label text-ivory">
               <Expand className="size-3.5" strokeWidth={1.75} /> Enlarge
             </span>
           </button>
@@ -63,7 +63,7 @@ export function FloorPlans({ plans, projectTitle }: { plans: Plan[]; projectTitl
               <dd className="mt-1 font-[family-name:var(--font-display)] text-2xl">{plan.area}</dd>
             </div>
           </dl>
-          <a href="#enquire" className="inline-flex items-center gap-2 text-[0.75rem] font-semibold uppercase tracking-[0.16em] text-ink hover:text-brass-deep">
+          <a href="#enquire" className="inline-flex items-center gap-2 text-label-md font-semibold uppercase tracking-label text-ink hover:text-brass-deep">
             <FileText className="size-4" strokeWidth={1.5} /> Ask about this layout
           </a>
         </div>

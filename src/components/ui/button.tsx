@@ -5,7 +5,7 @@ import { cn } from "@/lib/cn";
 type Variant = "primary" | "accent" | "outline" | "light" | "text";
 
 const base =
-  "group/btn inline-flex items-center justify-center gap-3 rounded-[var(--radius-sm)] text-[0.78rem] font-semibold uppercase tracking-[0.16em] transition-colors duration-300 ease-premium disabled:pointer-events-none disabled:opacity-50";
+  "group/btn inline-flex items-center justify-center gap-3 rounded-[var(--radius-sm)] text-label-md font-semibold uppercase tracking-label transition-colors duration-300 ease-premium disabled:pointer-events-none disabled:opacity-50";
 
 const variants: Record<Variant, string> = {
   primary: "bg-ink px-7 py-4 text-ivory hover:bg-brass-deep",

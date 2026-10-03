@@ -37,7 +37,7 @@ export function ProjectCard({
         <div className="absolute inset-0 bg-gradient-to-t from-night/45 via-transparent to-transparent opacity-80 transition-opacity duration-700 group-hover:opacity-100" />
         <StatusTag status={project.status} label={project.statusLabel} className="absolute left-4 top-4" />
         {cardImage(project).impression && (
-          <span className="absolute bottom-3 left-4 text-[0.58rem] font-semibold uppercase tracking-[0.16em] text-ivory/90 [text-shadow:0_1px_4px_rgba(0,0,0,.6)]">
+          <span className="absolute bottom-3 left-4 text-label font-semibold uppercase tracking-label text-ivory/90 [text-shadow:0_1px_4px_rgba(0,0,0,.6)]">
             Artist&rsquo;s impression
           </span>
         )}
@@ -46,7 +46,7 @@ export function ProjectCard({
         </span>
       </div>
       <div className="pt-5">
-        <p className="flex items-center gap-1.5 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted">
+        <p className="flex items-center gap-1.5 text-label font-semibold uppercase tracking-label text-muted">
           <MapPin aria-hidden className="size-3.5 text-brass-deep" strokeWidth={1.75} />
           {placeName(project)}
         </p>

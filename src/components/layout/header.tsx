@@ -102,7 +102,7 @@ export function Header({ menu }: { menu: MenuData }) {
                   aria-controls="mega-menu"
                   onClick={() => setMegaOpen((o) => !o)}
                   className={cn(
-                    "group flex items-center gap-1.5 text-[0.78rem] font-semibold uppercase tracking-[0.16em]",
+                    "group flex items-center gap-1.5 text-label-md font-semibold uppercase tracking-label",
                     pathname.startsWith("/projects") && (transparent ? "text-brass" : "text-brass-deep"),
                   )}
                 >
@@ -120,7 +120,7 @@ export function Header({ menu }: { menu: MenuData }) {
                 href={item.href}
                 onMouseEnter={() => setMegaOpen(false)}
                 className={cn(
-                  "relative text-[0.78rem] font-semibold uppercase tracking-[0.16em] after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-500 after:ease-premium hover:after:scale-x-100",
+                  "relative text-label-md font-semibold uppercase tracking-label after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-500 after:ease-premium hover:after:scale-x-100",
                   pathname.startsWith(item.href) && (transparent ? "text-brass after:scale-x-100" : "text-brass-deep after:scale-x-100"),
                 )}
               >
@@ -142,7 +142,7 @@ export function Header({ menu }: { menu: MenuData }) {
           <Link
             href="#enquire"
             className={cn(
-              "hidden rounded-[var(--radius-sm)] px-5 py-3 text-[0.72rem] font-semibold uppercase tracking-[0.16em] transition-colors duration-300 sm:inline-flex",
+              "hidden rounded-[var(--radius-sm)] px-5 py-3 text-label-md font-semibold uppercase tracking-label transition-colors duration-300 sm:inline-flex",
               transparent ? "border border-ivory/70 hover:bg-ivory hover:text-ink" : "bg-ink text-ivory hover:bg-brass-deep",
             )}
           >
@@ -192,7 +192,7 @@ export function Header({ menu }: { menu: MenuData }) {
                     <Link
                       href="#enquire"
                       onClick={() => setMobileOpen(false)}
-                      className="mt-4 inline-flex justify-center bg-brass-deep px-6 py-4 text-[0.78rem] font-semibold uppercase tracking-[0.16em]"
+                      className="mt-4 inline-flex justify-center bg-brass-deep px-6 py-4 text-label-md font-semibold uppercase tracking-label"
                     >
                       Enquire now
                     </Link>
@@ -228,7 +228,7 @@ export function Header({ menu }: { menu: MenuData }) {
                     <span className="mt-1 text-sm text-muted tabular-nums">{String(c.count).padStart(2, "0")}</span>
                   </Link>
                 ))}
-                <Link href="/projects" className="mt-6 inline-flex items-center gap-2 text-[0.75rem] font-semibold uppercase tracking-[0.16em] hover:text-brass-deep">
+                <Link href="/projects" className="mt-6 inline-flex items-center gap-2 text-label-md font-semibold uppercase tracking-label hover:text-brass-deep">
                   All projects <ArrowUpRight className="size-4" strokeWidth={1.5} />
                 </Link>
               </div>
@@ -243,7 +243,7 @@ export function Header({ menu }: { menu: MenuData }) {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-night/80 via-night/10 to-transparent" />
                     <div className="absolute inset-x-0 bottom-0 p-5 text-ivory">
-                      <p className="text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-ivory/80">
+                      <p className="text-label font-semibold uppercase tracking-label text-ivory/80">
                         {p.status} · {p.locality}
                       </p>
                       <p className="mt-1 font-[family-name:var(--font-display)] text-2xl">{p.title}</p>

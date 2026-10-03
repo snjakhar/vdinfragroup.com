@@ -23,7 +23,7 @@ export function GalleryGrid({ entries, projects }: { entries: GalleryEntry[]; pr
             aria-pressed={project === p.slug}
             onClick={() => setProject(p.slug)}
             className={cn(
-              "shrink-0 border px-4 py-2.5 text-[0.7rem] font-semibold uppercase tracking-[0.14em] transition-colors duration-300",
+              "shrink-0 border px-4 py-2.5 text-label font-semibold uppercase tracking-label transition-colors duration-300",
               project === p.slug ? "border-ink bg-ink text-ivory" : "border-sand text-muted hover:border-ink hover:text-ink",
             )}
           >
@@ -40,7 +40,7 @@ export function GalleryGrid({ entries, projects }: { entries: GalleryEntry[]; pr
                 <MediaImg image={e.image} alt={e.alt} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="transition-transform duration-[1.2s] ease-premium group-hover:scale-105" />
               </div>
               <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-night/80 to-transparent p-4 text-left text-ivory opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                <span className="block text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-ivory/70">{e.kind}</span>
+                <span className="block text-label font-semibold uppercase tracking-label text-ivory/70">{e.kind}</span>
                 <span className="font-[family-name:var(--font-display)] text-xl">{e.project}</span>
               </span>
             </button>

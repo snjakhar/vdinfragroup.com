@@ -37,7 +37,7 @@ export function ProjectGallery({ items }: { items: LightboxItem[] }) {
               </span>
             )}
             {i === 0 && (
-              <span className="absolute bottom-4 left-4 flex items-center gap-2 bg-ivory/95 px-3 py-2 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-ink">
+              <span className="absolute bottom-4 left-4 flex items-center gap-2 bg-ivory/95 px-3 py-2 text-label font-semibold uppercase tracking-label text-ink">
                 <Expand className="size-3.5" strokeWidth={1.75} /> View all {items.length} photos
               </span>
             )}

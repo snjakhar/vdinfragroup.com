@@ -37,7 +37,7 @@ export function SectionNav({ sections }: { sections: { id: string; label: string
             <a
               href={`#${s.id}`}
               className={cn(
-                "relative block py-4 text-[0.72rem] font-semibold uppercase tracking-[0.16em] transition-colors after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:bg-brass after:transition-transform after:duration-500 after:ease-premium",
+                "relative block py-4 text-label-md font-semibold uppercase tracking-label transition-colors after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:bg-brass after:transition-transform after:duration-500 after:ease-premium",
                 active === s.id ? "text-ink after:scale-x-100" : "text-muted after:scale-x-0 hover:text-ink",
               )}
             >

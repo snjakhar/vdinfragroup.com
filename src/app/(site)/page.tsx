@@ -58,7 +58,7 @@ export default async function HomePage() {
               VD Infra Group · Jaipur
             </p>
             <h1 className="hero-slide mt-5 text-balance font-[family-name:var(--font-display)] text-[clamp(2.6rem,1.2rem+3.4vw,5rem)] font-medium leading-[1.02] tracking-[-0.015em] text-ink" style={{ animationDelay: "0.2s" }}>
-              Where dreams rise <em className="font-normal italic text-brass-deep">as landmarks</em>
+              Where dreams rise <span className="text-brass-deep">as landmarks</span>
             </h1>
             <p className="t-lead hero-rise mt-5 max-w-md" style={{ animationDelay: "0.35s" }}>
               Luxury kothis, villas and apartments across Jaipur, built with care and handed over ready to live in.
@@ -77,7 +77,7 @@ export default async function HomePage() {
                   <span className="block font-[family-name:var(--font-display)] text-3xl leading-none text-ink">
                     {String(getProjectsByStatus(s).length).padStart(2, "0")}
                   </span>
-                  <span className="mt-2 flex items-center gap-1 text-[0.62rem] font-semibold uppercase tracking-[0.08em] text-muted transition-colors group-hover:text-ink sm:text-[0.68rem] sm:tracking-[0.14em]">
+                  <span className="mt-2 flex items-center gap-1 text-label font-semibold uppercase tracking-[0.08em] text-muted transition-colors group-hover:text-ink sm:tracking-label">
                     {STATUS_META[s].label}
                     <ArrowUpRight aria-hidden className="size-3.5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
                   </span>
@@ -165,14 +165,14 @@ export default async function HomePage() {
                     )}
                     <div className="absolute inset-0 bg-gradient-to-t from-night/90 via-night/20 to-transparent" />
                     <div className="absolute inset-x-0 bottom-0 p-7 lg:p-9">
-                      <p className="text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-ivory/70">
+                      <p className="text-label font-semibold uppercase tracking-label text-ivory/70">
                         {String(getProjectsByStatus(s).length).padStart(2, "0")} projects
                       </p>
                       <h3 className="mt-2 font-[family-name:var(--font-display)] text-4xl">{STATUS_META[s].label}</h3>
                       <p className="mt-3 max-w-xs text-sm text-ivory/75 transition-all duration-500 ease-premium lg:translate-y-2 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
                         {STATUS_META[s].description}
                       </p>
-                      <span className="mt-6 inline-flex items-center gap-2 text-[0.72rem] font-semibold uppercase tracking-[0.16em]">
+                      <span className="mt-6 inline-flex items-center gap-2 text-label-md font-semibold uppercase tracking-label">
                         View projects <ArrowUpRight className="size-4" strokeWidth={1.5} />
                       </span>
                     </div>
@@ -224,7 +224,7 @@ export default async function HomePage() {
             <p className="t-h2 mx-auto mt-6 max-w-4xl text-balance">
               Every detail, from the foundation to the door handle, chosen to last a lifetime.
             </p>
-            <p className="mt-8 text-sm uppercase tracking-[0.18em] text-ivory/70">{site.tagline}</p>
+            <p className="mt-8 text-sm uppercase tracking-label text-ivory/70">{site.tagline}</p>
           </Reveal>
         </div>
       </section>
@@ -245,7 +245,7 @@ export default async function HomePage() {
               className={`group relative shrink-0 snap-start overflow-hidden bg-sand ${i % 3 === 0 ? "aspect-[4/5] w-[70vw] md:w-[28rem]" : "aspect-[4/5] w-[60vw] md:w-[22rem]"}`}
             >
               <MediaImg image={img} alt={altFor(project, img)} sizes="(min-width: 768px) 448px, 70vw" className="transition-transform duration-[1.2s] ease-premium group-hover:scale-105" />
-              <span className="absolute bottom-0 left-0 bg-ivory/95 px-4 py-2 text-[0.65rem] font-semibold uppercase tracking-[0.16em] opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+              <span className="absolute bottom-0 left-0 bg-ivory/95 px-4 py-2 text-label font-semibold uppercase tracking-label opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                 {project.title}
               </span>
             </Link>

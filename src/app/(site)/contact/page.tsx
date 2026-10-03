@@ -42,7 +42,7 @@ export default function ContactPage() {
                 <li key={r.label} className="border-b border-sand">
                   <a href={r.href} target={r.href.startsWith("http") ? "_blank" : undefined} rel="noopener" className="group flex items-center gap-5 py-5">
                     <r.icon className="size-5 text-brass-deep" />
-                    <span className="w-24 text-[0.7rem] font-semibold uppercase tracking-[0.16em] text-muted">{r.label}</span>
+                    <span className="w-24 text-label font-semibold uppercase tracking-label text-muted">{r.label}</span>
                     <span className="transition-colors group-hover:text-brass-deep">{r.value}</span>
                   </a>
                 </li>

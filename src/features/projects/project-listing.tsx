@@ -60,7 +60,7 @@ export function ProjectListing({ status }: { status: ProjectStatus | "all" }) {
                 {status === "all" && (
                   <div className="mb-10 flex items-baseline justify-between gap-6 border-b border-sand pb-4">
                     <h2 className="t-h3">{STATUS_META[g.status as ProjectStatus].label}</h2>
-                    <Link href={`/projects/${g.status}`} className="text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-muted hover:text-ink">
+                    <Link href={`/projects/${g.status}`} className="text-label-md font-semibold uppercase tracking-label text-muted hover:text-ink">
                       View {g.items.length}
                     </Link>
                   </div>

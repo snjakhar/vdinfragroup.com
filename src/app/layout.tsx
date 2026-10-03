@@ -10,7 +10,6 @@ import "@/styles/globals.css";
 const display = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
-  style: ["normal", "italic"],
   variable: "--font-cormorant",
   display: "swap",
 });

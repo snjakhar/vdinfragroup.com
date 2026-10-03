@@ -27,7 +27,7 @@ export function PostCard({
             className="transition-transform duration-[1.2s] ease-premium group-hover:scale-105"
           />
         </div>
-        <p className="mt-5 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-brass-deep">
+        <p className="mt-5 text-label font-semibold uppercase tracking-label text-brass-deep">
           {categoryTitle(post.category)}
           <span className="text-muted"> · {post.readingMinutes} min read</span>
         </p>
