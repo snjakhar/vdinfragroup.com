@@ -22,13 +22,14 @@ export function organizationLd(): Json {
     "@type": ["Organization", "RealEstateAgent"],
     "@id": absoluteUrl("/#organization"),
     name: site.name,
+    alternateName: ["VD INFRA", "VD INFRA Group", "VD Infra"],
     url: site.url,
     logo: absoluteUrl("/brand/logo.png"),
     description: site.description,
     telephone: site.phone,
     email: site.email,
     founder: { "@type": "Person", name: site.founder.name, jobTitle: site.founder.role },
-    areaServed: { "@type": "City", name: "Jaipur" },
+    areaServed: { "@type": "City", name: "Jaipur", containedInPlace: { "@type": "State", name: "Rajasthan" } },
     sameAs: [site.instagram],
   };
 }

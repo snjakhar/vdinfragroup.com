@@ -4,17 +4,26 @@
  */
 export const seo = {
   titleTemplate: "%s | VD Infra Group",
-  defaultTitle: "VD Infra Group | Premium Apartments and Villas in Jaipur",
+  defaultTitle: "VD Infra Group | Premium Flats, Villas & Apartments Builder in Jaipur",
   defaultDescription:
-    "Discover premium apartments, villas and ready-to-move homes in Jaipur by VD Infra Group. Explore completed, ready-to-move and upcoming projects.",
+    "VD Infra Group by Vikash Dukiya builds premium flats, villas and apartments in Jaipur, Rajasthan. Explore ready-to-move, completed and upcoming projects.",
   keywords: [
     "builders in Jaipur",
+    "builder Jaipur",
+    "flats in Jaipur",
     "apartments in Jaipur",
     "villas in Jaipur",
     "ready to move flats Jaipur",
     "new projects Jaipur",
     "RERA approved projects Jaipur",
+    "real estate Jaipur",
+    "property developer Jaipur",
+    "residential properties Jaipur",
+    "Pink City real estate",
+    "Jaipur Rajasthan",
     "VD Infra Group",
+    "VD INFRA",
+    "VD INFRA Group",
     "Vikash Dukiya",
     "Vikas Dukiya",
   ],

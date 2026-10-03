@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   description: seo.defaultDescription,
   keywords: seo.keywords,
   applicationName: site.name,
-  icons: { icon: "/brand/favicon.svg", apple: "/brand/apple-touch-icon.png" },
+  icons: { icon: [{ url: "/favicon.ico", sizes: "48x48" }, { url: "/brand/favicon.svg", type: "image/svg+xml" }], apple: "/brand/apple-touch-icon.png" },
   formatDetection: { telephone: false },
 };
 
