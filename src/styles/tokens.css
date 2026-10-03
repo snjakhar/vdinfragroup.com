@@ -22,7 +22,7 @@
   --color-map-line: #d9d2c4;
 
   /* Typography */
-  --font-display: var(--font-cormorant), "Times New Roman", serif;
+  --font-display: var(--font-inter), ui-sans-serif, system-ui, sans-serif; /* headings: Inter, set tighter and heavier than body */
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   /* Small uppercase labels: use these, not one-off sizes. 11px is the minimum on the site. */
   --text-label: 0.6875rem; /* 11px: tags, captions, meta */

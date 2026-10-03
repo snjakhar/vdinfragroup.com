@@ -1,18 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { preconnect } from "react-dom";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import { site } from "@content/site";
 import { seo } from "@content/seo";
 import { GoogleAnalytics } from "@/lib/analytics/google-analytics";
 import { MEDIA_BASE_URL } from "@/lib/images/presets";
 import "@/styles/globals.css";
-
-const display = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-cormorant",
-  display: "swap",
-});
 
 const sans = Inter({
   subsets: ["latin"],
@@ -42,7 +35,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   preconnect(MEDIA_BASE_URL);
   preconnect("https://images.unsplash.com");
   return (
-    <html lang="en-IN" className={`${display.variable} ${sans.variable}`} suppressHydrationWarning>
+    <html lang="en-IN" className={sans.variable} suppressHydrationWarning>
       <body>
         {/* Marks JS as available before first paint, so scroll reveals never hide content for no-JS visitors. */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />

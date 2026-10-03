@@ -31,7 +31,7 @@ export function PostCard({
           {categoryTitle(post.category)}
           <span className="text-muted"> · {post.readingMinutes} min read</span>
         </p>
-        <H className="mt-2 font-[family-name:var(--font-display)] text-[1.7rem] leading-snug transition-colors duration-300 group-hover:text-brass-deep">
+        <H className="mt-2 font-display text-[1.45rem] leading-snug transition-colors duration-300 group-hover:text-brass-deep font-medium tracking-tight">
           {post.title}
         </H>
         <p className="mt-2 line-clamp-2 text-sm text-muted">{post.excerpt}</p>

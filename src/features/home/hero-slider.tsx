@@ -66,7 +66,7 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
         >
           <span>
             <span className="block text-label font-semibold uppercase tracking-label text-brass-deep">{slide.status}</span>
-            <span className="block font-[family-name:var(--font-display)] text-[0.95rem] leading-tight sm:mt-0.5 sm:text-xl">{slide.title}</span>
+            <span className="block font-display text-[0.875rem] leading-tight sm:mt-0.5 sm:text-lg font-medium tracking-tight">{slide.title}</span>
           </span>
           <ArrowUpRight className="size-3.5 shrink-0 sm:size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
         </Link>

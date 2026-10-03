@@ -57,7 +57,7 @@ export default async function HomePage() {
             <p className="eyebrow hero-rise" style={{ animationDelay: "0.1s" }}>
               VD Infra Group · Jaipur
             </p>
-            <h1 className="hero-slide mt-5 text-balance font-[family-name:var(--font-display)] text-[clamp(2.6rem,1.2rem+3.4vw,5rem)] font-medium leading-[1.02] tracking-[-0.015em] text-ink" style={{ animationDelay: "0.2s" }}>
+            <h1 className="hero-slide mt-5 text-balance font-display text-[clamp(2.2rem,1rem+2.9vw,4.1rem)] font-medium leading-[1.04] tracking-[-0.03em] text-ink" style={{ animationDelay: "0.2s" }}>
               Where dreams rise <span className="text-brass-deep">as landmarks</span>
             </h1>
             <p className="t-lead hero-rise mt-5 max-w-md" style={{ animationDelay: "0.35s" }}>
@@ -74,7 +74,7 @@ export default async function HomePage() {
             <div className="hero-rise mt-10 grid grid-cols-3 border-t border-sand lg:mt-12" style={{ animationDelay: "0.65s" }}>
               {STATUS_ORDER.map((s) => (
                 <Link key={s} href={`/projects/${s}`} className="group py-5 pr-3">
-                  <span className="block font-[family-name:var(--font-display)] text-3xl leading-none text-ink">
+                  <span className="block font-display text-2xl leading-none text-ink font-medium tracking-tight">
                     {String(getProjectsByStatus(s).length).padStart(2, "0")}
                   </span>
                   <span className="mt-2 flex items-center gap-1 text-label font-semibold uppercase tracking-[0.08em] text-muted transition-colors group-hover:text-ink sm:tracking-label">
@@ -118,7 +118,7 @@ export default async function HomePage() {
               >
                 <dt className="sr-only">{s.label}</dt>
                 <dd>
-                  <span className="block font-[family-name:var(--font-display)] text-5xl text-ink lg:text-6xl">{s.value}</span>
+                  <span className="block font-display text-4xl text-ink lg:text-5xl font-medium tracking-tight">{s.value}</span>
                   <span className="mt-2 block text-sm text-muted">{s.label}</span>
                 </dd>
               </Reveal>
@@ -150,7 +150,7 @@ export default async function HomePage() {
                       <p className="text-label font-semibold uppercase tracking-label text-ivory/70">
                         {String(getProjectsByStatus(s).length).padStart(2, "0")} projects
                       </p>
-                      <h3 className="mt-2 font-[family-name:var(--font-display)] text-4xl">{STATUS_META[s].label}</h3>
+                      <h3 className="mt-2 font-display text-3xl font-medium tracking-tight">{STATUS_META[s].label}</h3>
                       <p className="mt-3 max-w-xs text-sm text-ivory/75 transition-all duration-500 ease-premium lg:translate-y-2 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
                         {STATUS_META[s].description}
                       </p>
@@ -202,9 +202,9 @@ export default async function HomePage() {
           <ol className="lg:col-span-6 lg:col-start-7 lg:pt-4">
             {PILLARS.map((p, i) => (
               <Reveal as="li" key={p.title} delay={i * 0.06} className="grid grid-cols-[3.5rem_1fr] gap-4 border-t border-ivory/15 py-9 lg:py-11">
-                  <span className="font-[family-name:var(--font-display)] text-2xl text-brass">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="font-display text-xl text-brass font-medium tracking-tight">{String(i + 1).padStart(2, "0")}</span>
                   <div>
-                    <h3 className="font-[family-name:var(--font-display)] text-3xl">{p.title}</h3>
+                    <h3 className="font-display text-2xl font-medium tracking-tight">{p.title}</h3>
                     <p className="mt-3 max-w-lg text-mist">{p.body}</p>
                   </div>
               </Reveal>

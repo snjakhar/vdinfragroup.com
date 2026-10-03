@@ -32,7 +32,7 @@ export function ProjectGallery({ items }: { items: LightboxItem[] }) {
             />
             <span className="absolute inset-0 bg-night/0 transition-colors duration-500 group-hover:bg-night/20" />
             {i === shown.length - 1 && items.length > shown.length && (
-              <span className="absolute inset-0 flex items-center justify-center bg-night/55 font-[family-name:var(--font-display)] text-3xl text-ivory">
+              <span className="absolute inset-0 flex items-center justify-center bg-night/55 font-display text-2xl text-ivory font-medium tracking-tight">
                 +{items.length - shown.length} more
               </span>
             )}

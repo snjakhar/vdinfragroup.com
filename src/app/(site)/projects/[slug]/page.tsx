@@ -120,7 +120,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
             {facts.map((f) => (
               <div key={f.label} className="py-4 pr-3 lg:py-3">
                 <dt className="text-label font-semibold uppercase tracking-label text-ivory/60">{f.label}</dt>
-                <dd className="mt-1 font-[family-name:var(--font-display)] text-lg leading-snug sm:text-2xl">{f.value}</dd>
+                <dd className="mt-1 font-display text-base leading-snug sm:text-xl font-medium tracking-tight">{f.value}</dd>
               </div>
             ))}
           </dl>
@@ -188,7 +188,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
               {p.stats.map((s, i) => (
                 <div key={s.label} className={`py-7 ${i % 2 ? "border-l border-sand pl-6" : "pr-4"} md:border-l md:pl-8 md:first:border-l-0 md:first:pl-0`}>
                   <dt className="text-label font-semibold uppercase tracking-label text-muted">{s.label}</dt>
-                  <dd className="mt-2 font-[family-name:var(--font-display)] text-3xl lg:text-4xl">{s.value}</dd>
+                  <dd className="mt-2 font-display text-2xl lg:text-3xl font-medium tracking-tight">{s.value}</dd>
                 </div>
               ))}
             </dl>
@@ -233,7 +233,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
                 <tbody>
                   {p.configurations.map((c) => (
                     <tr key={c.type} className="border-b border-sand">
-                      <th scope="row" className="py-5 pr-4 font-[family-name:var(--font-display)] text-2xl font-medium">
+                      <th scope="row" className="py-5 pr-4 font-display text-xl font-medium tracking-tight">
                         {c.type}
                       </th>
                       {showCarpet && <td className="py-5 pr-4">{c.carpetArea ?? "-"}</td>}
@@ -300,7 +300,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
                 {p.location.nearby.map((n) => (
                   <li key={n.name} className="flex items-baseline justify-between gap-6 border-b border-sand py-4">
                     <span>{n.name}</span>
-                    {n.distance && <span className="shrink-0 font-[family-name:var(--font-display)] text-xl text-brass-deep">{n.distance}</span>}
+                    {n.distance && <span className="shrink-0 font-display text-lg text-brass-deep font-medium tracking-tight">{n.distance}</span>}
                   </li>
                 ))}
               </ul>

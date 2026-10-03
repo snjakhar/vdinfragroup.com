@@ -41,7 +41,7 @@ export function GalleryGrid({ entries, projects }: { entries: GalleryEntry[]; pr
               </div>
               <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-night/80 to-transparent p-4 text-left text-ivory opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                 <span className="block text-label font-semibold uppercase tracking-label text-ivory/70">{e.kind}</span>
-                <span className="font-[family-name:var(--font-display)] text-xl">{e.project}</span>
+                <span className="font-display text-lg font-medium tracking-tight">{e.project}</span>
               </span>
             </button>
           </li>

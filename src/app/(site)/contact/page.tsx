@@ -58,7 +58,7 @@ export default function ContactPage() {
                 <div className="mt-5 flex items-start justify-between gap-6">
                   <div>
                     <p className="eyebrow">Site visits</p>
-                    <p className="mt-2 font-[family-name:var(--font-display)] text-3xl">See a finished home at {visit.title}</p>
+                    <p className="mt-2 font-display text-2xl font-medium tracking-tight">See a finished home at {visit.title}</p>
                     <p className="mt-2 text-sm text-muted">Ready-to-move apartments in {visit.location.locality}. Call or WhatsApp to book a visit.</p>
                   </div>
                   <ArrowUpRight className="mt-2 size-6 shrink-0 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />

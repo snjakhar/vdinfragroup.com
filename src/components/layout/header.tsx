@@ -166,12 +166,12 @@ export function Header({ menu }: { menu: MenuData }) {
                   </Dialog.Close>
                 </div>
                 <nav aria-label="Mobile" className="container-site mt-6 flex flex-1 flex-col">
-                  <Link href="/" className="border-b border-ivory/10 py-4 font-[family-name:var(--font-display)] text-3xl">
+                  <Link href="/" className="border-b border-ivory/10 py-4 font-display text-2xl font-medium tracking-tight">
                     Home
                   </Link>
                   {menu.nav.map((item) => (
                     <div key={item.href} className="border-b border-ivory/10 py-4">
-                      <Link href={item.href} className="font-[family-name:var(--font-display)] text-3xl">
+                      <Link href={item.href} className="font-display text-2xl font-medium tracking-tight">
                         {item.label}
                       </Link>
                       {item.href === "/projects" && (
@@ -220,7 +220,7 @@ export function Header({ menu }: { menu: MenuData }) {
                     className="group flex items-start justify-between gap-4 border-b border-sand py-4 last:border-0"
                   >
                     <span>
-                      <span className="font-[family-name:var(--font-display)] text-2xl transition-colors group-hover:text-brass-deep">
+                      <span className="font-display text-xl transition-colors group-hover:text-brass-deep font-medium tracking-tight">
                         {c.label}
                       </span>
                       <span className="mt-1 block text-sm text-muted">{c.description}</span>
@@ -246,7 +246,7 @@ export function Header({ menu }: { menu: MenuData }) {
                       <p className="text-label font-semibold uppercase tracking-label text-ivory/80">
                         {p.status} · {p.locality}
                       </p>
-                      <p className="mt-1 font-[family-name:var(--font-display)] text-2xl">{p.title}</p>
+                      <p className="mt-1 font-display text-xl font-medium tracking-tight">{p.title}</p>
                     </div>
                   </Link>
                 ))}

@@ -66,7 +66,7 @@ export default function AboutPage() {
             <SectionHeading eyebrow="Our story" title="Built on a founder's promise" />
             <div className="mt-10 border-l-2 border-brass pl-6">
               <p className="eyebrow">Founded by</p>
-              <p className="mt-3 font-[family-name:var(--font-display)] text-3xl text-ink">{site.founder.name}</p>
+              <p className="mt-3 font-display text-2xl text-ink font-medium tracking-tight">{site.founder.name}</p>
               <p className="mt-1 text-sm text-muted">
                 {site.founder.role}, {site.name}
               </p>
@@ -100,8 +100,8 @@ export default function AboutPage() {
           <div className="mt-14 grid gap-px bg-sand md:grid-cols-3">
             {VALUES.map((v, i) => (
               <Reveal key={v.title} delay={i * 0.08} className="bg-paper p-8 lg:p-12">
-                <span className="font-[family-name:var(--font-display)] text-xl text-brass-deep">{String(i + 1).padStart(2, "0")}</span>
-                <h3 className="mt-6 font-[family-name:var(--font-display)] text-4xl">{v.title}</h3>
+                <span className="font-display text-lg text-brass-deep font-medium tracking-tight">{String(i + 1).padStart(2, "0")}</span>
+                <h3 className="mt-6 font-display text-3xl font-medium tracking-tight">{v.title}</h3>
                 <p className="mt-4 text-muted">{v.body}</p>
               </Reveal>
             ))}
@@ -116,7 +116,7 @@ export default function AboutPage() {
             {PROCESS.map((s, i) => (
               <Reveal as="li" key={s.title} delay={i * 0.08} className="border-t border-brass pt-6">
                   <span className="text-label font-semibold uppercase tracking-label text-brass">Step {i + 1}</span>
-                  <h3 className="mt-3 font-[family-name:var(--font-display)] text-3xl">{s.title}</h3>
+                  <h3 className="mt-3 font-display text-2xl font-medium tracking-tight">{s.title}</h3>
                   <p className="mt-3 text-mist">{s.body}</p>
               </Reveal>
             ))}
@@ -133,7 +133,7 @@ export default function AboutPage() {
             {areas.map(([area, count], i) => (
               <Reveal as="li" key={area} delay={Math.min(i, 8) * 0.04} className="grid grid-cols-[1fr_auto] items-baseline gap-6 border-t border-sand py-5 last:border-b">
                 <span className="text-lg">{area}</span>
-                <span className="font-[family-name:var(--font-display)] text-2xl text-brass-deep">
+                <span className="font-display text-xl text-brass-deep font-medium tracking-tight">
                   {count} {count === 1 ? "project" : "projects"}
                 </span>
               </Reveal>

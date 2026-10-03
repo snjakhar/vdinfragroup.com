@@ -56,11 +56,11 @@ export function FloorPlans({ plans, projectTitle }: { plans: Plan[]; projectTitl
           <dl className="flex flex-wrap gap-x-12 gap-y-4">
             <div>
               <dt className="eyebrow">Configuration</dt>
-              <dd className="mt-1 font-[family-name:var(--font-display)] text-2xl">{plan.configuration}</dd>
+              <dd className="mt-1 font-display text-xl font-medium tracking-tight">{plan.configuration}</dd>
             </div>
             <div>
               <dt className="eyebrow">Area</dt>
-              <dd className="mt-1 font-[family-name:var(--font-display)] text-2xl">{plan.area}</dd>
+              <dd className="mt-1 font-display text-xl font-medium tracking-tight">{plan.area}</dd>
             </div>
           </dl>
           <a href="#enquire" className="inline-flex items-center gap-2 text-label-md font-semibold uppercase tracking-label text-ink hover:text-brass-deep">

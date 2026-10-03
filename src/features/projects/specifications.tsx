@@ -9,7 +9,7 @@ export function Specifications({ specs }: { specs: { group: string; items: strin
       {specs.map((s) => (
         <Accordion.Item key={s.group} value={s.group} className="border-b border-sand">
           <Accordion.Header>
-            <Accordion.Trigger className="group flex w-full items-center justify-between py-5 text-left font-[family-name:var(--font-display)] text-2xl">
+            <Accordion.Trigger className="group flex w-full items-center justify-between py-5 text-left font-display text-xl font-medium tracking-tight">
               {s.group}
               <Plus aria-hidden className="size-5 text-brass-deep transition-transform duration-300 group-data-[state=open]:rotate-45" strokeWidth={1.5} />
             </Accordion.Trigger>

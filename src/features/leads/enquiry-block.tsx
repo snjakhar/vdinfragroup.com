@@ -32,7 +32,7 @@ export function EnquiryBlock() {
             >
               <WhatsAppIcon className="size-9 text-brass" />
               <span>
-                <span className="block font-[family-name:var(--font-display)] text-3xl">WhatsApp</span>
+                <span className="block font-display text-2xl font-medium tracking-tight">WhatsApp</span>
                 <span className="mt-2 flex items-center gap-2 text-sm text-mist">
                   Chat with our team now
                   <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
@@ -48,7 +48,7 @@ export function EnquiryBlock() {
             >
               <InstagramIcon className="size-9 text-brass-deep" />
               <span>
-                <span className="block font-[family-name:var(--font-display)] text-3xl">Instagram</span>
+                <span className="block font-display text-2xl font-medium tracking-tight">Instagram</span>
                 <span className="mt-2 flex items-center gap-2 text-sm text-muted">
                   Site progress and new launches, {site.instagramHandle}
                   <ArrowUpRight className="size-4 shrink-0 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
@@ -58,7 +58,7 @@ export function EnquiryBlock() {
           </Reveal>
           </div>
           <Reveal delay={0.16} className="relative border border-sand bg-paper p-6 sm:p-10 lg:col-span-8">
-            <p className="mb-6 font-[family-name:var(--font-display)] text-3xl">Send an enquiry</p>
+            <p className="mb-6 font-display text-2xl font-medium tracking-tight">Send an enquiry</p>
             <LazyEnquiryForm projects={projects} />
           </Reveal>
         </div>

@@ -50,7 +50,7 @@ export function ProjectCard({
           <MapPin aria-hidden className="size-3.5 text-brass-deep" strokeWidth={1.75} />
           {placeName(project)}
         </p>
-        <h3 className="mt-2 font-[family-name:var(--font-display)] text-[1.9rem] leading-tight transition-colors duration-300 group-hover:text-brass-deep">
+        <h3 className="mt-2 font-display text-[1.6rem] leading-tight transition-colors duration-300 group-hover:text-brass-deep font-medium tracking-tight">
           {project.title}
         </h3>
         <p className="mt-1.5 text-sm text-muted">
