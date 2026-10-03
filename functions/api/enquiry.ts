@@ -94,7 +94,8 @@ export async function onRequestPost({ request, env }: Ctx): Promise<Response> {
     const detail = (await send.json().catch(() => ({}))) as { name?: string; message?: string };
     console.error("email_failed", send.status, detail);
     // Only Resend's error type (e.g. "invalid_api_key"), never the message or our config.
-    return json(502, { error: "email_failed", reason: detail.name ?? `status_${send.status}` });
+    // 500, not 502: Cloudflare replaces 502 responses with its own HTML error page.
+    return json(500, { error: "email_failed", reason: detail.name ?? `status_${send.status}` });
   }
 
   return json(200, { ok: true });
