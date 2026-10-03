@@ -86,8 +86,9 @@ export default async function HomePage() {
             </div>
           </div>
         </div>
-        {/* Image panel: first (under the header) on mobile, the right side of the screen on desktop */}
-        <div className="relative order-first mt-20 aspect-[4/3] w-full sm:aspect-[5/4] lg:order-none lg:mt-0 lg:absolute lg:bottom-0 lg:right-0 lg:top-24 lg:aspect-auto lg:w-[56%]">
+        {/* Image panel: first (under the header) on mobile, the right side of the screen on desktop.
+            z-20 keeps it above the full-width text layer (z-10), whose empty right side would swallow clicks. */}
+        <div className="relative order-first mt-20 aspect-[4/3] w-full sm:aspect-[5/4] lg:order-none lg:mt-0 lg:absolute lg:bottom-0 lg:right-0 lg:top-24 lg:z-20 lg:aspect-auto lg:w-[56%]">
           <HeroSlider slides={heroSlides} />
         </div>
       </section>
