@@ -65,7 +65,6 @@ export function Header({ menu }: { menu: MenuData }) {
   }, [megaOpen]);
 
   const transparent = hasPhotoHero(pathname) && !scrolled && !megaOpen;
-  const tone = transparent ? "light" : "dark";
 
   const openMega = () => {
     clearTimeout(closeTimer.current);
@@ -80,7 +79,8 @@ export function Header({ menu }: { menu: MenuData }) {
       ref={headerRef}
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,color] duration-500 ease-premium",
-        transparent ? "bg-transparent text-ivory" : "bg-ivory/95 text-ink shadow-[0_1px_0_var(--color-sand)] backdrop-blur-md",
+        // Always dark, like the mobile menu and footer, so the logo shows in its own gold.
+        transparent ? "bg-transparent text-ivory" : "bg-night/95 text-ivory shadow-[0_1px_0_rgba(247,244,238,0.08)] backdrop-blur-md",
       )}
       onMouseLeave={closeMegaSoon}
     >
@@ -89,7 +89,7 @@ export function Header({ menu }: { menu: MenuData }) {
       )}
       <div className="container-site flex h-20 items-center justify-between gap-6 lg:h-24">
         <Link href="/" className="h-10 shrink-0 lg:h-11">
-          <Logo tone={tone} className="h-full" />
+          <Logo tone="light" className="h-full" />
         </Link>
 
         <nav aria-label="Main" className="hidden items-center gap-9 lg:flex">
@@ -103,7 +103,7 @@ export function Header({ menu }: { menu: MenuData }) {
                   onClick={() => setMegaOpen((o) => !o)}
                   className={cn(
                     "group flex items-center gap-1.5 text-label-md font-semibold uppercase tracking-label",
-                    pathname.startsWith("/projects") && (transparent ? "text-brass" : "text-brass-deep"),
+                    pathname.startsWith("/projects") && "text-brass",
                   )}
                 >
                   Projects
@@ -121,7 +121,7 @@ export function Header({ menu }: { menu: MenuData }) {
                 onMouseEnter={() => setMegaOpen(false)}
                 className={cn(
                   "relative text-label-md font-semibold uppercase tracking-label after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-500 after:ease-premium hover:after:scale-x-100",
-                  pathname.startsWith(item.href) && (transparent ? "text-brass after:scale-x-100" : "text-brass-deep after:scale-x-100"),
+                  pathname.startsWith(item.href) && "text-brass after:scale-x-100",
                 )}
               >
                 {item.label}
@@ -143,7 +143,7 @@ export function Header({ menu }: { menu: MenuData }) {
             href="#enquire"
             className={cn(
               "hidden rounded-[var(--radius-sm)] px-5 py-3 text-label-md font-semibold uppercase tracking-label transition-colors duration-300 sm:inline-flex",
-              transparent ? "border border-ivory/70 hover:bg-ivory hover:text-ink" : "bg-ink text-ivory hover:bg-brass-deep",
+              transparent ? "border border-ivory/70 hover:bg-ivory hover:text-ink" : "bg-brass-deep text-ivory hover:bg-brass-shade",
             )}
           >
             Enquire now
