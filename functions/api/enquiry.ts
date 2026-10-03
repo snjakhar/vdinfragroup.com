@@ -10,7 +10,7 @@
  *   ENQUIRY_TO_EMAIL      e.g. sales@vdinfragroup.com
  *   ENQUIRY_FROM_EMAIL    a sender on a domain verified in Resend, e.g. "VD Infra Website <website@vdinfragroup.com>"
  *   TURNSTILE_SECRET_KEY  secret (optional; when unset, the Turnstile check is skipped)
- *   ALLOWED_ORIGIN        e.g. https://vdinfragroup.com (optional)
+ *   ALLOWED_ORIGIN        comma-separated, e.g. https://vdinfragroup.com,https://www.vdinfragroup.com (optional)
  */
 import { enquiryMetaSchema, enquirySchema } from "../../src/features/leads/schema";
 
@@ -30,7 +30,8 @@ const json = (status: number, body: unknown) =>
 const esc = (s = "") => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
 export async function onRequestPost({ request, env }: Ctx): Promise<Response> {
-  if (env.ALLOWED_ORIGIN && request.headers.get("origin") !== env.ALLOWED_ORIGIN) {
+  const allowed = env.ALLOWED_ORIGIN?.split(",").map((o) => o.trim()).filter(Boolean);
+  if (allowed?.length && !allowed.includes(request.headers.get("origin") ?? "")) {
     return json(403, { error: "forbidden" });
   }
 

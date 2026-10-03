@@ -29,7 +29,7 @@ Add `vdinfragroup.com` to Cloudflare and point the registrar's nameservers to Cl
    | `ENQUIRY_TO_EMAIL` | text | `sales@vdinfragroup.com` |
    | `ENQUIRY_FROM_EMAIL` | text | `VD Infra Website <website@vdinfragroup.com>` |
    | `TURNSTILE_SECRET_KEY` | secret | from step 5 |
-   | `ALLOWED_ORIGIN` | text | `https://vdinfragroup.com` |
+   | `ALLOWED_ORIGIN` | text | `https://vdinfragroup.com,https://www.vdinfragroup.com` (comma-separated) |
 
 `functions/api/enquiry.ts` is deployed automatically as the `/api/enquiry` Pages Function. `public/_headers` and `public/_redirects` are applied automatically.
 
