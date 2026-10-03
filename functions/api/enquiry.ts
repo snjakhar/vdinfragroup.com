@@ -12,6 +12,7 @@
  *   TURNSTILE_SECRET_KEY  secret (optional; when unset, the Turnstile check is skipped)
  *   ALLOWED_ORIGIN        comma-separated, e.g. https://vdinfragroup.com,https://www.vdinfragroup.com (optional)
  */
+import { buildLeadEmail } from "../../src/features/leads/lead-email";
 import { enquiryMetaSchema, enquirySchema } from "../../src/features/leads/schema";
 
 interface Env {
@@ -26,8 +27,6 @@ type Ctx = { request: Request; env: Env };
 
 const json = (status: number, body: unknown) =>
   new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json" } });
-
-const esc = (s = "") => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
 export async function onRequestPost({ request, env }: Ctx): Promise<Response> {
   const allowed = env.ALLOWED_ORIGIN?.split(",").map((o) => o.trim()).filter(Boolean);
@@ -63,21 +62,12 @@ export async function onRequestPost({ request, env }: Ctx): Promise<Response> {
     }
   }
 
-  const { name, phone, email, project, message } = lead.data;
-  const rows: [string, string | undefined][] = [
-    ["Name", name],
-    ["Phone", phone],
-    ["Email", email || undefined],
-    ["Project", project || "General enquiry"],
-    ["Message", message || undefined],
-    ["Page", meta.data.sourcePage],
-    ...Object.entries(meta.data.utm ?? {}).map(([k, v]) => [k, v] as [string, string]),
-    ["Received", new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })],
-  ];
-  const html = `<h2 style="font-family:Georgia,serif">New website enquiry</h2><table cellpadding="6" style="font-family:Arial,sans-serif;font-size:14px">${rows
-    .filter(([, v]) => v)
-    .map(([k, v]) => `<tr><td style="color:#6b665e">${esc(k)}</td><td><strong>${esc(v)}</strong></td></tr>`)
-    .join("")}</table>`;
+  const { subject, html, text } = buildLeadEmail({
+    ...lead.data,
+    siteUrl: new URL(request.url).origin,
+    sourcePage: meta.data.sourcePage,
+    utm: meta.data.utm,
+  });
 
   const send = await fetch("https://api.resend.com/emails", {
     method: "POST",
@@ -85,9 +75,10 @@ export async function onRequestPost({ request, env }: Ctx): Promise<Response> {
     body: JSON.stringify({
       from: env.ENQUIRY_FROM_EMAIL,
       to: [env.ENQUIRY_TO_EMAIL],
-      reply_to: email || undefined,
-      subject: `Enquiry: ${project || "General"} (${name})`,
+      reply_to: lead.data.email || undefined,
+      subject,
       html,
+      text,
     }),
   });
   if (!send.ok) {
