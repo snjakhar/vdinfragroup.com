@@ -7,7 +7,7 @@
 export const site = {
   name: "VD Infra Group",
   shortName: "VD Infra",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.vdinfragroup.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://vdinfragroup.com",
   tagline: "Where dreams rise as landmarks",
   description:
     "VD Infra Group builds luxury kothis, villas and apartments across Jaipur, from Narayan Vihar and Chordia City on Ajmer Road to Jagatpura.",
