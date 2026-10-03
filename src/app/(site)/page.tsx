@@ -281,7 +281,7 @@ export default async function HomePage() {
               <SectionHeading eyebrow="Visit us" title={`See a finished home at ${visit.title}`} lead={`Walk through a ready-to-move apartment in ${visit.location.locality} and meet the team behind your home.`} />
               <ul className="mt-10 space-y-5 text-sm">
                 <li className="flex gap-4">
-                  <Phone aria-hidden className="size-5 shrink-0 text-brass" strokeWidth={1.5} />
+                  <Phone aria-hidden className="size-5 shrink-0 text-brass-deep" strokeWidth={1.5} />
                   <a href={site.phoneHref} className="hover:text-brass-deep">
                     {site.phone}
                   </a>

@@ -9,12 +9,17 @@
   --color-ink: #1c1b19; /* primary text */
   --color-muted: #6b665e; /* secondary text */
   --color-sand: #ddd6c8; /* hairlines, borders */
-  --color-brass: #a8824a; /* the single accent */
+  --color-brass: #a8824a; /* the single accent: on dark backgrounds, or large/decorative on light (3.2:1 on ivory) */
   --color-brass-deep: #8a6a3b; /* accent for small text and buttons on light backgrounds (4.5:1 on ivory) */
   --color-brass-shade: #6f5530; /* hover/pressed for brass-deep */
   --color-night: #14171a; /* dark sections, footer */
   --color-night-soft: #1d2125;
   --color-mist: #a6a196; /* secondary text on dark */
+  --color-brand-gold: #b6a37b; /* the logo's own gold (from VD Infra.ai); logo artwork only, never UI or text */
+  --color-prose: #34322e; /* long-form body text (blog, legal): a touch softer than ink */
+  --color-error: #a3412b; /* form errors (5.7:1 on ivory) */
+  --color-map-land: #e9e4da; /* map placeholder */
+  --color-map-line: #d9d2c4;
 
   /* Typography */
   --font-display: var(--font-cormorant), "Times New Roman", serif;

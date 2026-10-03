@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { ArrowUpRight, MapPin } from "lucide-react";
 import { MediaImg } from "@/components/ui/media-image";
-import { Tag } from "@/components/ui/tag";
 import { altFor, cardImage, placeName, startingPrice, type ProjectView } from "@/lib/content/projects";
 import { cn } from "@/lib/cn";
+import { StatusTag } from "./status-tag";
 
 /** Configurations as a short line, e.g. "3 & 4 BHK Apartments". */
 export function configSummary(p: ProjectView) {
@@ -35,7 +35,7 @@ export function ProjectCard({
           className="transition-transform duration-[1.4s] ease-premium group-hover:scale-[1.06]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-night/45 via-transparent to-transparent opacity-80 transition-opacity duration-700 group-hover:opacity-100" />
-        <Tag className="absolute left-4 top-4">{project.statusLabel}</Tag>
+        <StatusTag status={project.status} label={project.statusLabel} className="absolute left-4 top-4" />
         {cardImage(project).impression && (
           <span className="absolute bottom-3 left-4 text-[0.58rem] font-semibold uppercase tracking-[0.16em] text-ivory/90 [text-shadow:0_1px_4px_rgba(0,0,0,.6)]">
             Artist&rsquo;s impression
@@ -47,7 +47,7 @@ export function ProjectCard({
       </div>
       <div className="pt-5">
         <p className="flex items-center gap-1.5 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted">
-          <MapPin aria-hidden className="size-3.5 text-brass" strokeWidth={1.75} />
+          <MapPin aria-hidden className="size-3.5 text-brass-deep" strokeWidth={1.75} />
           {placeName(project)}
         </p>
         <h3 className="mt-2 font-[family-name:var(--font-display)] text-[1.9rem] leading-tight transition-colors duration-300 group-hover:text-brass-deep">

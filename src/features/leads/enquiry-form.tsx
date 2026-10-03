@@ -91,21 +91,21 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
         <label htmlFor="enq-name" className={label}>
           Name *
         </label>
-        {errors.name && <p className="mt-1.5 text-xs text-[#a3412b]">{errors.name.message}</p>}
+        {errors.name && <p className="mt-1.5 text-xs text-error">{errors.name.message}</p>}
       </div>
       <div className="relative">
         <input id="enq-phone" type="tel" inputMode="tel" placeholder="Phone" autoComplete="tel" className={field} {...register("phone")} />
         <label htmlFor="enq-phone" className={label}>
           Mobile number *
         </label>
-        {errors.phone && <p className="mt-1.5 text-xs text-[#a3412b]">{errors.phone.message}</p>}
+        {errors.phone && <p className="mt-1.5 text-xs text-error">{errors.phone.message}</p>}
       </div>
       <div className="relative">
         <input id="enq-email" type="email" placeholder="Email" autoComplete="email" className={field} {...register("email")} />
         <label htmlFor="enq-email" className={label}>
           Email (optional)
         </label>
-        {errors.email && <p className="mt-1.5 text-xs text-[#a3412b]">{errors.email.message}</p>}
+        {errors.email && <p className="mt-1.5 text-xs text-error">{errors.email.message}</p>}
       </div>
       <div className="relative">
         <select id="enq-project" className={cn(field, "appearance-none")} {...register("project")}>
@@ -146,7 +146,7 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
             .
           </span>
         </label>
-        {errors.consent && <p className="mt-1.5 text-xs text-[#a3412b]">{errors.consent.message}</p>}
+        {errors.consent && <p className="mt-1.5 text-xs text-error">{errors.consent.message}</p>}
       </div>
 
       <div className="sm:col-span-2">
@@ -157,7 +157,7 @@ export function EnquiryForm({ projects }: { projects: { slug: string; title: str
         <Button type="submit" arrow disabled={status === "sending"} className="w-full sm:w-auto">
           {status === "sending" ? "Sending" : "Send enquiry"}
         </Button>
-        <p role="status" aria-live="polite" className="text-sm text-[#a3412b]">
+        <p role="status" aria-live="polite" className="text-sm text-error">
           {status === "verifying" && <span className="text-muted">Finishing the security check. Please send again in a moment.</span>}
           {status === "error" && "Something went wrong. Please call or WhatsApp us instead."}
           {status === "error" && errorCode && <span className="mt-1 block text-xs text-muted">Error: {errorCode}</span>}

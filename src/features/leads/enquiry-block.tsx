@@ -46,7 +46,7 @@ export function EnquiryBlock() {
               event="instagram_click"
               className="group flex w-full min-h-44 flex-col justify-between border border-sand bg-paper p-8 transition-colors duration-500 hover:border-ink"
             >
-              <InstagramIcon className="size-9 text-brass" />
+              <InstagramIcon className="size-9 text-brass-deep" />
               <span>
                 <span className="block font-[family-name:var(--font-display)] text-3xl">Instagram</span>
                 <span className="mt-2 flex items-center gap-2 text-sm text-muted">

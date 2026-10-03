@@ -4,7 +4,6 @@ import { Download, MapPin } from "lucide-react";
 import { ButtonLink } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/heading";
 import { MediaImg } from "@/components/ui/media-image";
-import { Tag } from "@/components/ui/tag";
 import { Reveal } from "@/components/motion/reveal";
 import { AmenityIcon } from "@/features/projects/amenity-icon";
 import { FaqList } from "@/features/projects/faq-list";
@@ -14,6 +13,7 @@ import { ProjectCard, configSummary } from "@/features/projects/project-card";
 import { ProjectGallery } from "@/features/projects/project-gallery";
 import { SectionNav } from "@/features/projects/section-nav";
 import { Specifications } from "@/features/projects/specifications";
+import { StatusTag } from "@/features/projects/status-tag";
 import { TrackedLink } from "@/features/leads/tracked-link";
 import { STATUS_META, altFor, getAllProjects, getProject, getRelatedProjects, placeName, startingPrice } from "@/lib/content/projects";
 import { MEDIA_BASE_URL } from "@/lib/images/presets";
@@ -105,9 +105,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
                 ))}
               </ol>
             </nav>
-            <Tag tone="brass" className="hero-rise">
-              {p.statusLabel}
-            </Tag>
+            <StatusTag status={p.status} label={p.statusLabel} className="hero-rise" />
             <h1 className="t-display hero-slide mt-5" style={{ animationDelay: "0.1s" }}>
               {p.title}
             </h1>

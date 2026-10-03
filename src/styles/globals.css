@@ -17,7 +17,7 @@
     line-height: 1.65;
   }
   ::selection {
-    background: var(--color-brass);
+    background: var(--color-brass-deep);
     color: var(--color-ivory);
   }
   :focus-visible {
@@ -98,7 +98,7 @@
   .prose-vd {
     font-size: 1.0625rem;
     line-height: 1.8;
-    color: #34322e;
+    color: var(--color-prose);
   }
   .prose-vd > * + * {
     margin-top: 1.25em;
