@@ -3,8 +3,9 @@ import { Header, type MenuData } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { MobileActions } from "@/components/layout/mobile-actions";
 import { MotionProvider } from "@/components/motion/motion-provider";
+import { LaunchCountdown } from "@/features/home/launch-countdown";
 import { EnquiryBlock } from "@/features/leads/enquiry-block";
-import { STATUS_META, STATUS_ORDER, altFor, getAllProjects, getProjectsByStatus } from "@/lib/content/projects";
+import { STATUS_META, STATUS_ORDER, altFor, cardImage, getAllProjects, getProject, getProjectsByStatus } from "@/lib/content/projects";
 import { JsonLd, organizationLd, websiteLd } from "@/lib/seo/json-ld";
 
 export default function SiteLayout({ children }: { children: React.ReactNode }) {
@@ -31,8 +32,22 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
     })),
   };
 
+  const launchProject = getProject("krishnam-kothi-176");
+
   return (
     <MotionProvider>
+      {site.launch.enabled && launchProject && (
+        <LaunchCountdown
+          at={site.launch.at}
+          label={site.launch.label}
+          image={cardImage(launchProject)}
+          imageAlt={altFor(launchProject, launchProject.media.hero)}
+          phone={site.phone}
+          phoneHref={site.phoneHref}
+          whatsappHref={whatsappLink()}
+          instagram={site.instagram}
+        />
+      )}
       <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[70] focus:bg-ink focus:px-4 focus:py-2 focus:text-ivory">
         Skip to content
       </a>

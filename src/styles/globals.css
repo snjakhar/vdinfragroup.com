@@ -294,7 +294,7 @@ html.lenis body {
 }
 .page-enter {
   /* "backwards", not "both": a filled opacity animation keeps a stacking context
-     forever, which would trap fixed overlays under the header. */
+     forever, which would trap fixed overlays (launch countdown) under the header. */
   animation: pageEnter 0.45s var(--ease-premium) backwards;
 }
 
