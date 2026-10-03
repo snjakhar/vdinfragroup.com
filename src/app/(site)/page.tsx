@@ -126,27 +126,8 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Featured projects */}
-      <section className="section bg-paper">
-        <div className="container-site">
-          <div className="flex flex-col justify-between gap-8 md:flex-row md:items-end">
-            <SectionHeading eyebrow="Featured projects" title="Homes worth coming home to" lead="A selection of our ready-to-move, upcoming and signature communities." />
-            <ButtonLink href="/projects" variant="outline" arrow className="shrink-0">
-              All {projects.length} projects
-            </ButtonLink>
-          </div>
-          <div className="mt-14 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-            {featured.map((p, i) => (
-              <Reveal key={p.slug} delay={i * 0.1}>
-                <ProjectCard project={p} />
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Project categories */}
-      <section className="section">
+      <section className="section bg-paper">
         <div className="container-site">
           <SectionHeading eyebrow="Find your home" title="Explore by project status" align="center" />
           <div className="mt-14 grid gap-4 md:grid-cols-3">
@@ -180,6 +161,25 @@ export default async function HomePage() {
                 </Reveal>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured projects */}
+      <section className="section">
+        <div className="container-site">
+          <div className="flex flex-col justify-between gap-8 md:flex-row md:items-end">
+            <SectionHeading eyebrow="Featured projects" title="Homes worth coming home to" lead="A selection of our ready-to-move, upcoming and signature communities." />
+            <ButtonLink href="/projects" variant="outline" arrow className="shrink-0">
+              All {projects.length} projects
+            </ButtonLink>
+          </div>
+          <div className="mt-14 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+            {featured.map((p, i) => (
+              <Reveal key={p.slug} delay={i * 0.1}>
+                <ProjectCard project={p} />
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>
