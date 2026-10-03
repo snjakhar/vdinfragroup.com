@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { preconnect } from "react-dom";
-import { Cormorant_Garamond, Manrope } from "next/font/google";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 import { site } from "@content/site";
 import { seo } from "@content/seo";
 import { GoogleAnalytics } from "@/lib/analytics/google-analytics";
@@ -14,10 +14,10 @@ const display = Cormorant_Garamond({
   display: "swap",
 });
 
-const sans = Manrope({
+const sans = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
-  variable: "--font-manrope",
+  variable: "--font-inter",
   display: "swap",
 });
 
