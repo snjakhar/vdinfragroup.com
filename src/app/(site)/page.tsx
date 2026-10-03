@@ -1,13 +1,12 @@
 import Link from "next/link";
 import { ArrowUpRight, Phone } from "lucide-react";
-import { site, whatsappLink } from "@content/site";
+import { site } from "@content/site";
 import { ButtonLink } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/heading";
 import { MediaImg } from "@/components/ui/media-image";
 import { ImageReveal, Reveal } from "@/components/motion/reveal";
 import { PostCard } from "@/features/blog/post-card";
 import { HeroSlider, type HeroSlide } from "@/features/home/hero-slider";
-import { LaunchCountdown } from "@/features/home/launch-countdown";
 import { ProjectCard } from "@/features/projects/project-card";
 import { LocationMap } from "@/features/projects/location-map";
 import { getAllPosts } from "@/lib/content/blog";
@@ -49,22 +48,8 @@ export default async function HomePage() {
     .map((p) => ({ image: p.media.heroSquare ?? p.media.hero, alt: altFor(p, p.media.hero), title: p.title, status: p.statusLabel, href: `/projects/${p.slug}` }));
   const galleryStrip = projects.flatMap((p) => p.media.gallery.slice(0, 1).map((img) => ({ img, project: p }))).slice(0, 8);
 
-  const launchProject = getProject("krishnam-kothi-176");
-
   return (
     <>
-      {site.launch.enabled && launchProject && (
-        <LaunchCountdown
-          at={site.launch.at}
-          label={site.launch.label}
-          image={cardImage(launchProject)}
-          imageAlt={altFor(launchProject, launchProject.media.hero)}
-          phone={site.phone}
-          phoneHref={site.phoneHref}
-          whatsappHref={whatsappLink()}
-          instagram={site.instagram}
-        />
-      )}
       {/* Hero: text on ivory, image on its own panel (no text over the building) */}
       <section className="relative flex flex-col overflow-hidden bg-ivory lg:block lg:h-[100svh] lg:min-h-[640px]">
         <div className="container-site relative z-10 grid lg:h-full lg:grid-cols-12">

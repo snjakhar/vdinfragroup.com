@@ -25,13 +25,6 @@ export const site = {
   /** Cloudflare Turnstile site key (public; the secret lives only in Cloudflare Pages). */
   turnstileSiteKey: "0x4AAAAAAFMHF3YIhBJXYknM",
 
-  /**
-   * Launch countdown shown full-screen on the home page until `at`, then it
-   * disappears by itself. Set `enabled: false` to remove it immediately.
-   * Owners can preview the real site meanwhile with  /?preview=1
-   */
-  launch: { enabled: true, at: "2026-10-03T19:00:00+05:30", label: "3 October 2026, 7:00 PM" },
-
   /** Home page highlights (company-wide figures from the previous website). */
   highlights: [
     { value: "50+", label: "Projects delivered" },
