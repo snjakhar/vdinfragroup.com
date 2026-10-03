@@ -86,11 +86,6 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
           <MediaImg image={p.media.hero} alt={altFor(p, p.media.hero)} sizes="100vw" priority />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-night/90 via-night/30 to-night/25" />
-        {p.media.hero.impression && (
-          <p className="absolute right-4 top-24 z-10 bg-night/60 px-2.5 py-1 text-label font-semibold uppercase tracking-label text-ivory/85 backdrop-blur-sm lg:top-28">
-            Artist&rsquo;s impression
-          </p>
-        )}
         <div className="container-site relative grid gap-10 pb-12 pt-40 lg:grid-cols-12 lg:items-end lg:pb-16">
           <div className="lg:col-span-7">
             <nav aria-label="Breadcrumb" className="hero-rise mb-6 text-xs text-ivory/70">

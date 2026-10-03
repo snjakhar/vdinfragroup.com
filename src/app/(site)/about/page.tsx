@@ -51,11 +51,6 @@ export default function AboutPage() {
           </h1>
           <div className="relative mt-12 aspect-[16/9] overflow-hidden bg-night lg:mt-16">
             <MediaImg image={siteImages.aboutHero} alt={siteImages.aboutHero.alt ?? ""} sizes="(min-width: 1280px) 1200px, 100vw" priority />
-            {siteImages.aboutHero.impression && (
-              <p className="absolute right-3 top-3 bg-night/60 px-2.5 py-1 text-label font-semibold uppercase tracking-label text-ivory/85 backdrop-blur-sm">
-                Artist&rsquo;s impression
-              </p>
-            )}
           </div>
         </div>
       </section>

@@ -13,7 +13,7 @@ export const imageSchema = z.object({
   /** Tiny base64 data URL written by `npm run media:sync`. */
   blur: z.string().optional(),
   caption: z.string().optional(),
-  /** AI-enhanced or rendered image of the real building: shown with an "Artist's impression" label. */
+  /** AI-enhanced or rendered image of the real building. The visible "Artist's impression" label was removed on request (2026-10-03); this flag still marks such images. */
   impression: z.boolean().optional(),
 });
 export type MediaImage = z.infer<typeof imageSchema>;

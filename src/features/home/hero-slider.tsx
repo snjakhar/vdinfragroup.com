@@ -53,11 +53,6 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
         ) : null,
       )}
 
-      {slide.image.impression && (
-        <p className="absolute left-3 top-3 bg-night/55 px-2 py-0.5 text-label font-semibold uppercase tracking-label text-ivory/85 backdrop-blur-sm sm:left-auto sm:right-4 sm:top-4 sm:px-2.5 sm:py-1">
-          Artist&rsquo;s impression
-        </p>
-      )}
 
       <div className="absolute inset-x-3 bottom-3 flex items-end justify-between gap-3 sm:inset-x-6 sm:bottom-6 sm:gap-4">
         <Link

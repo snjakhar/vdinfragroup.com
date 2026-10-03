@@ -36,11 +36,6 @@ export function ProjectCard({
         />
         <div className="absolute inset-0 bg-gradient-to-t from-night/45 via-transparent to-transparent opacity-80 transition-opacity duration-700 group-hover:opacity-100" />
         <StatusTag status={project.status} label={project.statusLabel} className="absolute left-4 top-4" />
-        {cardImage(project).impression && (
-          <span className="absolute bottom-3 left-4 text-label font-semibold uppercase tracking-label text-ivory/90 [text-shadow:0_1px_4px_rgba(0,0,0,.6)]">
-            Artist&rsquo;s impression
-          </span>
-        )}
         <span className="absolute bottom-4 right-4 flex size-11 items-center justify-center rounded-full bg-ivory text-ink opacity-0 transition-all duration-500 ease-premium group-hover:opacity-100 max-lg:opacity-100">
           <ArrowUpRight className="size-5" strokeWidth={1.5} />
         </span>
