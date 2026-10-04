@@ -16,7 +16,16 @@ export function MotionProvider({ children }: { children: React.ReactNode }) {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const finePointer = window.matchMedia("(pointer: fine)").matches;
     if (reduce || !finePointer) return;
-    const lenis = new Lenis({ duration: 1.1, easing: (t) => 1 - Math.pow(1 - t, 3), anchors: { offset: -96 } });
+    // Wheel uses Lenis's default lerp, which follows the wheel closely; a fixed
+    // duration restarts a 1.1s tween on every tick and feels laggy. The eased
+    // duration is kept for anchor jumps only. Anchor jumps already honour html
+    // scroll-padding-top (header) and each target's scroll-margin-top, exactly
+    // like native scrolling: no extra offset.
+    const lenis = new Lenis({
+      anchors: { duration: 1.1, easing: (t) => 1 - Math.pow(1 - t, 3) },
+      // Clicking a link mid-scroll must not carry the momentum onto the next page.
+      stopInertiaOnNavigate: true,
+    });
     let frame = requestAnimationFrame(function raf(time) {
       lenis.raf(time);
       frame = requestAnimationFrame(raf);

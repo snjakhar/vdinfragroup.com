@@ -80,7 +80,7 @@ export function Header({ menu }: { menu: MenuData }) {
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,color] duration-500 ease-premium",
         // Always dark, like the mobile menu and footer, so the logo shows in its own gold.
-        transparent ? "bg-transparent text-ivory" : "bg-night/95 text-ivory shadow-[0_1px_0_rgba(247,244,238,0.08)] backdrop-blur-md",
+        transparent ? "bg-transparent text-ivory" : "bg-night/95 text-ivory shadow-[0_1px_0_rgba(247,244,238,0.08)]",
       )}
       onMouseLeave={closeMegaSoon}
     >
@@ -156,7 +156,7 @@ export function Header({ menu }: { menu: MenuData }) {
               </button>
             </Dialog.Trigger>
             <Dialog.Portal>
-              <Dialog.Content className="fixed inset-0 z-[60] flex flex-col overflow-y-auto bg-night text-ivory data-[state=open]:animate-[fadeIn_.35s_ease]">
+              <Dialog.Content data-lenis-prevent className="fixed inset-0 z-[60] flex flex-col overflow-y-auto bg-night text-ivory data-[state=open]:animate-[fadeIn_.35s_ease]">
                 <Dialog.Title className="sr-only">Menu</Dialog.Title>
                 <Dialog.Description className="sr-only">Site navigation</Dialog.Description>
                 <div className="container-site flex h-20 items-center justify-between">

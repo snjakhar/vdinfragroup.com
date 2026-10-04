@@ -211,6 +211,7 @@ export function Lightbox({
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 z-[80] bg-night data-[state=open]:animate-[fadeIn_.3s_ease]" />
         <Dialog.Content
+          data-lenis-prevent
           className="fixed inset-0 z-[81] flex flex-col text-ivory focus:outline-none"
           onKeyDown={(e) => {
             if (e.key === "ArrowLeft" && scale === 1) prev();

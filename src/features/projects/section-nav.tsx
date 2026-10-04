@@ -23,14 +23,18 @@ export function SectionNav({ sections }: { sections: { id: string; label: string
     return () => observer.disconnect();
   }, [sections]);
 
-  // Keep the active tab visible on small screens.
+  // Keep the active tab visible on small screens. Scroll only the tab strip:
+  // scrollIntoView would also scroll the page and cut off momentum scrolling.
   useEffect(() => {
-    const el = listRef.current?.querySelector<HTMLElement>(`[data-id="${active}"]`);
-    el?.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+    const list = listRef.current;
+    const el = list?.querySelector<HTMLElement>(`[data-id="${active}"]`);
+    if (!list || !el || list.scrollWidth <= list.clientWidth) return;
+    const offset = el.getBoundingClientRect().left - list.getBoundingClientRect().left;
+    list.scrollTo({ left: list.scrollLeft + offset - (list.clientWidth - el.offsetWidth) / 2, behavior: "smooth" });
   }, [active]);
 
   return (
-    <nav aria-label="On this page" className="sticky top-20 z-30 border-b border-sand bg-ivory/95 backdrop-blur-md lg:top-24">
+    <nav aria-label="On this page" className="sticky top-20 z-30 border-b border-sand bg-ivory lg:top-24">
       <ul ref={listRef} className="container-site no-scrollbar flex gap-7 overflow-x-auto">
         {sections.map((s) => (
           <li key={s.id} data-id={s.id} className="shrink-0">

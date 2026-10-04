@@ -125,7 +125,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
       <SectionNav sections={sections} />
 
       {/* Overview */}
-      <section id="overview" className="section scroll-mt-40">
+      <section id="overview" className="section scroll-mt-16">
         <div className="container-site grid gap-14 lg:grid-cols-12">
           <Reveal className="lg:col-span-7">
             <SectionHeading eyebrow="Overview" title={p.summary} level="h2" className="!max-w-none [&_h2]:!text-[clamp(1.8rem,1.4rem+1.5vw,2.75rem)]" />
@@ -193,7 +193,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
 
       {/* Gallery */}
       {p.media.gallery.length > 0 && (
-        <section id="gallery" className="scroll-mt-40 pb-20 lg:pb-32">
+        <section id="gallery" className="scroll-mt-16 pb-20 lg:pb-32">
           <div className="container-site">
             <SectionHeading eyebrow="Gallery" title="A closer look" className="mb-10" />
             <ProjectGallery items={galleryItems} />
@@ -203,7 +203,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
 
       {/* Configurations */}
       {p.configurations.length > 0 && (
-        <section id="configurations" className="section scroll-mt-40 bg-paper">
+        <section id="configurations" className="section scroll-mt-16 bg-paper">
           <div className="container-site">
             <SectionHeading
               eyebrow="Configurations"
@@ -246,7 +246,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
 
       {/* Floor plans */}
       {p.media.floorPlans.length > 0 && (
-        <section id="floor-plans" className="section scroll-mt-40">
+        <section id="floor-plans" className="section scroll-mt-16">
           <div className="container-site">
             <SectionHeading eyebrow="Floor plans" title="Layouts planned for real life" className="mb-10" />
             <FloorPlans plans={p.media.floorPlans} projectTitle={p.title} />
@@ -256,7 +256,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
 
       {/* Amenities */}
       {p.amenityList.length > 0 && (
-        <section id="amenities" className="section scroll-mt-40 bg-night text-ivory">
+        <section id="amenities" className="section scroll-mt-16 bg-night text-ivory">
           <div className="container-site">
             <SectionHeading eyebrow="Amenities" title="Everything within the gates" tone="light" />
             <ul className="mt-14 grid grid-cols-2 border-l border-t border-ivory/15 sm:grid-cols-3 lg:grid-cols-4">
@@ -273,7 +273,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
 
       {/* Specifications */}
       {p.specifications.length > 0 && (
-        <section id="specifications" className="section scroll-mt-40">
+        <section id="specifications" className="section scroll-mt-16">
           <div className="container-site grid gap-12 lg:grid-cols-12">
             <div className="lg:col-span-4">
               <SectionHeading eyebrow="Specifications" title="What goes into your home" />
@@ -286,7 +286,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
       )}
 
       {/* Location */}
-      <section id="location" className="section scroll-mt-40 bg-paper">
+      <section id="location" className="section scroll-mt-16 bg-paper">
         <div className="container-site grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <SectionHeading eyebrow="Location" title={placeName(p)} lead={p.location.address !== placeName(p) ? p.location.address : undefined} />
@@ -309,7 +309,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
 
       {/* FAQs */}
       {p.faqs.length > 0 && (
-        <section id="faqs" className="section scroll-mt-40">
+        <section id="faqs" className="section scroll-mt-16">
           <div className="container-site grid gap-12 lg:grid-cols-12">
             <div className="lg:col-span-4">
               <SectionHeading eyebrow="FAQs" title="Common questions" />
