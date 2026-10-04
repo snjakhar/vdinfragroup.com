@@ -54,16 +54,15 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
       )}
 
 
-      <div className="absolute inset-x-3 bottom-3 flex items-end justify-between gap-3 sm:inset-x-6 sm:bottom-6 sm:gap-4">
-        <Link
-          href={slide.href}
-          className="group flex items-center gap-2 bg-ivory/90 px-2.5 py-1.5 text-ink sm:gap-4 sm:bg-ivory/95 sm:px-5 sm:py-3.5 shadow-[0_10px_30px_-12px_rgba(14,24,35,0.45)] backdrop-blur-sm transition-colors hover:bg-ivory"
-        >
+      {/* Soft fade so the white caption reads on any photo, without a card on top. */}
+      <div aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-night/70 to-transparent" />
+      <div className="absolute inset-x-4 bottom-4 flex items-end justify-between gap-3 sm:inset-x-8 sm:bottom-7 sm:gap-4">
+        <Link href={slide.href} className="group flex items-center gap-2.5 text-ivory sm:gap-4">
           <span>
-            <span className="block text-label font-semibold uppercase tracking-label text-brass-deep">{slide.status}</span>
-            <span className="block font-display text-[0.875rem] leading-tight sm:mt-0.5 sm:text-lg font-medium tracking-tight">{slide.title}</span>
+            <span className="block text-label font-semibold uppercase tracking-label text-brass">{slide.status}</span>
+            <span className="mt-0.5 block font-display text-lg font-medium leading-tight tracking-tight sm:text-2xl">{slide.title}</span>
           </span>
-          <ArrowUpRight className="size-3.5 shrink-0 sm:size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
+          <ArrowUpRight className="size-4 shrink-0 sm:size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" strokeWidth={1.5} />
         </Link>
         {slides.length > 1 && (
           <div className="flex pb-0.5 sm:pb-1.5" role="tablist" aria-label="Featured projects">

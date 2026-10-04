@@ -7,7 +7,9 @@ import Lenis from "lenis";
 /**
  * Site-wide motion: one IntersectionObserver reveals every [data-reveal]
  * element (CSS does the animation), and Lenis smooth scrolling runs on
- * desktop (fine pointer) only. Reduced-motion users get neither.
+ * desktop (fine pointer) only. Reduced-motion users get neither. On touch
+ * screens, [data-touch-zoom] cards get data-touched while a finger is on them,
+ * standing in for the desktop hover zoom.
  */
 export function MotionProvider({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -33,6 +35,28 @@ export function MotionProvider({ children }: { children: React.ReactNode }) {
     return () => {
       cancelAnimationFrame(frame);
       lenis.destroy();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (window.matchMedia("(hover: hover)").matches || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let current: Element | null = null;
+    const release = () => {
+      current?.removeAttribute("data-touched");
+      current = null;
+    };
+    const press = (e: TouchEvent) => {
+      release();
+      current = (e.target as Element).closest?.("[data-touch-zoom]") ?? null;
+      current?.setAttribute("data-touched", "");
+    };
+    document.addEventListener("touchstart", press, { passive: true });
+    document.addEventListener("touchend", release, { passive: true });
+    document.addEventListener("touchcancel", release, { passive: true });
+    return () => {
+      document.removeEventListener("touchstart", press);
+      document.removeEventListener("touchend", release);
+      document.removeEventListener("touchcancel", release);
     };
   }, []);
 

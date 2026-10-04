@@ -18,6 +18,7 @@ export function ProjectGallery({ items }: { items: LightboxItem[] }) {
             key={`${it.image.src}-${i}`}
             type="button"
             onClick={() => setOpen(i)}
+            data-touch-zoom
             className={cn(
               "group relative overflow-hidden bg-sand",
               i === 0 ? "col-span-2 aspect-[4/3] md:row-span-2 md:aspect-auto" : "aspect-[4/3]",
@@ -28,7 +29,7 @@ export function ProjectGallery({ items }: { items: LightboxItem[] }) {
               image={it.image}
               alt={it.alt}
               sizes={i === 0 ? "(min-width: 768px) 50vw, 100vw" : "(min-width: 768px) 25vw, 50vw"}
-              className="transition-transform duration-[1.2s] ease-premium group-hover:scale-105"
+              className="transition-transform duration-[1.2s] ease-premium group-hover:scale-105 group-data-[touched]:scale-105 group-data-[touched]:duration-500"
             />
             <span className="absolute inset-0 bg-night/0 transition-colors duration-500 group-hover:bg-night/20" />
             {i === shown.length - 1 && items.length > shown.length && (

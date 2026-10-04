@@ -37,6 +37,7 @@ function ShowcaseCard({ project, priority }: { project: ProjectView; priority?: 
   return (
     <Link
       href={`/projects/${project.slug}`}
+      data-touch-zoom
       className="group relative block aspect-[4/5] overflow-hidden rounded-3xl bg-night text-ivory sm:aspect-[4/3]"
     >
       <MediaImg
@@ -44,7 +45,7 @@ function ShowcaseCard({ project, priority }: { project: ProjectView; priority?: 
         alt={altFor(project, project.media.hero)}
         sizes="(min-width: 768px) 50vw, 100vw"
         priority={priority}
-        className="transition-transform duration-[1.4s] ease-premium group-hover:scale-105"
+        className="transition-transform duration-[1.4s] ease-premium group-hover:scale-105 group-data-[touched]:scale-105 group-data-[touched]:duration-500"
       />
       <div aria-hidden className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-night/75 to-transparent" />
       <span className="absolute left-0 top-0 bg-brass px-4 py-2 text-label font-semibold uppercase tracking-label text-night">

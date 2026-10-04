@@ -25,14 +25,14 @@ export function ProjectCard({
 }) {
   const price = startingPrice(project);
   return (
-    <Link href={`/projects/${project.slug}`} className={cn("group block", className)}>
+    <Link href={`/projects/${project.slug}`} data-touch-zoom className={cn("group block", className)}>
       <div className="relative aspect-[4/5] overflow-hidden bg-sand">
         <MediaImg
           image={cardImage(project)}
           alt={altFor(project, project.media.hero)}
           sizes={sizes}
           priority={priority}
-          className="transition-transform duration-[1.4s] ease-premium group-hover:scale-[1.06]"
+          className="transition-transform duration-[1.4s] ease-premium group-hover:scale-[1.06] group-data-[touched]:scale-[1.06] group-data-[touched]:duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-night/45 via-transparent to-transparent opacity-80 transition-opacity duration-700 group-hover:opacity-100" />
         <StatusTag status={project.status} label={project.statusLabel} className="absolute left-4 top-4" />
