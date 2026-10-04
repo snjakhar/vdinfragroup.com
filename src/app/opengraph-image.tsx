@@ -26,7 +26,7 @@ export default function OgImage() {
           </div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 24, borderLeft: "2px solid #cca35c", paddingLeft: 56 }}>
-          <div style={{ fontSize: 66, lineHeight: 1.05, maxWidth: 560 }}>Where dreams rise as landmarks</div>
+          <div style={{ fontSize: 66, lineHeight: 1.05, maxWidth: 560 }}>Built for life.</div>
           <div style={{ fontSize: 24, color: "#c2b5a2", fontFamily: "sans-serif" }}>Luxury kothis · Villas · Apartments · Jaipur</div>
         </div>
       </div>

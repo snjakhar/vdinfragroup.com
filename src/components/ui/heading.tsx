@@ -37,3 +37,13 @@ export function SectionHeading({
     </div>
   );
 }
+
+/** Eyebrow label followed by a thin gold rule running to the edge of the container. */
+export function RuledEyebrow({ children, tone = "dark", className }: { children: React.ReactNode; tone?: "dark" | "light"; className?: string }) {
+  return (
+    <div className={cn("flex items-center gap-5", className)}>
+      <p className={cn("eyebrow shrink-0", tone === "light" && "!text-brass")}>{children}</p>
+      <span aria-hidden className={cn("h-px flex-1", tone === "light" ? "bg-ivory/25" : "bg-brass/60")} />
+    </div>
+  );
+}
