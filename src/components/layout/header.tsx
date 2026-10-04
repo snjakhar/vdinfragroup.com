@@ -80,7 +80,7 @@ export function Header({ menu }: { menu: MenuData }) {
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,color] duration-500 ease-premium",
         // Always dark, like the mobile menu and footer, so the logo shows in its own gold.
-        transparent ? "bg-transparent text-ivory" : "bg-night/95 text-ivory shadow-[0_1px_0_rgba(247,244,238,0.08)]",
+        transparent ? "bg-transparent text-ivory" : "bg-night/95 text-ivory shadow-[0_1px_0_rgba(244,246,248,0.08)]",
       )}
       onMouseLeave={closeMegaSoon}
     >
@@ -143,7 +143,7 @@ export function Header({ menu }: { menu: MenuData }) {
             href="#enquire"
             className={cn(
               "hidden rounded-[var(--radius-sm)] px-5 py-3 text-label-md font-semibold uppercase tracking-label transition-colors duration-300 sm:inline-flex",
-              transparent ? "border border-ivory/70 hover:bg-ivory hover:text-ink" : "bg-brass-deep text-ivory hover:bg-brass-shade",
+              transparent ? "border border-ivory/70 hover:bg-ivory hover:text-ink" : "bg-brass text-night hover:bg-brass-shade",
             )}
           >
             Enquire now
@@ -197,7 +197,7 @@ export function Header({ menu }: { menu: MenuData }) {
                     </a>
                     <Link
                       href="#enquire"
-                      className="mt-4 inline-flex justify-center bg-brass-deep px-6 py-4 text-label-md font-semibold uppercase tracking-label"
+                      className="mt-4 inline-flex justify-center bg-brass px-6 text-night py-4 text-label-md font-semibold uppercase tracking-label"
                     >
                       Enquire now
                     </Link>
@@ -213,7 +213,7 @@ export function Header({ menu }: { menu: MenuData }) {
           <div
             id="mega-menu"
             onMouseEnter={openMega}
-            className="mega-in absolute inset-x-0 top-full hidden border-t border-sand bg-ivory text-ink shadow-[0_24px_48px_-24px_rgba(20,23,26,0.25)] lg:block"
+            className="mega-in absolute inset-x-0 top-full hidden border-t border-sand bg-ivory text-ink shadow-[0_24px_48px_-24px_rgba(14,24,35,0.25)] lg:block"
           >
             <div className="container-site grid grid-cols-12 gap-10 py-10">
               <div className="col-span-4 flex flex-col">

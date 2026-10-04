@@ -1,4 +1,4 @@
-import { LOGO_GOLD, LogoMark, LogoWord } from "./logo-paths";
+import { LOGO_GOLD, LogoMark } from "./logo-paths";
 
 /** Brand marks not available in lucide. */
 export function WhatsAppIcon({ className }: { className?: string }) {
@@ -20,19 +20,25 @@ export function InstagramIcon({ className }: { className?: string }) {
 }
 
 /**
- * Official VD Infra logo (vector paths from the brand's Illustrator file), as a
- * horizontal lockup for the header and footer. On light backgrounds the mark is
- * brass and the wordmark ink, so it stays legible; on dark it is the brand gold.
+ * VD Infra Group logo as a horizontal lockup for the header and footer: the VD
+ * monogram, then "VD INFRA" over a ruled "GROUP", as on the brand stationery.
+ * `tone` is the text tone: "light" for dark backgrounds, "dark" for light ones
+ * (where the gold text is darkened to stay legible).
  */
 export function Logo({ className, tone = "dark" }: { className?: string; tone?: "dark" | "light" }) {
   const dark = tone === "dark";
   return (
-    <span className={`inline-flex items-center gap-2.5 ${className ?? ""}`}>
-      <LogoMark className="h-full w-auto" color={dark ? "var(--color-brass)" : LOGO_GOLD} />
-      <span className="flex flex-col justify-center gap-[0.35em] leading-none">
-        <LogoWord className="h-[0.95rem] w-auto lg:h-[1.05rem]" color={dark ? "var(--color-ink)" : LOGO_GOLD} />
-        <span aria-hidden className={`text-[0.5rem] font-semibold tracking-[0.42em] ${dark ? "text-muted" : "text-ivory/70"}`}>
-          GROUP · JAIPUR
+    <span className={`inline-flex items-center gap-3 ${className ?? ""}`}>
+      <LogoMark className="h-full w-auto" color={LOGO_GOLD} />
+      <span aria-hidden className="inline-flex flex-col gap-[0.4em] leading-none">
+        <span className="text-[1.15rem] font-semibold tracking-[0.04em] lg:text-[1.3rem]">
+          <span className={dark ? "text-ink" : "text-ivory"}>VD</span>{" "}
+          <span className={dark ? "text-brass-deep" : "text-brass"}>INFRA</span>
+        </span>
+        <span className={`flex items-center gap-2 text-[0.5rem] font-semibold tracking-[0.42em] ${dark ? "text-ink" : "text-ivory"}`}>
+          <span className="h-px flex-1 bg-brass" />
+          <span className="-mr-[0.42em]">GROUP</span>
+          <span className="h-px flex-1 bg-brass" />
         </span>
       </span>
       <span className="sr-only">VD Infra Group</span>

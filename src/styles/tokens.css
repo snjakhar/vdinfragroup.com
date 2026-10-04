@@ -4,22 +4,22 @@
  */
 @theme {
   /* Palette */
-  --color-ivory: #f7f4ee; /* page background */
+  --color-ivory: #f4f6f8; /* brand white: page background, light text on dark */
   --color-paper: #ffffff; /* cards */
-  --color-ink: #1c1b19; /* primary text */
-  --color-muted: #6b665e; /* secondary text */
-  --color-sand: #ddd6c8; /* hairlines, borders */
-  --color-brass: #a8824a; /* the single accent: on dark backgrounds, or large/decorative on light (3.2:1 on ivory) */
-  --color-brass-deep: #8a6a3b; /* accent for small text and buttons on light backgrounds (4.5:1 on ivory) */
-  --color-brass-shade: #6f5530; /* hover/pressed for brass-deep */
-  --color-night: #14171a; /* dark sections, footer */
-  --color-night-soft: #1d2125;
-  --color-mist: #a6a196; /* secondary text on dark */
-  --color-brand-gold: #b6a37b; /* the logo's own gold (from VD Infra.ai); logo artwork only, never UI or text */
-  --color-prose: #34322e; /* long-form body text (blog, legal): a touch softer than ink */
+  --color-ink: #0e1823; /* primary text (brand navy) */
+  --color-muted: #5a6470; /* secondary text (5.5:1 on ivory) */
+  --color-sand: #ded9d1; /* hairlines, borders: a light tint of the brand detail colour */
+  --color-brass: #cca35c; /* brand gold, the single accent: text on dark, fills with night text, or decorative on light (2.2:1 on ivory) */
+  --color-brass-deep: #86672e; /* brand gold darkened, for small text on light backgrounds (4.9:1 on ivory) */
+  --color-brass-shade: #b8904a; /* hover/pressed for brass fills (6:1 with night text) */
+  --color-night: #0e1823; /* brand navy: header, dark sections, footer */
+  --color-night-soft: #16212e;
+  --color-mist: #c2b5a2; /* brand detail colour: secondary text on dark */
+  --color-brand-gold: #cca35c; /* the logo's gold (same as brass) */
+  --color-prose: #263240; /* long-form body text (blog, legal): a touch softer than ink */
   --color-error: #a3412b; /* form errors (5.7:1 on ivory) */
-  --color-map-land: #e9e4da; /* map placeholder */
-  --color-map-line: #d9d2c4;
+  --color-map-land: #e6e9ed; /* map placeholder */
+  --color-map-line: #d3d8de;
 
   /* Typography */
   --font-display: var(--font-inter), ui-sans-serif, system-ui, sans-serif; /* headings: Inter, set tighter and heavier than body */

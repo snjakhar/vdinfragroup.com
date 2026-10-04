@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#14171a", // matches the dark header (phone browser bar)
+  themeColor: "#0e1823", // matches the dark header (phone browser bar)
   width: "device-width",
   initialScale: 1,
 };

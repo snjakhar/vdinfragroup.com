@@ -17,14 +17,14 @@ export type LeadEmailInput = Lead & {
 };
 
 const C = {
-  ivory: "#f7f4ee",
+  ivory: "#f4f6f8",
   paper: "#ffffff",
-  ink: "#1c1b19",
-  muted: "#6b665e",
-  sand: "#ddd6c8",
-  brass: "#a8824a",
-  brassDeep: "#8a6a3b",
-  night: "#14171a",
+  ink: "#0e1823",
+  muted: "#5a6470",
+  sand: "#ded9d1",
+  brass: "#cca35c",
+  brassDeep: "#86672e",
+  night: "#0e1823",
   whatsapp: "#1f7a4d",
 };
 const SERIF = "Georgia,'Times New Roman',serif";
@@ -97,8 +97,8 @@ export function buildLeadEmail(input: LeadEmailInput) {
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:${C.paper};border:1px solid ${C.sand};border-radius:14px;overflow:hidden">
 
 <tr><td style="background:${C.night};padding:18px 28px">
-  <span style="font:600 15px/1 ${SERIF};letter-spacing:.22em;color:${C.brass}">VD INFRA</span>
-  <span style="font:500 10px/1 ${SANS};letter-spacing:.3em;color:#a6a196;padding-left:6px">GROUP · JAIPUR</span>
+  <span style="font:600 15px/1 ${SANS};letter-spacing:.12em;color:${C.ivory}">VD <span style="color:${C.brass}">INFRA</span></span>
+  <span style="font:500 10px/1 ${SANS};letter-spacing:.3em;color:#c2b5a2;padding-left:6px">GROUP</span>
 </td></tr>
 
 <tr><td style="padding:28px 28px 8px">

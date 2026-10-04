@@ -57,7 +57,7 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
       <div className="absolute inset-x-3 bottom-3 flex items-end justify-between gap-3 sm:inset-x-6 sm:bottom-6 sm:gap-4">
         <Link
           href={slide.href}
-          className="group flex items-center gap-2 bg-ivory/90 px-2.5 py-1.5 text-ink sm:gap-4 sm:bg-ivory/95 sm:px-5 sm:py-3.5 shadow-[0_10px_30px_-12px_rgba(20,23,26,0.45)] backdrop-blur-sm transition-colors hover:bg-ivory"
+          className="group flex items-center gap-2 bg-ivory/90 px-2.5 py-1.5 text-ink sm:gap-4 sm:bg-ivory/95 sm:px-5 sm:py-3.5 shadow-[0_10px_30px_-12px_rgba(14,24,35,0.45)] backdrop-blur-sm transition-colors hover:bg-ivory"
         >
           <span>
             <span className="block text-label font-semibold uppercase tracking-label text-brass-deep">{slide.status}</span>

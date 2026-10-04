@@ -21,7 +21,7 @@ export function MobileActions({ phoneHref, whatsappHref }: { phoneHref: string; 
         rel="noopener"
         onClick={() => track("whatsapp_click", { location: "fab" })}
         aria-label="Chat on WhatsApp"
-        className="fixed bottom-5 right-5 z-40 flex size-14 items-center justify-center rounded-full bg-night text-ivory shadow-[0_12px_32px_-8px_rgba(20,23,26,0.5)] lg:hidden"
+        className="fixed bottom-5 right-5 z-40 flex size-14 items-center justify-center rounded-full bg-night text-ivory shadow-[0_12px_32px_-8px_rgba(14,24,35,0.5)] lg:hidden"
       >
         <WhatsAppIcon className="size-6" />
       </a>
@@ -48,7 +48,7 @@ export function MobileActions({ phoneHref, whatsappHref }: { phoneHref: string; 
       >
         <WhatsAppIcon className="size-5" /> WhatsApp
       </a>
-      <a href="#enquire" className={`${cell} bg-brass-deep`}>
+      <a href="#enquire" className={`${cell} bg-brass text-night`}>
         <span aria-hidden className="text-lg leading-none">→</span> Enquire
       </a>
     </nav>

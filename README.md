@@ -45,7 +45,7 @@ docs/cloudflare-setup.md one-time hosting setup, including the image WAF rule
 
 ## Logo
 
-The logo comes from the official Illustrator file (`VD Infra.ai`). Its vector paths are in `src/components/ui/logo-paths.tsx` (used by the `Logo` component); `public/brand/` holds `logo.svg`, `logo-mark.svg`, `logo.png` (schema markup), `favicon.svg` and `apple-touch-icon.png`. Brand gold is `#b6a37b`.
+The VD monogram is redrawn as clean vector geometry from the brand artwork (`vdinfragroup.png`). Its path is in `src/components/ui/logo-paths.tsx` (used by the `Logo` component); `public/brand/` holds `logo.svg` (stacked lockup), `logo-mark.svg`, `logo.png` (schema markup), `favicon.svg`, `icon-192.png` and `apple-touch-icon.png`. Brand colours: navy `#0E1823`, gold `#CCA35C`, white `#F4F6F8`, detail `#C2B5A2`.
 
 ## Common tasks
 
