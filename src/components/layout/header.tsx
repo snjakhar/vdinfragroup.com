@@ -156,16 +156,22 @@ export function Header({ menu }: { menu: MenuData }) {
               </button>
             </Dialog.Trigger>
             <Dialog.Portal>
-              <Dialog.Content data-lenis-prevent className="fixed inset-0 z-[60] flex flex-col overflow-y-auto bg-night text-ivory data-[state=open]:animate-[fadeIn_.35s_ease]">
+              <Dialog.Content data-lenis-prevent className="fixed inset-0 z-[60] flex flex-col overflow-y-auto overscroll-contain bg-night text-ivory data-[state=open]:animate-[fadeIn_.35s_ease]">
                 <Dialog.Title className="sr-only">Menu</Dialog.Title>
                 <Dialog.Description className="sr-only">Site navigation</Dialog.Description>
-                <div className="container-site flex h-20 items-center justify-between">
+                <div className="container-site sticky top-0 z-10 flex h-20 shrink-0 items-center justify-between bg-night">
                   <Logo tone="light" className="h-10" />
                   <Dialog.Close className="-mr-2 p-2" aria-label="Close menu">
                     <X className="size-6" strokeWidth={1.5} />
                   </Dialog.Close>
                 </div>
-                <nav aria-label="Mobile" className="container-site mt-6 flex flex-1 flex-col">
+                {/* Any link closes the menu, including one to the page already open
+                    (the pathname reset above never fires for those). */}
+                <nav
+                  aria-label="Mobile"
+                  className="container-site mt-6 flex flex-1 flex-col"
+                  onClick={(e) => (e.target as HTMLElement).closest("a") && setMobileOpen(false)}
+                >
                   <Link href="/" className="border-b border-ivory/10 py-4 font-display text-2xl font-medium tracking-tight">
                     Home
                   </Link>
@@ -191,7 +197,6 @@ export function Header({ menu }: { menu: MenuData }) {
                     </a>
                     <Link
                       href="#enquire"
-                      onClick={() => setMobileOpen(false)}
                       className="mt-4 inline-flex justify-center bg-brass-deep px-6 py-4 text-label-md font-semibold uppercase tracking-label"
                     >
                       Enquire now
