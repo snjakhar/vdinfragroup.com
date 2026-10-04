@@ -17,10 +17,13 @@ export default function HomePage() {
   const projects = getAllProjects();
   // Hero: current projects with an AI front image, upcoming first (KK 176 leads).
   const heroOrder = ["krishnam-kothi-176", "sky-elegant", "krishnam-kothi-jagatpura"];
+  // KK 176's render ends in a wet road with lane markings: anchor it to the top and
+  // enlarge it slightly so the bottom of the frame stops at the footpath.
+  const heroCrop: Record<string, string> = { "krishnam-kothi-176": "object-top origin-top scale-[1.22] lg:scale-[1.05]" };
   const heroSlides: HeroSlide[] = projects
     .filter((p) => p.status !== "completed" && p.media.hero.impression)
     .sort((a, b) => (heroOrder.indexOf(a.slug) + 99) % 99 - ((heroOrder.indexOf(b.slug) + 99) % 99))
-    .map((p) => ({ image: p.media.heroSquare ?? p.media.hero, alt: altFor(p, p.media.hero), title: p.title, status: p.statusLabel, href: `/projects/${p.slug}` }));
+    .map((p) => ({ image: p.media.heroSquare ?? p.media.hero, alt: altFor(p, p.media.hero), title: p.title, status: p.statusLabel, href: `/projects/${p.slug}`, imageClassName: heroCrop[p.slug] }));
   // Showcase right after the hero: the current projects first, then the flagship completed one.
   const showcase = ["krishnam-kothi-176", "sky-elegant", "krishnam-kothi-jagatpura", "sky-crown"]
     .map((slug) => projects.find((p) => p.slug === slug))

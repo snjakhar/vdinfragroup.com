@@ -7,7 +7,8 @@ import { MediaImg } from "@/components/ui/media-image";
 import type { MediaImage } from "@/lib/content/schema";
 import { cn } from "@/lib/cn";
 
-export type HeroSlide = { image: MediaImage; alt: string; title: string; status: string; href: string };
+/** `imageClassName` reframes one photo, e.g. to crop out a foreground road. */
+export type HeroSlide = { image: MediaImage; alt: string; title: string; status: string; href: string; imageClassName?: string };
 
 const INTERVAL = 6500;
 
@@ -48,6 +49,7 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
               alt={s.alt}
               sizes="(min-width: 1024px) 58vw, 100vw"
               priority={i === 0}
+              className={s.imageClassName}
             />
           </div>
         ) : null,
